@@ -912,7 +912,7 @@ module.exports = __webpack_require__(/*! ./dist/pages/_document */ "./node_modul
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "C:\\Users\\19215\\Desktop\\mywebsite\\src\\components\\layout\\Mycanans.tsx";
+var _jsxFileName = "C:\\Users\\19215\\Desktop\\my_website\\src\\components\\layout\\Mycanans.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -947,7 +947,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_document__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _scripts_utils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @scripts/utils */ "./src/scripts/utils/index.ts");
 /* harmony import */ var _components_layout_Mycanans__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/layout/Mycanans */ "./src/components/layout/Mycanans.tsx");
-var _jsxFileName = "C:\\Users\\19215\\Desktop\\mywebsite\\src\\pages\\_document.tsx";
+var _jsxFileName = "C:\\Users\\19215\\Desktop\\my_website\\src\\pages\\_document.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
