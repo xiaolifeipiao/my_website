@@ -2848,7 +2848,7 @@ module.exports = {
 module.exports = {
 	"side_wrapper": "menus_side_wrapper__10MMQ",
 	"logo": "menus_logo__2TPtA",
-	"ani-u1wwd5d": "menus_ani-u1wwd5d__CqIcp",
+	"ani-uqhjbfg": "menus_ani-uqhjbfg__1WE_X",
 	"theme_wrapper": "menus_theme_wrapper__29olf",
 	"head_menu": "menus_head_menu__1vF-7"
 };
@@ -2878,11 +2878,11 @@ module.exports = {
 module.exports = {
 	"home_wrapper": "home_home_wrapper__hEChx",
 	"header_wrapper": "home_header_wrapper__Fr2mV",
-	"ani-u1wwd5t": "home_ani-u1wwd5t__1hPEu",
-	"ani-u1wwd6o": "home_ani-u1wwd6o__3V_WQ",
-	"ani-u1wwd7m": "home_ani-u1wwd7m__1ABR5",
+	"ani-uqhjbge": "home_ani-uqhjbge__2g7fC",
+	"ani-uqhjbgz": "home_ani-uqhjbgz__37k3P",
+	"ani-uqhjbhy": "home_ani-uqhjbhy__3deEm",
 	"work_list": "home_work_list__2K0pK",
-	"ani-u1wwd7r": "home_ani-u1wwd7r__2pXv3"
+	"ani-uqhjbi4": "home_ani-uqhjbi4__1auEy"
 };
 
 
