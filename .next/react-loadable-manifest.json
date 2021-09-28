@@ -1,136 +1,78 @@
 {
+  "./dev/noop": [
+    {
+      "id": "./node_modules/next/dist/client/dev/noop.js",
+      "name": "./node_modules/next/dist/client/dev/noop.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
   "react-share-components": [
     {
-      "id": "+wdc",
-      "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
-      "file": "static/chunks/framework.f7e182b537d7542644e7.js",
-      "publicPath": "static/chunks/framework.f7e182b537d7542644e7.js"
-    },
-    {
-      "id": "16Al",
-      "name": "./node_modules/prop-types/factoryWithThrowingShims.js",
-      "file": "static/chunks/framework.f7e182b537d7542644e7.js",
-      "publicPath": "static/chunks/framework.f7e182b537d7542644e7.js"
-    },
-    {
-      "id": "17x9",
-      "name": "./node_modules/prop-types/index.js",
-      "file": "static/chunks/framework.f7e182b537d7542644e7.js",
-      "publicPath": "static/chunks/framework.f7e182b537d7542644e7.js"
-    },
-    {
-      "id": "8L3h",
-      "name": "./node_modules/use-subscription/index.js",
-      "file": "static/chunks/framework.f7e182b537d7542644e7.js",
-      "publicPath": "static/chunks/framework.f7e182b537d7542644e7.js"
-    },
-    {
-      "id": "QCnb",
-      "name": "./node_modules/scheduler/index.js",
-      "file": "static/chunks/framework.f7e182b537d7542644e7.js",
-      "publicPath": "static/chunks/framework.f7e182b537d7542644e7.js"
-    },
-    {
-      "id": "WbBG",
-      "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
-      "file": "static/chunks/framework.f7e182b537d7542644e7.js",
-      "publicPath": "static/chunks/framework.f7e182b537d7542644e7.js"
-    },
-    {
-      "id": "f/k9",
-      "name": "./node_modules/use-subscription/cjs/use-subscription.production.min.js",
-      "file": "static/chunks/framework.f7e182b537d7542644e7.js",
-      "publicPath": "static/chunks/framework.f7e182b537d7542644e7.js"
-    },
-    {
-      "id": "i8i4",
-      "name": "./node_modules/react-dom/index.js",
-      "file": "static/chunks/framework.f7e182b537d7542644e7.js",
-      "publicPath": "static/chunks/framework.f7e182b537d7542644e7.js"
-    },
-    {
-      "id": "q1tI",
-      "name": "./node_modules/react/index.js",
-      "file": "static/chunks/framework.f7e182b537d7542644e7.js",
-      "publicPath": "static/chunks/framework.f7e182b537d7542644e7.js"
-    },
-    {
-      "id": "viRO",
-      "name": "./node_modules/react/cjs/react.production.min.js",
-      "file": "static/chunks/framework.f7e182b537d7542644e7.js",
-      "publicPath": "static/chunks/framework.f7e182b537d7542644e7.js"
-    },
-    {
-      "id": "yl30",
-      "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
-      "file": "static/chunks/framework.f7e182b537d7542644e7.js",
-      "publicPath": "static/chunks/framework.f7e182b537d7542644e7.js"
-    },
-    {
-      "id": "D1Df",
-      "name": "./node_modules/qrcode.react/lib/index.js",
-      "file": "static/chunks/14.de82924c356dd830316b.js",
-      "publicPath": "static/chunks/14.de82924c356dd830316b.js"
-    },
-    {
-      "id": "H38U",
-      "name": "./node_modules/qr.js/lib/QRCode.js",
-      "file": "static/chunks/14.de82924c356dd830316b.js",
-      "publicPath": "static/chunks/14.de82924c356dd830316b.js"
-    },
-    {
-      "id": "Iq15",
-      "name": "./node_modules/qr.js/lib/util.js",
-      "file": "static/chunks/14.de82924c356dd830316b.js",
-      "publicPath": "static/chunks/14.de82924c356dd830316b.js"
-    },
-    {
-      "id": "aRTE",
-      "name": "./node_modules/qr.js/lib/ErrorCorrectLevel.js",
-      "file": "static/chunks/14.de82924c356dd830316b.js",
-      "publicPath": "static/chunks/14.de82924c356dd830316b.js"
-    },
-    {
-      "id": "dQei",
-      "name": "./node_modules/qr.js/lib/math.js",
-      "file": "static/chunks/14.de82924c356dd830316b.js",
-      "publicPath": "static/chunks/14.de82924c356dd830316b.js"
-    },
-    {
-      "id": "dWSS",
-      "name": "./node_modules/qr.js/lib/Polynomial.js",
-      "file": "static/chunks/14.de82924c356dd830316b.js",
-      "publicPath": "static/chunks/14.de82924c356dd830316b.js"
-    },
-    {
-      "id": "f4xo",
+      "id": "./node_modules/qr.js/lib/8BitByte.js",
       "name": "./node_modules/qr.js/lib/8BitByte.js",
-      "file": "static/chunks/14.de82924c356dd830316b.js",
-      "publicPath": "static/chunks/14.de82924c356dd830316b.js"
+      "file": "static/chunks/0.js",
+      "publicPath": "static/chunks/0.js"
     },
     {
-      "id": "nVVt",
-      "name": "./node_modules/qr.js/lib/mode.js",
-      "file": "static/chunks/14.de82924c356dd830316b.js",
-      "publicPath": "static/chunks/14.de82924c356dd830316b.js"
-    },
-    {
-      "id": "qwtw",
-      "name": "./node_modules/react-share-components/dist/react-share-components.esm.js",
-      "file": "static/chunks/14.de82924c356dd830316b.js",
-      "publicPath": "static/chunks/14.de82924c356dd830316b.js"
-    },
-    {
-      "id": "rcnY",
-      "name": "./node_modules/qr.js/lib/RSBlock.js",
-      "file": "static/chunks/14.de82924c356dd830316b.js",
-      "publicPath": "static/chunks/14.de82924c356dd830316b.js"
-    },
-    {
-      "id": "wU8J",
+      "id": "./node_modules/qr.js/lib/BitBuffer.js",
       "name": "./node_modules/qr.js/lib/BitBuffer.js",
-      "file": "static/chunks/14.de82924c356dd830316b.js",
-      "publicPath": "static/chunks/14.de82924c356dd830316b.js"
+      "file": "static/chunks/0.js",
+      "publicPath": "static/chunks/0.js"
+    },
+    {
+      "id": "./node_modules/qr.js/lib/ErrorCorrectLevel.js",
+      "name": "./node_modules/qr.js/lib/ErrorCorrectLevel.js",
+      "file": "static/chunks/0.js",
+      "publicPath": "static/chunks/0.js"
+    },
+    {
+      "id": "./node_modules/qr.js/lib/Polynomial.js",
+      "name": "./node_modules/qr.js/lib/Polynomial.js",
+      "file": "static/chunks/0.js",
+      "publicPath": "static/chunks/0.js"
+    },
+    {
+      "id": "./node_modules/qr.js/lib/QRCode.js",
+      "name": "./node_modules/qr.js/lib/QRCode.js",
+      "file": "static/chunks/0.js",
+      "publicPath": "static/chunks/0.js"
+    },
+    {
+      "id": "./node_modules/qr.js/lib/RSBlock.js",
+      "name": "./node_modules/qr.js/lib/RSBlock.js",
+      "file": "static/chunks/0.js",
+      "publicPath": "static/chunks/0.js"
+    },
+    {
+      "id": "./node_modules/qr.js/lib/math.js",
+      "name": "./node_modules/qr.js/lib/math.js",
+      "file": "static/chunks/0.js",
+      "publicPath": "static/chunks/0.js"
+    },
+    {
+      "id": "./node_modules/qr.js/lib/mode.js",
+      "name": "./node_modules/qr.js/lib/mode.js",
+      "file": "static/chunks/0.js",
+      "publicPath": "static/chunks/0.js"
+    },
+    {
+      "id": "./node_modules/qr.js/lib/util.js",
+      "name": "./node_modules/qr.js/lib/util.js",
+      "file": "static/chunks/0.js",
+      "publicPath": "static/chunks/0.js"
+    },
+    {
+      "id": "./node_modules/qrcode.react/lib/index.js",
+      "name": "./node_modules/qrcode.react/lib/index.js",
+      "file": "static/chunks/0.js",
+      "publicPath": "static/chunks/0.js"
+    },
+    {
+      "id": "./node_modules/react-share-components/dist/react-share-components.esm.js",
+      "name": "./node_modules/react-share-components/dist/react-share-components.esm.js",
+      "file": "static/chunks/0.js",
+      "publicPath": "static/chunks/0.js"
     }
   ]
 }

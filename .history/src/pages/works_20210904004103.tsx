@@ -390,7 +390,7 @@ const Works: React.FC<IWorksProps> = () => {
         pageTitleProps={{
           zhName: (
             <>
-              <span className="font-family-georgia">6</span>个作品
+              <span className="font-family-georgia">40</span>个作品
             </>
           ),
           enName: 'more than 40 works',

@@ -6,7 +6,7 @@ module.exports =
 /******/ 	// object to store loaded chunks
 /******/ 	// "0" means "already loaded"
 /******/ 	var installedChunks = {
-/******/ 		"static\\development\\pages\\_app.js": 0
+/******/ 		"static\\development\\pages\\works.js": 0
 /******/ 	};
 /******/
 /******/ 	// The require function
@@ -101,7 +101,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -262,18 +262,6 @@ function _typeof(obj) {
 }
 
 module.exports = _typeof;
-
-/***/ }),
-
-/***/ "./node_modules/next/app.js":
-/*!**********************************!*\
-  !*** ./node_modules/next/app.js ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! ./dist/pages/_app */ "./node_modules/next/dist/pages/_app.js")
-
 
 /***/ }),
 
@@ -1846,142 +1834,6 @@ exports.ST = exports.SP && typeof performance.mark === 'function' && typeof perf
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/pages/_app.js":
-/*!**********************************************!*\
-  !*** ./node_modules/next/dist/pages/_app.js ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
-
-exports.__esModule = true;
-exports.Container = Container;
-exports.createUrl = createUrl;
-exports.default = void 0;
-
-var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
-
-var _utils = __webpack_require__(/*! ../next-server/lib/utils */ "../next-server/lib/utils");
-
-exports.AppInitialProps = _utils.AppInitialProps;
-/**
-* `App` component is used for initialize of pages. It allows for overwriting and full control of the `page` initialization.
-* This allows for keeping state between navigation, custom error handling, injecting additional data.
-*/
-
-async function appGetInitialProps(_ref) {
-  var {
-    Component,
-    ctx
-  } = _ref;
-  var pageProps = await (0, _utils.loadGetInitialProps)(Component, ctx);
-  return {
-    pageProps
-  };
-}
-
-class App extends _react.default.Component {
-  // Kept here for backwards compatibility.
-  // When someone ended App they could call `super.componentDidCatch`.
-  // @deprecated This method is no longer needed. Errors are caught at the top level
-  componentDidCatch(error, _errorInfo) {
-    throw error;
-  }
-
-  render() {
-    var {
-      router,
-      Component,
-      pageProps,
-      __N_SSG,
-      __N_SSP
-    } = this.props;
-    return _react.default.createElement(Component, Object.assign({}, pageProps, // we don't add the legacy URL prop if it's using non-legacy
-    // methods like getStaticProps and getServerSideProps
-    !(__N_SSG || __N_SSP) ? {
-      url: createUrl(router)
-    } : {}));
-  }
-
-}
-
-exports.default = App;
-App.origGetInitialProps = appGetInitialProps;
-App.getInitialProps = appGetInitialProps;
-var warnContainer;
-var warnUrl;
-
-if (true) {
-  warnContainer = (0, _utils.execOnce)(() => {
-    console.warn("Warning: the `Container` in `_app` has been deprecated and should be removed. https://err.sh/zeit/next.js/app-container-deprecated");
-  });
-  warnUrl = (0, _utils.execOnce)(() => {
-    console.error("Warning: the 'url' property is deprecated. https://err.sh/zeit/next.js/url-deprecated");
-  });
-} // @deprecated noop for now until removal
-
-
-function Container(p) {
-  if (true) warnContainer();
-  return p.children;
-}
-
-function createUrl(router) {
-  // This is to make sure we don't references the router object at call time
-  var {
-    pathname,
-    asPath,
-    query
-  } = router;
-  return {
-    get query() {
-      if (true) warnUrl();
-      return query;
-    },
-
-    get pathname() {
-      if (true) warnUrl();
-      return pathname;
-    },
-
-    get asPath() {
-      if (true) warnUrl();
-      return asPath;
-    },
-
-    back: () => {
-      if (true) warnUrl();
-      router.back();
-    },
-    push: (url, as) => {
-      if (true) warnUrl();
-      return router.push(url, as);
-    },
-    pushTo: (href, as) => {
-      if (true) warnUrl();
-      var pushRoute = as ? href : '';
-      var pushUrl = as || href;
-      return router.push(pushRoute, pushUrl);
-    },
-    replace: (url, as) => {
-      if (true) warnUrl();
-      return router.replace(url, as);
-    },
-    replaceTo: (href, as) => {
-      if (true) warnUrl();
-      var replaceRoute = as ? href : '';
-      var replaceUrl = as || href;
-      return router.replace(replaceRoute, replaceUrl);
-    }
-  };
-}
-
-/***/ }),
-
 /***/ "./node_modules/next/link.js":
 /*!***********************************!*\
   !*** ./node_modules/next/link.js ***!
@@ -2250,17 +2102,6 @@ if (false) {} else {
 
 /***/ }),
 
-/***/ "./node_modules/react-share-components/dist/react-share-components.css":
-/*!*****************************************************************************!*\
-  !*** ./node_modules/react-share-components/dist/react-share-components.css ***!
-  \*****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
 /***/ "./src/assets/fonts/svg/menu/blog.svg":
 /*!********************************************!*\
   !*** ./src/assets/fonts/svg/menu/blog.svg ***!
@@ -2524,6 +2365,43 @@ function SvgWorks(props) {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = ("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTg5NjgwOTI3OTkwIiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjExNTYiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTk3Mi44IDMzMC45NTY4djE5Ny41ODA4SDUxLjJWMzMwLjk1NjhjMC0yMi41MjggOC4wMzg0LTQyLjAzNTIgMjQuMDY0LTU4LjA2MDggMTYuMTI4LTE2LjEyOCAzNS40ODE2LTI0LjA2NCA1OC4wNjA4LTI0LjA2NEgzMTQuMzY4VjE2Ni40YTQ3LjEwNCA0Ny4xMDQgMCAwIDEgMTQuMzg3Mi0zNC45MTg0IDQ3LjQ2MjQgNDcuNDYyNCAwIDAgMSAzNC45MTg0LTE0LjMzNmgyOTYuMjk0NGE0Ny4xMDQgNDcuMTA0IDAgMCAxIDM0LjkxODQgMTQuMzM2IDQ3LjQ2MjQgNDcuNDYyNCAwIDAgMSAxNC4zODcyIDM0LjkxODRWMjQ4LjgzMmgxODAuOTkyYzIyLjUyOCAwIDQyLjAzNTIgOC4xOTIgNTguMDYwOCAyNC4wNjQgMTYuNDg2NCAxNi4wMjU2IDI0LjUyNDggMzUuMzI4IDI0LjUyNDggNTguMDYwOHogbTAgMjQ2Ljc4NHYyNDYuOTg4OGMwIDIyLjUyOC04LjE5MiA0MS45ODQtMjQuMDY0IDU4LjA2MDgtMTYuMTI4IDE2LjEyOC0zNS40ODE2IDI0LjA2NC01OC4wNjA4IDI0LjA2NEgxMzMuNTgwOGE3OS4zNiA3OS4zNiAwIDAgMS01OC4wNjA4LTI0LjA2NCA3OS4yMDY0IDc5LjIwNjQgMCAwIDEtMjQuMjE3Ni01OC4wNjA4di0yNDYuOTg4OEgzOTYuOHY4Mi4zMjk2YzAgOC45MDg4IDMuMjI1NiAxNi41ODg4IDkuNzc5MiAyMy4xOTM2YTMxLjQzNjggMzEuNDM2OCAwIDAgMCAyMy4xNDI0IDkuNzI4aDE2NC41MDU2YTMxLjY0MTYgMzEuNjQxNiAwIDAgMCAyMy4xOTM2LTkuNzI4IDMxLjQzNjggMzEuNDM2OCAwIDAgMCA5Ljc3OTItMjMuMTkzNnYtODIuMzI5Nkg5NzIuOHpNMzgwLjQxNiAyNDguNTc2aDI2My4yNzA0VjE4Mi42ODE2SDM4MC40MTZ2NjUuODk0NHogbTE5Ny40Nzg0IDMyOS4xNjQ4djY1Ljg5NDRINDQ2LjEwNTZ2LTY1Ljg5NDRoMTMxLjc4ODh6IiBmaWxsPSJjdXJyZW50Q29sb3IiIHAtaWQ9IjExNTciPjwvcGF0aD48L3N2Zz4NCg==");
+
+
+/***/ }),
+
+/***/ "./src/assets/fonts/svg/merge/paper-plane.svg":
+/*!****************************************************!*\
+  !*** ./src/assets/fonts/svg/merge/paper-plane.svg ***!
+  \****************************************************/
+/*! exports provided: default, ReactComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ReactComponent", function() { return SvgPaperPlane; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+
+
+var _ref = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("defs", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("style", null));
+
+var _ref2 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
+  d: "M0 512L1054.219 0 333.846 635.577 0 512zm474.395 176.542L1089.362 0 896.087 847.458 474.395 688.542zm0 88.282V1024L667.67 829.789l-193.275-52.965z",
+  fill: "currentColor"
+});
+
+function SvgPaperPlane(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", _extends({
+    className: "paper-plane_svg__icon",
+    viewBox: "0 0 1089 1024",
+    width: 51.047,
+    height: 48
+  }, props), _ref, _ref2);
+}
+
+/* harmony default export */ __webpack_exports__["default"] = ("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkyMDM0NDM4Mjk5IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwODkgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjI2NjgiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNTEuMDQ2ODc1IiBoZWlnaHQ9IjQ4Ij48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwvc3R5bGU+PC9kZWZzPjxwYXRoIGQ9Ik0wIDUxMkwxMDU0LjIxODg5NCAwIDMzMy44NDU3ODcgNjM1LjU3NzE5MSAwIDUxMnogbTQ3NC4zOTUyMzQgMTc2LjU0MTk1N0wxMDg5LjM2MTcwMiAwbC0xOTMuMjc0NTUzIDg0Ny40NTgwNDMtNDIxLjY5MTkxNS0xNTguOTE2MDg2eiBtMCA4OC4yODE4NzNWMTAyNGwxOTMuMjc0NTUzLTE5NC4yMTE0MDQtMTkzLjI3NDU1My01Mi45NjQ3NjZ6IiBmaWxsPSJjdXJyZW50Q29sb3IiIHAtaWQ9IjI2NjkiPjwvcGF0aD48L3N2Zz4NCg==");
 
 
 /***/ }),
@@ -2856,17 +2734,6 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./src/assets/styles/sass/global.scss":
-/*!********************************************!*\
-  !*** ./src/assets/styles/sass/global.scss ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
 /***/ "./src/assets/styles/sass/page/home.module.scss":
 /*!******************************************************!*\
   !*** ./src/assets/styles/sass/page/home.module.scss ***!
@@ -2883,6 +2750,22 @@ module.exports = {
 	"ani-uh579ct": "home_ani-uh579ct__1hWNj",
 	"work_list": "home_work_list__2K0pK",
 	"ani-uh579d1": "home_ani-uh579d1__1pcwI"
+};
+
+
+/***/ }),
+
+/***/ "./src/assets/styles/sass/page/works.module.scss":
+/*!*******************************************************!*\
+  !*** ./src/assets/styles/sass/page/works.module.scss ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// Exports
+module.exports = {
+	"works_wrapper": "works_works_wrapper__2WoW-",
+	"works_list": "works_works_list__1l-Xw"
 };
 
 
@@ -4822,10 +4705,292 @@ const Layout = ({
 
 /***/ }),
 
-/***/ "./src/pages/_app.tsx":
-/*!****************************!*\
-  !*** ./src/pages/_app.tsx ***!
-  \****************************/
+/***/ "./src/components/react-sticky/Container.js":
+/*!**************************************************!*\
+  !*** ./src/components/react-sticky/Container.js ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Container; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "prop-types");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var raf__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! raf */ "raf");
+/* harmony import */ var raf__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(raf__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "C:\\Users\\19215\\Desktop\\my_website\\src\\components\\react-sticky\\Container.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
+class Container extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
+  constructor(...args) {
+    super(...args);
+
+    _defineProperty(this, "events", ["resize", "scroll", "touchstart", "touchmove", "touchend", "pageshow", "load"]);
+
+    _defineProperty(this, "subscribers", []);
+
+    _defineProperty(this, "rafHandle", null);
+
+    _defineProperty(this, "subscribe", handler => {
+      this.subscribers = this.subscribers.concat(handler);
+    });
+
+    _defineProperty(this, "unsubscribe", handler => {
+      this.subscribers = this.subscribers.filter(current => current !== handler);
+    });
+
+    _defineProperty(this, "notifySubscribers", evt => {
+      if (!this.framePending) {
+        const {
+          currentTarget
+        } = evt;
+        this.rafHandle = raf__WEBPACK_IMPORTED_MODULE_2___default()(() => {
+          this.framePending = false;
+          const {
+            top,
+            bottom
+          } = this.node.getBoundingClientRect();
+          this.subscribers.forEach(handler => handler({
+            distanceFromTop: top,
+            distanceFromBottom: bottom,
+            eventSource: currentTarget === window ? document.body : this.node
+          }));
+        });
+        this.framePending = true;
+      }
+    });
+
+    _defineProperty(this, "getParent", () => this.node);
+  }
+
+  getChildContext() {
+    return {
+      subscribe: this.subscribe,
+      unsubscribe: this.unsubscribe,
+      getParent: this.getParent
+    };
+  }
+
+  componentDidMount() {
+    this.events.forEach(event => window.addEventListener(event, this.notifySubscribers));
+  }
+
+  componentWillUnmount() {
+    if (this.rafHandle) {
+      raf__WEBPACK_IMPORTED_MODULE_2___default.a.cancel(this.rafHandle);
+      this.rafHandle = null;
+    }
+
+    this.events.forEach(event => window.removeEventListener(event, this.notifySubscribers));
+  }
+
+  render() {
+    return __jsx("div", _extends({}, this.props, {
+      ref: node => this.node = node,
+      onScroll: this.notifySubscribers,
+      onTouchStart: this.notifySubscribers,
+      onTouchMove: this.notifySubscribers,
+      onTouchEnd: this.notifySubscribers,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 83,
+        columnNumber: 7
+      }
+    }));
+  }
+
+}
+
+_defineProperty(Container, "childContextTypes", {
+  subscribe: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  unsubscribe: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  getParent: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func
+});
+
+/***/ }),
+
+/***/ "./src/components/react-sticky/Sticky.js":
+/*!***********************************************!*\
+  !*** ./src/components/react-sticky/Sticky.js ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Sticky; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "react-dom");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "prop-types");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "C:\\Users\\19215\\Desktop\\my_website\\src\\components\\react-sticky\\Sticky.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
+class Sticky extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(props, context) {
+    super(props, context);
+
+    _defineProperty(this, "state", {
+      isSticky: false,
+      wasSticky: false,
+      style: {}
+    });
+
+    _defineProperty(this, "handleContainerEvent", ({
+      distanceFromTop,
+      distanceFromBottom,
+      eventSource
+    }) => {
+      const parent = this.context.getParent();
+      let preventingStickyStateChanges = false;
+
+      if (this.props.relative) {
+        preventingStickyStateChanges = eventSource !== parent;
+        distanceFromTop = -(eventSource.scrollTop + eventSource.offsetTop) + this.placeholder.offsetTop;
+      }
+
+      const placeholderClientRect = this.placeholder.getBoundingClientRect();
+      const contentClientRect = this.content.getBoundingClientRect();
+      const calculatedHeight = contentClientRect.height;
+      const bottomDifference = distanceFromBottom - this.props.bottomOffset - calculatedHeight;
+      const wasSticky = !!this.state.isSticky;
+      const isSticky = preventingStickyStateChanges ? wasSticky : distanceFromTop <= -this.props.topOffset && distanceFromBottom > -this.props.bottomOffset;
+      distanceFromBottom = (this.props.relative ? parent.scrollHeight - parent.scrollTop : distanceFromBottom) - calculatedHeight;
+      const style = !isSticky ? {} : {
+        position: 'fixed',
+        top: bottomDifference > 0 ? this.props.relative ? parent.offsetTop - parent.offsetParent.scrollTop : 0 : bottomDifference,
+        left: placeholderClientRect.left,
+        width: placeholderClientRect.width
+      };
+
+      if (!this.props.disableHardwareAcceleration) {
+        style.transform = 'translateZ(0)';
+      }
+
+      this.setState({
+        isSticky,
+        wasSticky,
+        distanceFromTop,
+        distanceFromBottom,
+        calculatedHeight,
+        style
+      });
+    });
+
+    if (!this.context.subscribe) throw new TypeError('Expected Sticky to be mounted within StickyContainer');
+    this.context.subscribe(this.handleContainerEvent);
+  }
+
+  componentWillUnmount() {
+    this.context.unsubscribe(this.handleContainerEvent);
+  }
+
+  componentDidUpdate() {
+    this.placeholder.style.paddingBottom = this.props.disableCompensation ? 0 : `${this.state.isSticky ? this.state.calculatedHeight : 0}px`;
+  }
+
+  render() {
+    const element = react__WEBPACK_IMPORTED_MODULE_0___default.a.cloneElement(this.props.children({
+      isSticky: this.state.isSticky,
+      wasSticky: this.state.wasSticky,
+      distanceFromTop: this.state.distanceFromTop,
+      distanceFromBottom: this.state.distanceFromBottom,
+      calculatedHeight: this.state.calculatedHeight,
+      style: this.state.style
+    }), {
+      ref: content => {
+        this.content = react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.findDOMNode(content);
+      }
+    });
+    return __jsx("div", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 132,
+        columnNumber: 7
+      }
+    }, __jsx("div", {
+      ref: placeholder => this.placeholder = placeholder,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 133,
+        columnNumber: 9
+      }
+    }), element);
+  }
+
+}
+
+_defineProperty(Sticky, "propTypes", {
+  topOffset: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
+  bottomOffset: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
+  relative: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool,
+  children: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired
+});
+
+_defineProperty(Sticky, "defaultProps", {
+  relative: false,
+  topOffset: 0,
+  bottomOffset: 0,
+  disableCompensation: false,
+  disableHardwareAcceleration: false
+});
+
+_defineProperty(Sticky, "contextTypes", {
+  subscribe: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func,
+  unsubscribe: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func,
+  getParent: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func
+});
+
+/***/ }),
+
+/***/ "./src/components/react-sticky/index.js":
+/*!**********************************************!*\
+  !*** ./src/components/react-sticky/index.js ***!
+  \**********************************************/
+/*! exports provided: Sticky, StickyContainer, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Sticky__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Sticky */ "./src/components/react-sticky/Sticky.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Sticky", function() { return _Sticky__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
+/* harmony import */ var _Container__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Container */ "./src/components/react-sticky/Container.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "StickyContainer", function() { return _Container__WEBPACK_IMPORTED_MODULE_1__["default"]; });
+
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (_Sticky__WEBPACK_IMPORTED_MODULE_0__["default"]); //ref:https://github.com/captivationsoftware/react-sticky
+//该库不再维护
+
+/***/ }),
+
+/***/ "./src/pages/works.tsx":
+/*!*****************************!*\
+  !*** ./src/pages/works.tsx ***!
+  \*****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -4833,25 +4998,26 @@ const Layout = ({
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var util__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! util */ "util");
-/* harmony import */ var util__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(util__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/app */ "./node_modules/next/app.js");
-/* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_app__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _styles_sass_global_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @styles/sass/global.scss */ "./src/assets/styles/sass/global.scss");
-/* harmony import */ var _styles_sass_global_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_sass_global_scss__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_share_components_dist_react_share_components_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-share-components/dist/react-share-components.css */ "./node_modules/react-share-components/dist/react-share-components.css");
-/* harmony import */ var react_share_components_dist_react_share_components_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_share_components_dist_react_share_components_css__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _components_context__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @components/context */ "./src/components/context/index.tsx");
-/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @components/layout */ "./src/components/layout/index.tsx");
-var _jsxFileName = "C:\\Users\\19215\\Desktop\\my_website\\src\\pages\\_app.tsx";
-
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! classnames */ "classnames");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-lazyload */ "react-lazyload");
+/* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_lazyload__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_react_sticky__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @components/react-sticky */ "./src/components/react-sticky/index.js");
+/* harmony import */ var react_infinite_scroller__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-infinite-scroller */ "react-infinite-scroller");
+/* harmony import */ var react_infinite_scroller__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_infinite_scroller__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _styles_sass_page_works_module_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @styles/sass/page/works.module.scss */ "./src/assets/styles/sass/page/works.module.scss");
+/* harmony import */ var _styles_sass_page_works_module_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_sass_page_works_module_scss__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _scripts_utils__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @scripts/utils */ "./src/scripts/utils/index.ts");
+/* harmony import */ var _scripts_constant__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @scripts/constant */ "./src/scripts/constant/index.ts");
+/* harmony import */ var _store_mock__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @store/mock */ "./src/store/mock/index.ts");
+/* harmony import */ var _components_context__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/context */ "./src/components/context/index.tsx");
+/* harmony import */ var _components_common__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @components/common */ "./src/components/common/index.tsx");
+/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @components/layout */ "./src/components/layout/index.tsx");
+/* harmony import */ var _fonts_svg_merge_paper_plane_svg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @fonts/svg/merge/paper-plane.svg */ "./src/assets/fonts/svg/merge/paper-plane.svg");
+var _jsxFileName = "C:\\Users\\19215\\Desktop\\my_website\\src\\pages\\works.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
@@ -4859,6 +5025,9 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
 
 
 
@@ -4866,75 +5035,620 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
-const initialState = {
-  bodyStyle: {}
+
+
+
+
+
+
+
+const {
+  works_wrapper,
+  works_list
+} = _styles_sass_page_works_module_scss__WEBPACK_IMPORTED_MODULE_5___default.a;
+const worksKeys = Object.keys(_store_mock__WEBPACK_IMPORTED_MODULE_8__["worksInfo"]);
+const DEFAULT_ACTIVE_KEY = worksKeys[0];
+const tabHeadInfo = worksKeys.map(key => {
+  const _worksInfo$key = _store_mock__WEBPACK_IMPORTED_MODULE_8__["worksInfo"][key],
+        {
+    data
+  } = _worksInfo$key,
+        rest = _objectWithoutProperties(_worksInfo$key, ["data"]);
+
+  return _objectSpread({
+    key,
+    num: data.length
+  }, rest);
+});
+
+const TabsWorksHead = ({
+  onSwitchTab,
+  style
+}) => {
+  const {
+    store
+  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useContext"])(_components_context__WEBPACK_IMPORTED_MODULE_9__["CtxStore"]);
+  const {
+    bodyStyle
+  } = store;
+  const elTabs = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])(null);
+  const {
+    0: activeKey,
+    1: setActiveKey
+  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(DEFAULT_ACTIVE_KEY);
+  const {
+    0: activeInfo,
+    1: setActiveInfo
+  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])({
+    width: 0,
+    offsetX: 0
+  });
+  const {
+    width,
+    offsetX
+  } = activeInfo;
+
+  const onSelected = key => {
+    return e => {
+      e.preventDefault();
+      setActiveKey(key);
+      const {
+        offsetWidth,
+        offsetLeft
+      } = e.currentTarget;
+      setActiveInfo(v => _objectSpread({}, v, {
+        width: offsetWidth,
+        offsetX: offsetLeft
+      }));
+      onSwitchTab && onSwitchTab(key);
+    };
+  };
+
+  const initialTabsActive = () => {
+    const {
+      current
+    } = elTabs;
+    const index = Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_6__["findDataIndex"])({
+      data: tabHeadInfo,
+      key: 'key',
+      target: activeKey
+    });
+    if (Object.is(index, -1)) return;
+    const node = current === null || current === void 0 ? void 0 : current.querySelectorAll('a')[index];
+    node === null || node === void 0 ? void 0 : node.click();
+  };
+
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(initialTabsActive, []);
+  return __jsx(_components_react_sticky__WEBPACK_IMPORTED_MODULE_3__["Sticky"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88,
+      columnNumber: 5
+    }
+  }, ({
+    style,
+    isSticky
+  }) => {
+    return __jsx("div", {
+      style: _objectSpread({}, style, {}, isSticky && _objectSpread({
+        boxShadow: 'rgb(0, 0, 0,.24) 0px 0px 4px'
+      }, bodyStyle)),
+      className: "tac tabs-wrapper z-1",
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 91,
+        columnNumber: 11
+      }
+    }, __jsx("div", {
+      ref: elTabs,
+      className: "inline-block pos-rel font-size-sm",
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 101,
+        columnNumber: 13
+      }
+    }, tabHeadInfo.map(({
+      title,
+      num,
+      key,
+      isHot
+    }) => __jsx("a", {
+      key: key,
+      href: "#",
+      onClick: onSelected(key),
+      className: classnames__WEBPACK_IMPORTED_MODULE_1___default()('m-l-r-xl p-b-xxs', {
+        'color-primary active': Object.is(activeKey, key)
+      }),
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 103,
+        columnNumber: 17
+      }
+    }, title, " (", ' ', __jsx("span", {
+      className: "font-family-georgia font-size-xxl",
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 112,
+        columnNumber: 19
+      }
+    }, num, isHot && __jsx("span", {
+      className: "hot pos-rel",
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 115,
+        columnNumber: 23
+      }
+    }, __jsx("em", {
+      style: {
+        top: 4
+      },
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 116,
+        columnNumber: 25
+      }
+    }))), ' ', ")")), __jsx("div", {
+      style: {
+        width: width,
+        transform: `translateX(${offsetX}px)`,
+        transition: '.5s'
+      },
+      className: "tabs-active",
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 127,
+        columnNumber: 15
+      }
+    })));
+  });
 };
 
-function reducer(state, action) {
+const WorkItem = ({
+  item = {},
+  onVisitContent,
+  onMouseIn,
+  onMouseOut
+}) => {
   const {
-    type
-  } = action;
-  if (!Object(util__WEBPACK_IMPORTED_MODULE_1__["isString"])(type)) return {};
+    category,
+    desc,
+    qrcodeImg,
+    title,
+    searchKeyword,
+    visible,
+    links
+  } = item;
 
-  switch (action.type) {
-    case 'global':
-      return _objectSpread({}, state, {}, action.payload);
+  const visitLinksProps = _objectSpread({
+    href: links || '#',
+    title
+  }, links ? {
+    target: '_blank'
+  } : {
+    onClick: onVisitContent
+  });
 
-    default:
-      console.warn(`方法${action.type}无效`);
-  }
-}
+  return __jsx("figure", {
+    className: "item",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 175,
+      columnNumber: 5
+    }
+  }, __jsx("a", _extends({
+    className: "block"
+  }, visitLinksProps, {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 176,
+      columnNumber: 7
+    }
+  }), __jsx(react_lazyload__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    once: true,
+    throttle: 200,
+    height: 400,
+    placeholder: __jsx("img", {
+      // className="w-h-100" //勿设置
+      src: `/static/placeholder-pic.png`,
+      alt: "",
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 182,
+        columnNumber: 13
+      }
+    }),
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 177,
+      columnNumber: 9
+    }
+  }, __jsx("img", {
+    className: "photo" // src={require('@images/' + item.imgSrc)}
+    ,
+    src: `/static/${item.imgSrc}`,
+    alt: title,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 189,
+      columnNumber: 11
+    }
+  })), __jsx("div", {
+    className: "mouse-move-layer t-0",
+    onMouseEnter: e => onMouseIn && onMouseIn(e, true),
+    onMouseLeave: e => onMouseOut && onMouseOut(e, true),
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 196,
+      columnNumber: 9
+    }
+  }), __jsx("div", {
+    className: "mouse-move-layer b-0",
+    onMouseEnter: onMouseIn,
+    onMouseLeave: onMouseOut,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 201,
+      columnNumber: 9
+    }
+  })), __jsx("figcaption", {
+    className: "content",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 207,
+      columnNumber: 7
+    }
+  }, __jsx("h3", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 208,
+      columnNumber: 9
+    }
+  }, title), __jsx("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 209,
+      columnNumber: 9
+    }
+  }, desc), __jsx("div", {
+    "layout-align": "space-between center",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 210,
+      columnNumber: 9
+    }
+  }, __jsx("span", {
+    className: "category",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 211,
+      columnNumber: 11
+    }
+  }, category), __jsx("a", _extends({
+    className: "color-primary bdb-line-primary"
+  }, visitLinksProps, {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 212,
+      columnNumber: 11
+    }
+  }), __jsx("span", {
+    className: "vam",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 213,
+      columnNumber: 13
+    }
+  }, "\u8BBF\u95EE\u94FE\u63A5"), __jsx(_components_common__WEBPACK_IMPORTED_MODULE_10__["SvgIcon"], {
+    className: "m-l-xs",
+    component: _fonts_svg_merge_paper_plane_svg__WEBPACK_IMPORTED_MODULE_12__["ReactComponent"],
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 214,
+      columnNumber: 13
+    }
+  })))), (qrcodeImg || searchKeyword) && __jsx("div", {
+    style: {
+      display: visible ? 'block' : 'none'
+    },
+    className: "mask-root pos-abs t-0 w-h-100",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 219,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    onClick: onVisitContent,
+    className: "mask-layer w-h-100",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 225,
+      columnNumber: 11
+    }
+  }), qrcodeImg ? __jsx("img", {
+    className: "pos-abs tblr-0 m-auto" // src={require(`@images/${qrcodeImg}`)}
+    ,
+    src: `/static/${qrcodeImg}`,
+    alt: "",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 227,
+      columnNumber: 13
+    }
+  }) : __jsx("div", {
+    className: "app-dec pos-abs color-white font-size-md",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 234,
+      columnNumber: 13
+    }
+  }, "\u8FDB\u5165\u5FAE\u4FE1APP-", '>', "\u70B9\u51FB\u53D1\u73B0-", '>', "\u9009\u62E9\u5C0F\u7A0B\u5E8F\u641C-", '>', "\u7D22 \"", __jsx("span", {
+    className: "color-primary",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 236,
+      columnNumber: 15
+    }
+  }, " ", searchKeyword, " "), "\" \u8BBF\u95EE")));
+};
 
-const CustomApp = (_ref) => {
-  let {
-    Component,
-    pageProps
-  } = _ref,
-      rest = _objectWithoutProperties(_ref, ["Component", "pageProps"]);
-
+const TabsWorksContent = ({
+  activeKey = ''
+}) => {
   const {
-    0: state,
-    1: dispatch
-  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useReducer"])(reducer, initialState);
-  return __jsx(_components_context__WEBPACK_IMPORTED_MODULE_5__["CtxStore"].Provider, {
-    value: {
-      store: state,
-      dispatch
+    0: info,
+    1: setInfo
+  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])({
+    data: [],
+    hasNextPage: true,
+    loading: true
+  });
+  const {
+    data,
+    hasNextPage,
+    loading
+  } = info;
+
+  const onVisitContent = item => {
+    return e => {
+      setInfo(v => _objectSpread({}, v, {
+        data: data.map(v => _objectSpread({}, v, {}, Object.is(v.imgSrc, item.imgSrc) && {
+          visible: !v.visible
+        }))
+      }));
+      e.preventDefault();
+    };
+  };
+
+  const onMouseIn = (e, isTop) => {
+    const currentDom = e.currentTarget;
+    const parentDom = currentDom.parentNode;
+    const domImg = parentDom === null || parentDom === void 0 ? void 0 : parentDom.querySelector('.photo');
+    if (!domImg) return; // const { clientY } = e
+    // const { top, height } = currentDom.getBoundingClientRect()
+    // const halfHeight = height / 2
+    // const isTop = halfHeight > clientY - top //移入位置
+
+    const marginTopVal = parseFloat(Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_6__["getStyle"])(domImg).marginTop);
+    const hiddenHeight = (domImg.getBoundingClientRect().height || 0) - parseInt(Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_6__["getStyle"])(parentDom).maxHeight); //计算隐藏的高度
+
+    const moveTime = 150; //值越大、移动越快，反之
+
+    const moveSpeed = hiddenHeight / moveTime;
+    const restMovDistance = (isTop ? -marginTopVal : hiddenHeight + marginTopVal) * moveSpeed; //移动的距离
+
+    const time = (restMovDistance / hiddenHeight).toFixed(2); //剩余距离需要移动的时间
+
+    domImg.style.cssText = `margin-top:${isTop ? 0 : -hiddenHeight}px;transition:margin-top ${time}s linear;`;
+  };
+
+  const onMouseOut = e => {
+    var _currentDom$parentNod;
+
+    const currentDom = e.currentTarget;
+    const domImg = (_currentDom$parentNod = currentDom.parentNode) === null || _currentDom$parentNod === void 0 ? void 0 : _currentDom$parentNod.querySelector('.photo');
+    if (!domImg) return;
+    const marginTopVal = Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_6__["getStyle"])(domImg).marginTop;
+    domImg.style.cssText = `margin-top:${marginTopVal};`;
+  };
+
+  const fetchData = (pageIndex = 1) => {
+    const result = _store_mock__WEBPACK_IMPORTED_MODULE_8__["worksInfo"][activeKey];
+    if (!result) return;
+    Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_6__["paginationAfterData"])({
+      query: {
+        pageIndex
+      },
+      data: result.data
+    }).then(res => {
+      const {
+        data: list
+      } = res;
+      const isFirstPage = Object.is(pageIndex, 1);
+      setInfo(v => _objectSpread({}, v, {}, res, {
+        data: isFirstPage ? list : [...data, ...list]
+      }));
+    }).catch(() => {
+      setInfo(v => _objectSpread({}, v, {
+        hasNextPage: false
+      }));
+    }).finally(() => {
+      setInfo(v => _objectSpread({}, v, {
+        loading: false
+      }));
+    });
+  };
+
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
+    setInfo(v => _objectSpread({}, v, {
+      hasNextPage: true,
+      loading: true
+    }));
+    fetchData();
+  }, [activeKey]);
+
+  const loadFunc = page => {
+    if (!hasNextPage) return;
+    fetchData(page);
+  };
+
+  return __jsx("div", {
+    className: works_list,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 348,
+      columnNumber: 5
+    }
+  }, loading ? __jsx(_components_common__WEBPACK_IMPORTED_MODULE_10__["Loading"], {
+    className: "tac p-b-xxl",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 350,
+      columnNumber: 9
+    }
+  }) : __jsx(react_infinite_scroller__WEBPACK_IMPORTED_MODULE_4___default.a, {
+    pageStart: 0,
+    loadMore: loadFunc,
+    hasMore: hasNextPage,
+    loader: __jsx(_components_common__WEBPACK_IMPORTED_MODULE_10__["Loading"], {
+      key: "0",
+      className: "tac p-b-xxl",
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 356,
+        columnNumber: 19
+      }
+    }),
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 352,
+      columnNumber: 9
+    }
+  }, data.map(item => {
+    const {
+      imgSrc
+    } = item;
+    return __jsx(WorkItem, {
+      key: imgSrc,
+      onVisitContent: onVisitContent(item),
+      onMouseIn: onMouseIn,
+      onMouseOut: onMouseOut,
+      item: item,
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 361,
+        columnNumber: 15
+      }
+    });
+  }), !hasNextPage && Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_6__["isValidArray"])(data) && data.length >= _scripts_constant__WEBPACK_IMPORTED_MODULE_7__["DEFAULT_PAGE_SIZE"] && __jsx("div", {
+    className: "tac p-b-xxl",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 373,
+      columnNumber: 15
+    }
+  }, "\u6CA1\u6709\u66F4\u591A\u4E86\u2299\uFE4F\u2299")));
+};
+
+const Works = () => {
+  const {
+    0: activeKey,
+    1: setActiveKey
+  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])('');
+  return __jsx("section", {
+    className: works_wrapper,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 387,
+      columnNumber: 5
+    }
+  }, __jsx(_components_common__WEBPACK_IMPORTED_MODULE_10__["Banner"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 388,
+      columnNumber: 7
+    }
+  }), __jsx(_components_layout__WEBPACK_IMPORTED_MODULE_11__["LayoutMain"], {
+    pageTitleProps: {
+      zhName: __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("span", {
+        className: "font-family-georgia",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 393,
+          columnNumber: 15
+        }
+      }, "6"), "\u4E2A\u4F5C\u54C1"),
+      enName: 'more than 40 works'
     },
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 5
-    }
-  }, __jsx(_components_layout__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 389,
       columnNumber: 7
     }
-  }, __jsx(Component, _extends({}, pageProps, {
+  }, __jsx(_components_react_sticky__WEBPACK_IMPORTED_MODULE_3__["StickyContainer"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 399,
       columnNumber: 9
+    }
+  }, __jsx(TabsWorksHead, {
+    onSwitchTab: key => setActiveKey(key),
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 400,
+      columnNumber: 11
+    }
+  }), activeKey && __jsx(TabsWorksContent, {
+    activeKey: activeKey,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 401,
+      columnNumber: 25
     }
   }))));
 };
 
-CustomApp.getInitialProps = async appContext => {
-  const {
-    Component,
-    ctx
-  } = appContext;
-  const appProps = await next_app__WEBPACK_IMPORTED_MODULE_2___default.a.getInitialProps(appContext);
-  const pageProps = Component.getInitialProps ? await Component.getInitialProps(ctx) : {};
-  return _objectSpread({}, appProps, {}, pageProps);
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (CustomApp);
+/* harmony default export */ __webpack_exports__["default"] = (Works);
 
 /***/ }),
 
@@ -5256,14 +5970,447 @@ const createImage = (option = {}) => {
 
 /***/ }),
 
-/***/ 0:
-/*!*****************************************!*\
-  !*** multi private-next-pages/_app.tsx ***!
-  \*****************************************/
+/***/ "./src/store/mock/index.ts":
+/*!*********************************!*\
+  !*** ./src/store/mock/index.ts ***!
+  \*********************************/
+/*! exports provided: toolInfo, skillInfo, worksInfo, jobsInfo */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _skillInfo_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./skillInfo.json */ "./src/store/mock/skillInfo.json");
+var _skillInfo_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./skillInfo.json */ "./src/store/mock/skillInfo.json", 1);
+/* harmony reexport (default from named exports) */ __webpack_require__.d(__webpack_exports__, "skillInfo", function() { return _skillInfo_json__WEBPACK_IMPORTED_MODULE_0__; });
+/* harmony import */ var _jobsInfo_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./jobsInfo.json */ "./src/store/mock/jobsInfo.json");
+var _jobsInfo_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./jobsInfo.json */ "./src/store/mock/jobsInfo.json", 1);
+/* harmony reexport (default from named exports) */ __webpack_require__.d(__webpack_exports__, "jobsInfo", function() { return _jobsInfo_json__WEBPACK_IMPORTED_MODULE_1__; });
+/* harmony import */ var _worksInfo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./worksInfo */ "./src/store/mock/worksInfo.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "worksInfo", function() { return _worksInfo__WEBPACK_IMPORTED_MODULE_2__["default"]; });
+
+/* harmony import */ var _toolInfo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./toolInfo */ "./src/store/mock/toolInfo/index.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "toolInfo", function() { return _toolInfo__WEBPACK_IMPORTED_MODULE_3__["toolInfo"]; });
+
+
+
+
+
+
+
+/***/ }),
+
+/***/ "./src/store/mock/jobsInfo.json":
+/*!**************************************!*\
+  !*** ./src/store/mock/jobsInfo.json ***!
+  \**************************************/
+/*! exports provided: 0, 1, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("[{\"enterprise\":\"重庆偶麦科技有限公司\",\"links\":\"http://www.ooumay.com/\",\"duties\":\"前端开发工程师\",\"time\":\"2019-11\",\"logoName\":\"omkj\",\"details\":\"1. 基于React+TypeScript+Antd+Dva构建项目，开发督查、任务管理信息系统，适配各终端应用。<br>2. 负责督查核心检查流程各环节页面、任务管理主流程相关功能的开发。<br>3. 推动在项目中进行模块化开发，降低业务代码复杂度，提高开发效率。解决实际业务场景问题和日常Bug。<br>4. 分析业务需求，同团队相互沟通，合作开发，同时给产品交互体验提出合适的建议。<br>5. 完成项目从零搭建到顺利上线并使用，及时处理客户提出的功能需求和问题，顺利和中石油(分公司)、汇丰石化签下合同。\",\"project\":\"重构\"},{\"enterprise\":\"重庆一成飞客有限公司\",\"links\":\"http://www.canqu.com.cn/\",\"duties\":\"c#后端兼前端开发工程师\",\"time\":\"2020-06\",\"logoName\":\"ycfk\",\"details\":\"1. 负责老司机出行新版官网开发，采用Vue+Nuxt+ElementUi SSR直出模式，有利于解决单页SPA SEO缺陷的问题。<br>2. 公司OA系统前端整站开发，通过钉钉APP端扫码登入企业办公系统，员工操作不同权限展示，上传文档、图片至阿里云oss存储，增强安全性，提升网站响应速度，添加前台编辑器功能发布消息同步到钉钉。<br>3. 同设计师，后端合作，高质量的完成页面的实现工作，利用前沿技术提高编码效率，缩短项目的开发周期。<br>4. 搭建技术框架，使用Git进行版本控制和迭代，前后分离架构，组件化来提高复用和可维护性。\",\"project\":\"物流管理系统\"}]");
+
+/***/ }),
+
+/***/ "./src/store/mock/skillInfo.json":
+/*!***************************************!*\
+  !*** ./src/store/mock/skillInfo.json ***!
+  \***************************************/
+/*! exports provided: 0, 1, 2, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("[{\"title\":\"Application and Data\",\"type\":\"fe\",\"data\":[{\"name\":\"React\",\"imgName\":\"React\",\"url\":\"//reactjs.org\"},{\"name\":\"TypeScript\",\"imgName\":\"TypeScript\",\"url\":\"//typescriptlang.org\"},{\"name\":\"React Native\",\"imgName\":\"ReactNative\",\"url\":\"//facebook.github.io/react-native\"},{\"name\":\"Redux\",\"imgName\":\"Redux\",\"url\":\"//redux.js.org\"},{\"name\":\"NextJs\",\"imgName\":\"Next\",\"url\":\"//nextjs.org\"},{\"name\":\"Vue&Vuex\",\"imgName\":\"Vue\",\"url\":\"//cn.vuejs.org\"},{\"name\":\"Nuxt\",\"imgName\":\"Nuxt\",\"url\":\"//nuxtjs.org\"},{\"name\":\"JavaScript\",\"imgName\":\"JavaScript\",\"url\":\"//developer.mozilla.org/zh-CN/docs/Web/JavaScript\"},{\"name\":\"Es6\",\"imgName\":\"EcmaScript\",\"url\":\"//es6.ruanyifeng.com\"},{\"name\":\"NodeJs\",\"imgName\":\"NodeJs\",\"url\":\"//nodejs.org\"},{\"name\":\"Express\",\"imgName\":\"Express\",\"url\":\"//expressjs.com\"},{\"name\":\"jQuery\",\"imgName\":\"Jquery\",\"url\":\"//jquery.com\"},{\"name\":\"RequireJs\",\"imgName\":\"RequireJs\",\"url\":\"//requirejs.org\"},{\"name\":\"Sass\",\"imgName\":\"Sass\",\"url\":\"//sass-lang.com\"},{\"name\":\"ComPass\",\"imgName\":\"ComPass\",\"url\":\"//compass-style.org\"},{\"name\":\"Less\",\"imgName\":\"Less\",\"url\":\"//lesscss.org\"},{\"name\":\"Json\",\"imgName\":\"Json\",\"url\":\"//www.json.org/\"},{\"name\":\"Html5\",\"imgName\":\"Html5\",\"url\":\"//developer.mozilla.org/zh-CN/docs/Web/HTML\"},{\"name\":\"Css3\",\"imgName\":\"Css3\",\"url\":\"//developer.mozilla.org/zh-CN/docs/Web/CSS\"},{\"name\":\"AntDesign\",\"imgName\":\"AntDesign\",\"url\":\"//ant.design\"},{\"name\":\"Element\",\"imgName\":\"Element\",\"url\":\"//element.eleme.cn\"},{\"name\":\"BootStrap\",\"imgName\":\"BootStrap\",\"url\":\"//getbootstrap.com\",\"show\":true},{\"name\":\"Php\",\"imgName\":\"Php\",\"url\":\"//php.net\"},{\"name\":\"MySQL\",\"imgName\":\"Mysql\",\"url\":\"//mysql.com\"},{\"name\":\"ThinkPhp\",\"imgName\":\"ThinkPhp\",\"url\":\"//thinkphp.cn\"}]},{\"title\":\"DevOps\",\"type\":\"tool\",\"data\":[{\"name\":\"WebPack\",\"imgName\":\"WebPack\",\"url\":\"//webpack.js.org\"},{\"name\":\"Gulp\",\"imgName\":\"Gulp\",\"url\":\"//gulpjs.com\"},{\"name\":\"Git\",\"imgName\":\"Git\",\"url\":\"//git-scm.com\"},{\"name\":\"Babel\",\"imgName\":\"Babel\",\"url\":\"//babeljs.io\"},{\"name\":\"Npm\",\"imgName\":\"Npm\",\"url\":\"//www.npmjs.com\"},{\"name\":\"Yarn\",\"imgName\":\"Yarn\",\"url\":\"//yarnpkg.com\"},{\"name\":\"Docker\",\"imgName\":\"Docker\",\"url\":\"//www.docker.com\"},{\"name\":\"Composer\",\"imgName\":\"Composer\",\"url\":\"//getcomposer.org\"}]},{\"title\":\"Utilities\",\"type\":\"tool\",\"data\":[{\"name\":\"Postman\",\"imgName\":\"Postman\",\"url\":\"//www.getpostman.com\"},{\"name\":\"Charles\",\"imgName\":\"Charles\",\"url\":\"//www.charlesproxy.com\"},{\"name\":\"Stack Overflow\",\"imgName\":\"StackOverflow\",\"url\":\"//stackoverflow.com\"},{\"name\":\"GitHub Pages\",\"imgName\":\"GithubPages\",\"url\":\"//pages.github.com\"},{\"name\":\"Visual Studio Code\",\"imgName\":\"Vscode\",\"url\":\"//code.visualstudio.com\"},{\"name\":\"PhpStorm\",\"imgName\":\"PhpStorm\",\"url\":\"//www.jetbrains.com/phpstorm\"},{\"name\":\"Navicat\",\"imgName\":\"Navicat\",\"url\":\"//www.navicat.com\"},{\"name\":\"Mamp\",\"imgName\":\"Mamp\",\"url\":\"//www.mamp.info\"},{\"name\":\"Markdown\",\"imgName\":\"Markdown\",\"url\":\"//wowubuntu.com/markdown\"},{\"name\":\"PhotoShop\",\"imgName\":\"PhotoShop\",\"url\":\"//www.adobe.com\"},{\"name\":\"Illustrator\",\"imgName\":\"Illustrator\",\"url\":\"//www.adobe.com\"},{\"name\":\"CorelDraw\",\"imgName\":\"CorelDraw\",\"url\":\"//www.coreldraw.com\"}]}]");
+
+/***/ }),
+
+/***/ "./src/store/mock/toolInfo/chromeExtension.ts":
+/*!****************************************************!*\
+  !*** ./src/store/mock/toolInfo/chromeExtension.ts ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ([{
+  name: 'OneTab',
+  src: 'https://extension.extfans.com/extension/chphlpgkkbolifaimnlloiipkdnihall/icon/icon.png?imageView2/2/w/64/h/64/q/100',
+  url: 'https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall'
+}, {
+  name: '记事本',
+  src: 'https://extension.extfans.com/extension/nofepkcoibolggileilfiimccamagcfa/icon/icon.png?imageView2/2/w/128/h/128/q/100',
+  url: 'https://chrome.google.com/webstore/detail/%E5%9C%A8%E7%BA%BF%E8%AE%B0%E4%BA%8B%E6%9C%AC/nofepkcoibolggileilfiimccamagcfa'
+}, {
+  name: 'Online Download Manager',
+  src: 'https://extension.extfans.com/extension/opjjpmhoiojifppkkcdabiobhakljdgm/icon/icon.png?imageView2/2/w/64/h/64/q/100'
+}, {
+  name: 'Wappalyzer',
+  src: 'https://extension.extfans.com/extension/gppongmhjkpfnbhagpmjfkannfbllamg/icon/icon.png?imageView2/2/w/64/h/64/q/100',
+  url: 'https://chrome.google.com/webstore/detail/online-download-manager/opjjpmhoiojifppkkcdabiobhakljdgm'
+}, {
+  name: 'Tampermonkey：用户脚本管理器（油猴）',
+  src: 'https://extension.extfans.com/extension/gjldcdngmdknpinoemndlidpcabkggco/icon/icon.png?imageView2/2/w/64/h/64/q/100',
+  url: 'https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo'
+}, {
+  name: '扩展管理器（Extension Manager）',
+  src: 'https://extension.extfans.com/extension/dhdgffkkebhmkfjojejmpbldmpobfkfo/icon/icon.png?t=0?imageView2/2/w/64/h/64/q/100',
+  url: 'https://chrome.google.com/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco'
+}, {
+  name: '二管家',
+  src: 'https://extension.extfans.com/extension/aajodjghehmlpahhboidcpfjcncmcklf/icon/icon.png?imageView2/2/w/64/h/64/q/100',
+  url: 'https://chrome.google.com/webstore/detail/nooboss/aajodjghehmlpahhboidcpfjcncmcklf'
+}, {
+  name: 'uBlock Origin - 广告拦截器',
+  src: 'https://extension.extfans.com/extension/cjpalhdlnbpafiamejdnhcphjbkeiagm/icon/icon.png?imageView2/2/w/64/h/64/q/100',
+  url: 'https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm'
+}, {
+  name: 'Surfingkeys',
+  src: 'https://extension.extfans.com/extension/gfbliohnnapiefjpjlpjnehglfpaknnc/icon/icon.png?imageView2/2/w/64/h/64/q/100',
+  url: 'https://chrome.google.com/webstore/detail/surfingkeys/gfbliohnnapiefjpjlpjnehglfpaknnc'
+}, {
+  name: 'Infinity 新标签页(Pro)',
+  src: 'https://extension.extfans.com/extension/nnnkddnnlpamobajfibfdgfnbcnkgngh/icon/icon.png?imageView2/2/w/64/h/64/q/100',
+  url: 'https://chrome.google.com/webstore/detail/infinity-new-tab-pro/nnnkddnnlpamobajfibfdgfnbcnkgngh'
+}, {
+  name: 'Material Theme UI for DevTools',
+  src: 'https://extension.extfans.com/extension/ejjjgkmkicngofngkjdcahlhnmmoicim/icon/icon.png?imageView2/2/w/64/h/64/q/100',
+  url: 'https://chrome.google.com/webstore/detail/material-devtools-theme-c/jmefikbdhgocdjeejjnnepgnfkkbpgjo'
+}, {
+  name: 'GitHub Dark Theme',
+  src: 'https://extension.extfans.com/extension/odkdlljoangmamjilkamahebpkgpeacp/icon/icon.png?imageView2/2/w/64/h/64/q/100',
+  url: 'https://chrome.google.com/webstore/detail/github-dark-theme/odkdlljoangmamjilkamahebpkgpeacp'
+}, {
+  name: 'octotree',
+  src: 'https://extension.extfans.com/extension/fjcahddnekkgihjnjnimgiggdmlgcnbc/icon/icon.png?imageView2/2/w/64/h/64/q/100',
+  url: 'https://www.octotree.io/'
+}, {
+  name: 'GitZip for github',
+  src: 'https://extension.extfans.com/extension/ffabmkklhbepgcgfonabamgnfafbdlkn/icon/icon.png?imageView2/2/w/64/h/64/q/100',
+  url: 'https://chrome.google.com/webstore/detail/gitzip-for-github/ffabmkklhbepgcgfonabamgnfafbdlkn'
+}, {
+  name: 'enhanced-github',
+  src: 'https://raw.githubusercontent.com/softvar/enhanced-github/master/icons/enhanced-github128.png',
+  url: 'https://chrome.google.com/webstore/detail/enhanced-github/anlikcnbgdeidpacdbdljnabclhahhmd'
+}]);
+
+/***/ }),
+
+/***/ "./src/store/mock/toolInfo/index.ts":
+/*!******************************************!*\
+  !*** ./src/store/mock/toolInfo/index.ts ***!
+  \******************************************/
+/*! exports provided: toolInfo */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "toolInfo", function() { return toolInfo; });
+/* harmony import */ var _chromeExtension__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./chromeExtension */ "./src/store/mock/toolInfo/chromeExtension.ts");
+/* harmony import */ var _iterm2__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./iterm2 */ "./src/store/mock/toolInfo/iterm2.ts");
+/* harmony import */ var _mac__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./mac */ "./src/store/mock/toolInfo/mac.ts");
+/* harmony import */ var _jsLib__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./jsLib */ "./src/store/mock/toolInfo/jsLib.ts");
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
+
+
+const generateUid = () => Math.random().toString(32).slice(2, 8);
+
+const toolInfo = [{
+  title: 'Chrome扩展（需备梯子）',
+  list: _chromeExtension__WEBPACK_IMPORTED_MODULE_0__["default"]
+}, {
+  title: 'iterm2（终端利器）',
+  list: _iterm2__WEBPACK_IMPORTED_MODULE_1__["default"]
+}, {
+  title: 'Mac软件',
+  list: _mac__WEBPACK_IMPORTED_MODULE_2__["default"]
+}, {
+  title: 'js库',
+  list: _jsLib__WEBPACK_IMPORTED_MODULE_3__["default"]
+}].map(item => _objectSpread({
+  id: generateUid()
+}, item));
+
+/***/ }),
+
+/***/ "./src/store/mock/toolInfo/iterm2.ts":
+/*!*******************************************!*\
+  !*** ./src/store/mock/toolInfo/iterm2.ts ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _scripts_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @scripts/utils */ "./src/scripts/utils/index.ts");
+
+/* harmony default export */ __webpack_exports__["default"] = ([{
+  name: 'tmux',
+  src: Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_0__["createImage"])({
+    text: 'tmux'
+  }),
+  url: 'https://github.com/tmux/tmux'
+}, {
+  name: 'oh-my-zsh',
+  src: 'https://ohmyz.sh/img/OMZLogo_BnW.png',
+  url: 'https://ohmyz.sh/'
+}, {
+  name: 'autojump',
+  src: Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_0__["createImage"])({
+    text: 'autojump'
+  }),
+  url: 'https://github.com/wting/autojump'
+}, {
+  name: 'rmtrash',
+  src: Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_0__["createImage"])({
+    text: 'rmtrash'
+  }),
+  url: 'https://github.com/PhrozenByte/rmtrash'
+}, {
+  name: 'mycli',
+  src: Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_0__["createImage"])({
+    text: 'mycli'
+  }),
+  url: 'https://github.com/dbcli/mycli'
+}, {
+  name: 'colorls',
+  src: Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_0__["createImage"])({
+    text: 'colorls'
+  }),
+  url: 'https://github.com/athityakumar/colorls'
+}, {
+  name: 'zsh-autosuggestions',
+  src: Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_0__["createImage"])({
+    text: 'zsh-autosuggestions'
+  }),
+  url: 'https://github.com/zsh-users/zsh-autosuggestions'
+}, {
+  name: 'powerlevel10k',
+  src: 'https://raw.githubusercontent.com/romkatv/powerlevel10k-media/master/prompt-styles-high-contrast.png',
+  url: 'https://github.com/romkatv/powerlevel10k'
+}, {
+  name: 'Homebrew',
+  src: 'https://brew.sh/assets/img/homebrew-256x256.png',
+  url: 'https://brew.sh/'
+}, {
+  name: 'mas',
+  src: 'https://raw.githubusercontent.com/mas-cli/mas/master/mas-cli.png',
+  url: 'https://github.com/mas-cli/mas'
+}]);
+
+/***/ }),
+
+/***/ "./src/store/mock/toolInfo/jsLib.ts":
+/*!******************************************!*\
+  !*** ./src/store/mock/toolInfo/jsLib.ts ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _scripts_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @scripts/utils */ "./src/scripts/utils/index.ts");
+
+/* harmony default export */ __webpack_exports__["default"] = ([{
+  name: 'unfetch',
+  src: Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_0__["createImage"])({
+    text: 'unfetch'
+  }),
+  url: 'https://github.com/developit/unfetch'
+}, {
+  name: 'request',
+  src: Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_0__["createImage"])({
+    text: 'request'
+  }),
+  url: 'https://github.com/request/request'
+}, {
+  name: 'compressorjs',
+  src: Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_0__["createImage"])({
+    text: 'compressorjs'
+  }),
+  url: 'https://github.com/fengyuanchen/compressorjs'
+}, {
+  name: 'react-lazyload',
+  src: Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_0__["createImage"])({
+    text: 'react-lazyload'
+  }),
+  url: 'https://github.com/twobin/react-lazyload'
+}, {
+  name: 'react-infinite-scroller',
+  src: Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_0__["createImage"])({
+    text: 'react-infinite-scroller'
+  }),
+  url: 'https://github.com/danbovey/react-infinite-scroller'
+}, {
+  name: 'react-placeholder',
+  src: Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_0__["createImage"])({
+    text: 'react-placeholder'
+  }),
+  url: 'https://github.com/buildo/react-placeholder'
+}, {
+  name: 'react-beautiful-dnd',
+  src: Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_0__["createImage"])({
+    text: 'react-beautiful-dnd'
+  }),
+  url: 'https://github.com/atlassian/react-beautiful-dnd'
+}]);
+
+/***/ }),
+
+/***/ "./src/store/mock/toolInfo/mac.ts":
+/*!****************************************!*\
+  !*** ./src/store/mock/toolInfo/mac.ts ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ([{
+  name: 'MateTranslate',
+  src: 'https://extension.extfans.com/extension/ihmgiclibbndffejedjimfjmfoabpcke/icon/icon.png?imageView2/2/w/64/h/64/q/100',
+  url: 'https://gikken.co/mate-translate/'
+}, {
+  name: 'Alfred',
+  src: 'https://www.alfredapp.com/media/logo4.png',
+  url: 'https://www.alfredapp.com/'
+}, {
+  name: 'lemon',
+  src: 'https://lemon.qq.com/images/lemon/logo.png',
+  url: 'https://lemon.qq.com/'
+}, {
+  name: 'popclip',
+  src: 'https://pilotmoon.com/hp/img/PopClipFlat32.png',
+  url: 'https://pilotmoon.com/popclip/'
+}, {
+  name: 'sip',
+  src: 'https://sipapp.io/assets/img/favicon/96x96.png',
+  url: 'https://sipapp.io/'
+}, {
+  name: 'NightTone',
+  src: 'https://alexdenk.eu/img/products/icon-nighttone.png',
+  url: 'https://alexdenk.eu/mywork/nighttone.html'
+}, {
+  name: 'mos',
+  src: 'https://mos.caldis.me/resources/image/logo-small.png',
+  url: 'https://mos.caldis.me/'
+}, {
+  name: 'ishot',
+  src: 'https://13315641.s21i.faiusr.com/4/1/ABUIABAEGAAg342Z7gUoxIGSrgYwgAQ4gAQ.png',
+  url: 'https://www.better365.cn/ishot.html'
+}, {
+  name: 'Hidden Bar',
+  src: 'https://raw.githubusercontent.com/dwarvesf/hidden/master/hidden/Assets.xcassets/AppIcon.appiconset/64x64.png',
+  url: 'https://github.com/dwarvesf/hidden'
+}, {
+  name: 'CleanMyMac',
+  src: 'https://cdn2.macpaw.com/images/83934498d56fcab2caac53db98acdb62.webp',
+  url: 'https://macpaw.com/cleanmymac'
+}]);
+
+/***/ }),
+
+/***/ "./src/store/mock/worksInfo.ts":
+/*!*************************************!*\
+  !*** ./src/store/mock/worksInfo.ts ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const imgPath = 'works/';
+const pcYxtdimgSrc = `${imgPath}yxtd/`,
+      pcHzimgSrc = `${imgPath}latest/`,
+      // pcRzltimgSrc = `${imgPath}rzlt/`,
+wapimgSrc = `${imgPath}wap/`,
+      appimgSrc = `${imgPath}applets/`,
+      webAppimgSrc = `${imgPath}webapp/`; // qrcodeimgSrc = `${imgPath}qrcode/`
+
+const latest = [{
+  imgSrc: pcHzimgSrc + '1.png',
+  title: '数据大屏',
+  links: 'https://github.com/zangxiyang/CQUT-party-bigdata',
+  desc: '该项目为人工智能学院打造党员管理的高效化，以加强党员教育为目的，并且结合各级党政机关部门的实际情况，依托互联网、可视化、数据交互、协助等多方面建设的“智慧党建平台”系统。可实现党员学习监管、网上学习、党建信息汇集等功能，为党建事业提供坚强的组织保证。主要功能包括：党总支大屏，支部大屏，组织架构，党务工作，三会一课，党日活动，学习培训，支部发展，政治生日，党员发展等功能 。',
+  category: '学校服务'
+}];
+const applets = [{
+  imgSrc: appimgSrc + '1.png',
+  title: '社团app',
+  links: 'https://github.com/xiaolifeipiao/club',
+  searchKeyword: '社团app',
+  desc: '社团app是一个帮助社团管理高校的社团平台',
+  txtdetails: '社团app',
+  category: '社团app'
+}];
+const pc = [{
+  imgSrc: pcYxtdimgSrc + '1.png',
+  title: '智慧党建平台',
+  links: 'https://github.com/zangxiyang/CQUT-smartparty-front',
+  txtdetails: '智慧党建平台',
+  category: '学习服务'
+}];
+const wap = [{
+  imgSrc: wapimgSrc + '1.png',
+  title: '社团管理app',
+  links: 'https://github.com/xiaolifeipiao/club',
+  txtdetails: '社团管理app',
+  category: '学校服务'
+}];
+const webApp = [{
+  imgSrc: webAppimgSrc + '2.png',
+  title: '',
+  links: 'https://github.com/xiaolifeipiao/carclub_front',
+  txtdetails: '懂车帝车型大会',
+  category: '移动网页',
+  desc: '通过vue3+ts+vite+vant+axios-mapper(模型+防止二次请求),项目技术选型上，我选用了最新的技术，在开发过程遇到一些问题导致开发进度受到影响，在以后的项目开发中，对于不是用来测试技术的项目，选择自己熟悉的版本，重要，重要，非常重要。在项目中虽然遇到一些瓶颈，但是我并没得放弃，而是慢慢把它细化，分而治之。在最终解决不了时，采用其他侧面的解决方案。本次项目的格式化提交做的不好，只是采用eslint+prettier进行简单的本地格式化检查和提交规范，并未加入husky、commitlint和lintstaged约束提交。后期我会加上。在mock数据的选择上，因为及时查阅vite的第三方插件mock可以使用开发和生成一起使用的mock数据。最终选择json-server+mock。导致接口部分没得完善。 在测试方面，因时间问题并没的加入测试，后期补上。在该项目的开发中，了解了mock数据的选型，以及 vite的热更新真的快 ，加强在这方面 的学习，以及对vue3全家桶和ts有了一个全新的认识，vue3的父子组件的执行和异步组件加载，以及子组件的props的只能读不能修改，vue3a父子组件的通信方式和vue2的区别，以及在vue3+ts实现vuex的分模块开发的封装等等，我需要下来在加强vue3的一些特性的学习和原理实现。最后感谢懂车帝平台给我门分享和交流前端和后端的学习，以及和我们交流一些技术和学习路线，收获颇多'
+}, {
+  imgSrc: webAppimgSrc + '1.png',
+  title: '',
+  links: 'https://github.com/xiaolifeipiao/boss',
+  txtdetails: '仿boss开发',
+  category: '移动网页',
+  desc: '通过vue2仿写boss实现'
+}];
+/* harmony default export */ __webpack_exports__["default"] = ({
+  latest: {
+    data: latest,
+    title: '最新'
+  },
+  applets: {
+    data: applets,
+    title: '小程序'
+  },
+  wap: {
+    data: wap,
+    title: '移动端网页'
+  },
+  webApp: {
+    data: webApp,
+    title: 'WebApp'
+  },
+  pc: {
+    data: pc,
+    title: 'PC端网站',
+    isHot: true
+  }
+});
+
+/***/ }),
+
+/***/ 4:
+/*!***********************************!*\
+  !*** multi ./src/pages/works.tsx ***!
+  \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! private-next-pages/_app.tsx */"./src/pages/_app.tsx");
+module.exports = __webpack_require__(/*! C:\Users\19215\Desktop\my_website\src\pages\works.tsx */"./src/pages/works.tsx");
 
 
 /***/ }),
@@ -5345,6 +6492,17 @@ module.exports = require("prop-types-exact");
 
 /***/ }),
 
+/***/ "raf":
+/*!**********************!*\
+  !*** external "raf" ***!
+  \**********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("raf");
+
+/***/ }),
+
 /***/ "rc-dialog":
 /*!****************************!*\
   !*** external "rc-dialog" ***!
@@ -5364,6 +6522,39 @@ module.exports = require("rc-dialog");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-dom":
+/*!****************************!*\
+  !*** external "react-dom" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-dom");
+
+/***/ }),
+
+/***/ "react-infinite-scroller":
+/*!******************************************!*\
+  !*** external "react-infinite-scroller" ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-infinite-scroller");
+
+/***/ }),
+
+/***/ "react-lazyload":
+/*!*********************************!*\
+  !*** external "react-lazyload" ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-lazyload");
 
 /***/ }),
 
@@ -5434,4 +6625,4 @@ module.exports = require("util");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=_app.js.map
+//# sourceMappingURL=works.js.map

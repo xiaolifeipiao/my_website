@@ -1,76 +1,38 @@
 {
-  "devFiles": [],
+  "devFiles": [
+    "static/runtime/react-refresh.js",
+    "static/runtime/react-refresh.js.map",
+    "static/development/dll/dll_fe8f2abcb3377bac33d4.js",
+    "static/development/dll/dll_fe8f2abcb3377bac33d4.js.map"
+  ],
   "lowPriorityFiles": [
-    "static/H2rbmHGCZYra_8VZfryfl/_buildManifest.js",
-    "static/H2rbmHGCZYra_8VZfryfl/_ssgManifest.js"
+    "static/development/_buildManifest.js",
+    "static/development/_ssgManifest.js"
   ],
   "pages": {
     "/": [
-      "static/runtime/webpack-1acc16a5f273a10fa19b.js",
-      "static/chunks/framework.f7e182b537d7542644e7.js",
-      "static/chunks/0b4b5e75.5ff82b56c60dd6b498dc.js",
-      "static/chunks/commons.b3df2092e5b4624d1bdb.js",
-      "static/chunks/371430c08e6fefbc8ac7b7df80b36599e9de8bc9.a4835ecb834a86f838b9.js",
-      "static/chunks/72f8c866702f5959ce7766bd219d486f915d3da6.97cfc7c9d3b3f4d2923b.js",
-      "static/css/f25a77ff0471c6fd2456.css",
-      "static/runtime/main-6025245acf1b28339484.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/_app": [
-      "static/runtime/webpack-1acc16a5f273a10fa19b.js",
-      "static/chunks/framework.f7e182b537d7542644e7.js",
-      "static/chunks/0b4b5e75.5ff82b56c60dd6b498dc.js",
-      "static/chunks/commons.b3df2092e5b4624d1bdb.js",
-      "static/chunks/371430c08e6fefbc8ac7b7df80b36599e9de8bc9.a4835ecb834a86f838b9.js",
-      "static/css/48c4cf63da77dcb18baf.css",
-      "static/runtime/main-6025245acf1b28339484.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/_error": [
-      "static/runtime/webpack-1acc16a5f273a10fa19b.js",
-      "static/chunks/framework.f7e182b537d7542644e7.js",
-      "static/chunks/commons.b3df2092e5b4624d1bdb.js",
-      "static/runtime/main-6025245acf1b28339484.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/_polyfills": [
-      "static/runtime/polyfills-85bd6f9caf66efea67fa.js"
-    ],
-    "/contact": [
-      "static/runtime/webpack-1acc16a5f273a10fa19b.js",
-      "static/chunks/framework.f7e182b537d7542644e7.js",
-      "static/chunks/0b4b5e75.5ff82b56c60dd6b498dc.js",
-      "static/chunks/commons.b3df2092e5b4624d1bdb.js",
-      "static/chunks/371430c08e6fefbc8ac7b7df80b36599e9de8bc9.a4835ecb834a86f838b9.js",
-      "static/css/f25a77ff0471c6fd2456.css",
-      "static/runtime/main-6025245acf1b28339484.js"
+      "static/runtime/polyfills.js",
+      "static/runtime/polyfills.js.map"
     ],
     "/index": [
-      "static/runtime/webpack-1acc16a5f273a10fa19b.js",
-      "static/chunks/framework.f7e182b537d7542644e7.js",
-      "static/chunks/0b4b5e75.5ff82b56c60dd6b498dc.js",
-      "static/chunks/commons.b3df2092e5b4624d1bdb.js",
-      "static/chunks/371430c08e6fefbc8ac7b7df80b36599e9de8bc9.a4835ecb834a86f838b9.js",
-      "static/chunks/72f8c866702f5959ce7766bd219d486f915d3da6.97cfc7c9d3b3f4d2923b.js",
-      "static/css/f25a77ff0471c6fd2456.css",
-      "static/runtime/main-6025245acf1b28339484.js"
-    ],
-    "/tool": [
-      "static/runtime/webpack-1acc16a5f273a10fa19b.js",
-      "static/chunks/framework.f7e182b537d7542644e7.js",
-      "static/chunks/0b4b5e75.5ff82b56c60dd6b498dc.js",
-      "static/chunks/commons.b3df2092e5b4624d1bdb.js",
-      "static/chunks/371430c08e6fefbc8ac7b7df80b36599e9de8bc9.a4835ecb834a86f838b9.js",
-      "static/chunks/72f8c866702f5959ce7766bd219d486f915d3da6.97cfc7c9d3b3f4d2923b.js",
-      "static/css/7991bbca329f3c7e5eab.css",
-      "static/runtime/main-6025245acf1b28339484.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/works": [
-      "static/runtime/webpack-1acc16a5f273a10fa19b.js",
-      "static/chunks/framework.f7e182b537d7542644e7.js",
-      "static/chunks/0b4b5e75.5ff82b56c60dd6b498dc.js",
-      "static/chunks/commons.b3df2092e5b4624d1bdb.js",
-      "static/chunks/371430c08e6fefbc8ac7b7df80b36599e9de8bc9.a4835ecb834a86f838b9.js",
-      "static/chunks/72f8c866702f5959ce7766bd219d486f915d3da6.97cfc7c9d3b3f4d2923b.js",
-      "static/css/5a97ca98c4ff9e556483.css",
-      "static/runtime/main-6025245acf1b28339484.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ]
   }
 }

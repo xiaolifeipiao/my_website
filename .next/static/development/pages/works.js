@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\_app.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\works.js"],{
 
 /***/ "./config/index.js":
 /*!*************************!*\
@@ -538,6 +538,72 @@ function _arrayWithoutHoles(arr) {
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js":
+/*!**************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _assertThisInitialized; });
+function _assertThisInitialized(self) {
+  if (self === void 0) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }
+
+  return self;
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _classCallCheck; });
+function _classCallCheck(instance, Constructor) {
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/createClass.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/createClass.js ***!
+  \****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _createClass; });
+function _defineProperties(target, props) {
+  for (var i = 0; i < props.length; i++) {
+    var descriptor = props[i];
+    descriptor.enumerable = descriptor.enumerable || false;
+    descriptor.configurable = true;
+    if ("value" in descriptor) descriptor.writable = true;
+    Object.defineProperty(target, descriptor.key, descriptor);
+  }
+}
+
+function _createClass(Constructor, protoProps, staticProps) {
+  if (protoProps) _defineProperties(Constructor.prototype, protoProps);
+  if (staticProps) _defineProperties(Constructor, staticProps);
+  return Constructor;
+}
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js":
 /*!*******************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/esm/defineProperty.js ***!
@@ -591,6 +657,54 @@ function _extends() {
   };
 
   return _extends.apply(this, arguments);
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _getPrototypeOf; });
+function _getPrototypeOf(o) {
+  _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {
+    return o.__proto__ || Object.getPrototypeOf(o);
+  };
+  return _getPrototypeOf(o);
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/inherits.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/inherits.js ***!
+  \*************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _inherits; });
+/* harmony import */ var _setPrototypeOf__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./setPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js");
+
+function _inherits(subClass, superClass) {
+  if (typeof superClass !== "function" && superClass !== null) {
+    throw new TypeError("Super expression must either be null or a function");
+  }
+
+  subClass.prototype = Object.create(superClass && superClass.prototype, {
+    constructor: {
+      value: subClass,
+      writable: true,
+      configurable: true
+    }
+  });
+  if (superClass) Object(_setPrototypeOf__WEBPACK_IMPORTED_MODULE_0__["default"])(subClass, superClass);
 }
 
 /***/ }),
@@ -745,6 +859,51 @@ function _objectWithoutPropertiesLoose(source, excluded) {
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js ***!
+  \******************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _possibleConstructorReturn; });
+/* harmony import */ var _helpers_esm_typeof__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../helpers/esm/typeof */ "./node_modules/@babel/runtime/helpers/esm/typeof.js");
+/* harmony import */ var _assertThisInitialized__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
+
+
+function _possibleConstructorReturn(self, call) {
+  if (call && (Object(_helpers_esm_typeof__WEBPACK_IMPORTED_MODULE_0__["default"])(call) === "object" || typeof call === "function")) {
+    return call;
+  }
+
+  return Object(_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1__["default"])(self);
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _setPrototypeOf; });
+function _setPrototypeOf(o, p) {
+  _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
+    o.__proto__ = p;
+    return o;
+  };
+
+  return _setPrototypeOf(o, p);
+}
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js":
 /*!******************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js ***!
@@ -807,6 +966,34 @@ __webpack_require__.r(__webpack_exports__);
 
 function _toConsumableArray(arr) {
   return Object(_arrayWithoutHoles__WEBPACK_IMPORTED_MODULE_0__["default"])(arr) || Object(_iterableToArray__WEBPACK_IMPORTED_MODULE_1__["default"])(arr) || Object(_nonIterableSpread__WEBPACK_IMPORTED_MODULE_2__["default"])();
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/typeof.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/typeof.js ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _typeof; });
+function _typeof2(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof2 = function _typeof2(obj) { return typeof obj; }; } else { _typeof2 = function _typeof2(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof2(obj); }
+
+function _typeof(obj) {
+  if (typeof Symbol === "function" && _typeof2(Symbol.iterator) === "symbol") {
+    _typeof = function _typeof(obj) {
+      return _typeof2(obj);
+    };
+  } else {
+    _typeof = function _typeof(obj) {
+      return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : _typeof2(obj);
+    };
+  }
+
+  return _typeof(obj);
 }
 
 /***/ }),
@@ -3240,52 +3427,6 @@ for (var i = 0; i < DOMIterables.length; i++) {
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/react-share-components/dist/react-share-components.css":
-/*!********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./node_modules/react-share-components/dist/react-share-components.css ***!
-  \********************************************************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
-var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ./fonts/iconfont.eot */ "./node_modules/react-share-components/dist/fonts/iconfont.eot");
-var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(/*! ./fonts/iconfont.woff */ "./node_modules/react-share-components/dist/fonts/iconfont.woff");
-var ___CSS_LOADER_URL_IMPORT_2___ = __webpack_require__(/*! ./fonts/iconfont.ttf */ "./node_modules/react-share-components/dist/fonts/iconfont.ttf");
-var ___CSS_LOADER_URL_IMPORT_3___ = __webpack_require__(/*! ./fonts/iconfont.svg */ "./node_modules/react-share-components/dist/fonts/iconfont.svg");
-exports = ___CSS_LOADER_API_IMPORT___(true);
-var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
-var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___, { hash: "?#iefix" });
-var ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
-var ___CSS_LOADER_URL_REPLACEMENT_3___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);
-var ___CSS_LOADER_URL_REPLACEMENT_4___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_3___, { hash: "#iconfont" });
-// Module
-exports.push([module.i, "@charset \"UTF-8\";@font-face{font-family:socialshare;src:url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");src:url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") format(\"embedded-opentype\"),url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ") format(\"woff\"),url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ") format(\"truetype\"),url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + ") format(\"svg\")}.social-share{font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-webkit-text-stroke-width:.2px;-moz-osx-font-smoothing:grayscale}.social-share,.social-share *{font-family:socialshare!important}.social-share .icon-tencent:before{content:\"\"}.social-share .icon-qq:before{content:\"\"}.social-share .icon-weibo:before{content:\"\"}.social-share .icon-wechat:before{content:\"\"}.social-share .icon-douban:before{content:\"\"}.social-share .icon-heart:before{content:\"\"}.social-share .icon-like:before{content:\"\"}.social-share .icon-qzone:before{content:\"\"}.social-share .icon-linkedin:before{content:\"\"}.social-share .icon-diandian:before{content:\"\"}.social-share .icon-facebook:before{content:\"\"}.social-share .icon-google:before{content:\"\"}.social-share .icon-twitter:before{content:\"\"}.social-share a{position:relative;text-decoration:none;margin:4px;display:inline-block;outline:none}.social-share .social-share-icon{position:relative;display:inline-block;width:32px;height:32px;font-size:20px;border-radius:50%;line-height:32px;border:1px solid #666;color:#666;text-align:center;vertical-align:middle;transition:background .6s ease-out 0s}.social-share .social-share-icon:hover{background:#666;color:#fff}.social-share .icon-weibo{color:#ff763b;border-color:#ff763b}.social-share .icon-weibo:hover{background:#ff763b}.social-share .icon-tencent{color:#56b6e7;border-color:#56b6e7}.social-share .icon-tencent:hover{background:#56b6e7}.social-share .icon-qq{color:#56b6e7;border-color:#56b6e7}.social-share .icon-qq:hover{background:#56b6e7}.social-share .icon-qzone{color:#fdbe3d;border-color:#fdbe3d}.social-share .icon-qzone:hover{background:#fdbe3d}.social-share .icon-douban{color:#33b045;border-color:#33b045}.social-share .icon-douban:hover{background:#33b045}.social-share .icon-linkedin{color:#0077b5;border-color:#0077b5}.social-share .icon-linkedin:hover{background:#0077b5}.social-share .icon-facebook{color:#44619d;border-color:#44619d}.social-share .icon-facebook:hover{background:#44619d}.social-share .icon-google{color:#db4437;border-color:#db4437}.social-share .icon-google:hover{background:#db4437}.social-share .icon-twitter{color:#55acee;border-color:#55acee}.social-share .icon-twitter:hover{background:#55acee}.social-share .icon-diandian{color:#307dca;border-color:#307dca}.social-share .icon-diandian:hover{background:#307dca}.social-share .icon-wechat{position:relative;color:#7bc549;border-color:#7bc549}.social-share .icon-wechat:hover{background:#7bc549}.social-share .icon-wechat .wechat-qrcode{display:none;border:1px solid #eee;position:absolute;z-index:9;top:-205px;left:-84px;width:200px;height:192px;color:#666;font-size:12px;text-align:center;background-color:#fff;box-shadow:0 2px 10px #aaa;transition:all .2s;-webkit-tansition:all .35s;-moz-transition:all .35s}.social-share .icon-wechat .wechat-qrcode.bottom{top:40px;left:-84px}.social-share .icon-wechat .wechat-qrcode.bottom:after{display:none}.social-share .icon-wechat .wechat-qrcode h4{font-weight:400;height:26px;line-height:26px;font-size:12px;background-color:#f3f3f3;margin:0;padding:0;color:#777}.social-share .icon-wechat .wechat-qrcode .qrcode{width:105px;margin:10px auto}.social-share .icon-wechat .wechat-qrcode .qrcode table{margin:0!important}.social-share .icon-wechat .wechat-qrcode .help p{font-weight:400;line-height:16px;padding:0;margin:0}.social-share .icon-wechat .wechat-qrcode:after{content:\"\";position:absolute;left:50%;margin-left:-6px;bottom:-13px;width:0;height:0;border:6px solid transparent;border-top:8px solid #fff}.social-share .icon-wechat:hover .wechat-qrcode{display:block}", "",{"version":3,"sources":["C:/Users/19215/Desktop/my_website/node_modules/react-share-components/dist/react-share-components.css"],"names":[],"mappings":"AAAA,gBAAgB,CAAC,WAAW,uBAAuB,CAAC,2CAA2B,CAAC,+OAAgM,CAAC,cAAc,cAAc,CAAC,iBAAiB,CAAC,kCAAkC,CAAC,8BAA8B,CAAC,iCAAiC,CAAC,8BAA8B,iCAAiC,CAAC,mCAAmC,WAAW,CAAC,8BAA8B,WAAW,CAAC,iCAAiC,WAAW,CAAC,kCAAkC,WAAW,CAAC,kCAAkC,WAAW,CAAC,iCAAiC,WAAW,CAAC,gCAAgC,WAAW,CAAC,iCAAiC,WAAW,CAAC,oCAAoC,WAAW,CAAC,oCAAoC,WAAW,CAAC,oCAAoC,WAAW,CAAC,kCAAkC,WAAW,CAAC,mCAAmC,WAAW,CAAC,gBAAgB,iBAAiB,CAAC,oBAAoB,CAAC,UAAU,CAAC,oBAAoB,CAAC,YAAY,CAAC,iCAAiC,iBAAiB,CAAC,oBAAoB,CAAC,UAAU,CAAC,WAAW,CAAC,cAAc,CAAC,iBAAiB,CAAC,gBAAgB,CAAC,qBAAqB,CAAC,UAAU,CAAC,iBAAiB,CAAC,qBAAqB,CAA+C,qCAAqC,CAAC,uCAAuC,eAAe,CAAC,UAAU,CAAC,0BAA0B,aAAa,CAAC,oBAAoB,CAAC,gCAAgC,kBAAkB,CAAC,4BAA4B,aAAa,CAAC,oBAAoB,CAAC,kCAAkC,kBAAkB,CAAC,uBAAuB,aAAa,CAAC,oBAAoB,CAAC,6BAA6B,kBAAkB,CAAC,0BAA0B,aAAa,CAAC,oBAAoB,CAAC,gCAAgC,kBAAkB,CAAC,2BAA2B,aAAa,CAAC,oBAAoB,CAAC,iCAAiC,kBAAkB,CAAC,6BAA6B,aAAa,CAAC,oBAAoB,CAAC,mCAAmC,kBAAkB,CAAC,6BAA6B,aAAa,CAAC,oBAAoB,CAAC,mCAAmC,kBAAkB,CAAC,2BAA2B,aAAa,CAAC,oBAAoB,CAAC,iCAAiC,kBAAkB,CAAC,4BAA4B,aAAa,CAAC,oBAAoB,CAAC,kCAAkC,kBAAkB,CAAC,6BAA6B,aAAa,CAAC,oBAAoB,CAAC,mCAAmC,kBAAkB,CAAC,2BAA2B,iBAAiB,CAAC,aAAa,CAAC,oBAAoB,CAAC,iCAAiC,kBAAkB,CAAC,0CAA0C,YAAY,CAAC,qBAAqB,CAAC,iBAAiB,CAAC,SAAS,CAAC,UAAU,CAAC,UAAU,CAAC,WAAW,CAAC,YAAY,CAAC,UAAU,CAAC,cAAc,CAAC,iBAAiB,CAAC,qBAAqB,CAAoC,0BAA0B,CAA4B,kBAAkB,CAAC,0BAA0B,CAAC,wBAAwB,CAAC,iDAAiD,QAAQ,CAAC,UAAU,CAAC,uDAAuD,YAAY,CAAC,6CAA6C,eAAe,CAAC,WAAW,CAAC,gBAAgB,CAAC,cAAc,CAAC,wBAAwB,CAAC,QAAQ,CAAC,SAAS,CAAC,UAAU,CAAC,kDAAkD,WAAW,CAAC,gBAAgB,CAAC,wDAAwD,kBAAkB,CAAC,kDAAkD,eAAe,CAAC,gBAAgB,CAAC,SAAS,CAAC,QAAQ,CAAC,gDAAgD,UAAU,CAAC,iBAAiB,CAAC,QAAQ,CAAC,gBAAgB,CAAC,YAAY,CAAC,OAAO,CAAC,QAAQ,CAAC,4BAA4B,CAAC,yBAAyB,CAAC,gDAAgD,aAAa","file":"react-share-components.css","sourcesContent":["@charset \"UTF-8\";@font-face{font-family:socialshare;src:url(fonts/iconfont.eot);src:url(fonts/iconfont.eot?#iefix) format(\"embedded-opentype\"),url(fonts/iconfont.woff) format(\"woff\"),url(fonts/iconfont.ttf) format(\"truetype\"),url(fonts/iconfont.svg#iconfont) format(\"svg\")}.social-share{font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-webkit-text-stroke-width:.2px;-moz-osx-font-smoothing:grayscale}.social-share,.social-share *{font-family:socialshare!important}.social-share .icon-tencent:before{content:\"\"}.social-share .icon-qq:before{content:\"\"}.social-share .icon-weibo:before{content:\"\"}.social-share .icon-wechat:before{content:\"\"}.social-share .icon-douban:before{content:\"\"}.social-share .icon-heart:before{content:\"\"}.social-share .icon-like:before{content:\"\"}.social-share .icon-qzone:before{content:\"\"}.social-share .icon-linkedin:before{content:\"\"}.social-share .icon-diandian:before{content:\"\"}.social-share .icon-facebook:before{content:\"\"}.social-share .icon-google:before{content:\"\"}.social-share .icon-twitter:before{content:\"\"}.social-share a{position:relative;text-decoration:none;margin:4px;display:inline-block;outline:none}.social-share .social-share-icon{position:relative;display:inline-block;width:32px;height:32px;font-size:20px;border-radius:50%;line-height:32px;border:1px solid #666;color:#666;text-align:center;vertical-align:middle;-webkit-transition:background .6s ease-out 0s;transition:background .6s ease-out 0s}.social-share .social-share-icon:hover{background:#666;color:#fff}.social-share .icon-weibo{color:#ff763b;border-color:#ff763b}.social-share .icon-weibo:hover{background:#ff763b}.social-share .icon-tencent{color:#56b6e7;border-color:#56b6e7}.social-share .icon-tencent:hover{background:#56b6e7}.social-share .icon-qq{color:#56b6e7;border-color:#56b6e7}.social-share .icon-qq:hover{background:#56b6e7}.social-share .icon-qzone{color:#fdbe3d;border-color:#fdbe3d}.social-share .icon-qzone:hover{background:#fdbe3d}.social-share .icon-douban{color:#33b045;border-color:#33b045}.social-share .icon-douban:hover{background:#33b045}.social-share .icon-linkedin{color:#0077b5;border-color:#0077b5}.social-share .icon-linkedin:hover{background:#0077b5}.social-share .icon-facebook{color:#44619d;border-color:#44619d}.social-share .icon-facebook:hover{background:#44619d}.social-share .icon-google{color:#db4437;border-color:#db4437}.social-share .icon-google:hover{background:#db4437}.social-share .icon-twitter{color:#55acee;border-color:#55acee}.social-share .icon-twitter:hover{background:#55acee}.social-share .icon-diandian{color:#307dca;border-color:#307dca}.social-share .icon-diandian:hover{background:#307dca}.social-share .icon-wechat{position:relative;color:#7bc549;border-color:#7bc549}.social-share .icon-wechat:hover{background:#7bc549}.social-share .icon-wechat .wechat-qrcode{display:none;border:1px solid #eee;position:absolute;z-index:9;top:-205px;left:-84px;width:200px;height:192px;color:#666;font-size:12px;text-align:center;background-color:#fff;-webkit-box-shadow:0 2px 10px #aaa;box-shadow:0 2px 10px #aaa;-webkit-transition:all .2s;transition:all .2s;-webkit-tansition:all .35s;-moz-transition:all .35s}.social-share .icon-wechat .wechat-qrcode.bottom{top:40px;left:-84px}.social-share .icon-wechat .wechat-qrcode.bottom:after{display:none}.social-share .icon-wechat .wechat-qrcode h4{font-weight:400;height:26px;line-height:26px;font-size:12px;background-color:#f3f3f3;margin:0;padding:0;color:#777}.social-share .icon-wechat .wechat-qrcode .qrcode{width:105px;margin:10px auto}.social-share .icon-wechat .wechat-qrcode .qrcode table{margin:0!important}.social-share .icon-wechat .wechat-qrcode .help p{font-weight:400;line-height:16px;padding:0;margin:0}.social-share .icon-wechat .wechat-qrcode:after{content:\"\";position:absolute;left:50%;margin-left:-6px;bottom:-13px;width:0;height:0;border:6px solid transparent;border-top:8px solid #fff}.social-share .icon-wechat:hover .wechat-qrcode{display:block}"]}]);
-// Exports
-module.exports = exports;
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/normalize.css/normalize.css":
-/*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./node_modules/resolve-url-loader??ref--5-oneOf-6-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./node_modules/normalize.css/normalize.css ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-exports = ___CSS_LOADER_API_IMPORT___(true);
-// Module
-exports.push([module.i, "/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */\n/* Document\n   ========================================================================== */\n/**\n * 1. Correct the line height in all browsers.\n * 2. Prevent adjustments of font size after orientation changes in iOS.\n */\nhtml {\n  line-height: 1.15;\n  /* 1 */\n  -webkit-text-size-adjust: 100%;\n  /* 2 */\n}\n\n/* Sections\n   ========================================================================== */\n/**\n * Remove the margin in all browsers.\n */\nbody {\n  margin: 0;\n}\n\n/**\n * Render the `main` element consistently in IE.\n */\nmain {\n  display: block;\n}\n\n/**\n * Correct the font size and margin on `h1` elements within `section` and\n * `article` contexts in Chrome, Firefox, and Safari.\n */\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0;\n}\n\n/* Grouping content\n   ========================================================================== */\n/**\n * 1. Add the correct box sizing in Firefox.\n * 2. Show the overflow in Edge and IE.\n */\nhr {\n  box-sizing: content-box;\n  /* 1 */\n  height: 0;\n  /* 1 */\n  overflow: visible;\n  /* 2 */\n}\n\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\npre {\n  font-family: monospace, monospace;\n  /* 1 */\n  font-size: 1em;\n  /* 2 */\n}\n\n/* Text-level semantics\n   ========================================================================== */\n/**\n * Remove the gray background on active links in IE 10.\n */\na {\n  background-color: transparent;\n}\n\n/**\n * 1. Remove the bottom border in Chrome 57-\n * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.\n */\nabbr[title] {\n  border-bottom: none;\n  /* 1 */\n  text-decoration: underline;\n  /* 2 */\n  -webkit-text-decoration: underline dotted;\n          text-decoration: underline dotted;\n  /* 2 */\n}\n\n/**\n * Add the correct font weight in Chrome, Edge, and Safari.\n */\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\ncode,\nkbd,\nsamp {\n  font-family: monospace, monospace;\n  /* 1 */\n  font-size: 1em;\n  /* 2 */\n}\n\n/**\n * Add the correct font size in all browsers.\n */\nsmall {\n  font-size: 80%;\n}\n\n/**\n * Prevent `sub` and `sup` elements from affecting the line height in\n * all browsers.\n */\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/* Embedded content\n   ========================================================================== */\n/**\n * Remove the border on images inside links in IE 10.\n */\nimg {\n  border-style: none;\n}\n\n/* Forms\n   ========================================================================== */\n/**\n * 1. Change the font styles in all browsers.\n * 2. Remove the margin in Firefox and Safari.\n */\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit;\n  /* 1 */\n  font-size: 100%;\n  /* 1 */\n  line-height: 1.15;\n  /* 1 */\n  margin: 0;\n  /* 2 */\n}\n\n/**\n * Show the overflow in IE.\n * 1. Show the overflow in Edge.\n */\nbutton,\ninput {\n  /* 1 */\n  overflow: visible;\n}\n\n/**\n * Remove the inheritance of text transform in Edge, Firefox, and IE.\n * 1. Remove the inheritance of text transform in Firefox.\n */\nbutton,\nselect {\n  /* 1 */\n  text-transform: none;\n}\n\n/**\n * Correct the inability to style clickable types in iOS and Safari.\n */\nbutton,\n[type=button],\n[type=reset],\n[type=submit] {\n  -webkit-appearance: button;\n}\n\n/**\n * Remove the inner border and padding in Firefox.\n */\nbutton::-moz-focus-inner,\n[type=button]::-moz-focus-inner,\n[type=reset]::-moz-focus-inner,\n[type=submit]::-moz-focus-inner {\n  border-style: none;\n  padding: 0;\n}\n\n/**\n * Restore the focus styles unset by the previous rule.\n */\nbutton:-moz-focusring,\n[type=button]:-moz-focusring,\n[type=reset]:-moz-focusring,\n[type=submit]:-moz-focusring {\n  outline: 1px dotted ButtonText;\n}\n\n/**\n * Correct the padding in Firefox.\n */\nfieldset {\n  padding: 0.35em 0.75em 0.625em;\n}\n\n/**\n * 1. Correct the text wrapping in Edge and IE.\n * 2. Correct the color inheritance from `fieldset` elements in IE.\n * 3. Remove the padding so developers are not caught out when they zero out\n *    `fieldset` elements in all browsers.\n */\nlegend {\n  box-sizing: border-box;\n  /* 1 */\n  color: inherit;\n  /* 2 */\n  display: table;\n  /* 1 */\n  max-width: 100%;\n  /* 1 */\n  padding: 0;\n  /* 3 */\n  white-space: normal;\n  /* 1 */\n}\n\n/**\n * Add the correct vertical alignment in Chrome, Firefox, and Opera.\n */\nprogress {\n  vertical-align: baseline;\n}\n\n/**\n * Remove the default vertical scrollbar in IE 10+.\n */\ntextarea {\n  overflow: auto;\n}\n\n/**\n * 1. Add the correct box sizing in IE 10.\n * 2. Remove the padding in IE 10.\n */\n[type=checkbox],\n[type=radio] {\n  box-sizing: border-box;\n  /* 1 */\n  padding: 0;\n  /* 2 */\n}\n\n/**\n * Correct the cursor style of increment and decrement buttons in Chrome.\n */\n[type=number]::-webkit-inner-spin-button,\n[type=number]::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/**\n * 1. Correct the odd appearance in Chrome and Safari.\n * 2. Correct the outline style in Safari.\n */\n[type=search] {\n  -webkit-appearance: textfield;\n  /* 1 */\n  outline-offset: -2px;\n  /* 2 */\n}\n\n/**\n * Remove the inner padding in Chrome and Safari on macOS.\n */\n[type=search]::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/**\n * 1. Correct the inability to style clickable types in iOS and Safari.\n * 2. Change font properties to `inherit` in Safari.\n */\n::-webkit-file-upload-button {\n  -webkit-appearance: button;\n  /* 1 */\n  font: inherit;\n  /* 2 */\n}\n\n/* Interactive\n   ========================================================================== */\n/*\n * Add the correct display in Edge, IE 10+, and Firefox.\n */\ndetails {\n  display: block;\n}\n\n/*\n * Add the correct display in all browsers.\n */\nsummary {\n  display: list-item;\n}\n\n/* Misc\n   ========================================================================== */\n/**\n * Add the correct display in IE 10+.\n */\ntemplate {\n  display: none;\n}\n\n/**\n * Add the correct display in IE 10.\n */\n[hidden] {\n  display: none;\n}", "",{"version":3,"sources":["C:/Users/19215/Desktop/my_website/node_modules/normalize.css/normalize.css"],"names":[],"mappings":"AAAA,2EAAA;AAEA;+EAAA;AAGA;;;EAAA;AAKA;EACE,iBAAA;EAAmB,MAAA;EACnB,8BAAA;EAAgC,MAAA;AAAlC;;AAGA;+EAAA;AAGA;;EAAA;AAIA;EACE,SAAA;AAFF;;AAKA;;EAAA;AAIA;EACE,cAAA;AAHF;;AAMA;;;EAAA;AAKA;EACE,cAAA;EACA,gBAAA;AAJF;;AAOA;+EAAA;AAGA;;;EAAA;AAKA;EACE,uBAAA;EAAyB,MAAA;EACzB,SAAA;EAAW,MAAA;EACX,iBAAA;EAAmB,MAAA;AAHrB;;AAMA;;;EAAA;AAKA;EACE,iCAAA;EAAmC,MAAA;EACnC,cAAA;EAAgB,MAAA;AAFlB;;AAKA;+EAAA;AAGA;;EAAA;AAIA;EACE,6BAAA;AAJF;;AAOA;;;EAAA;AAKA;EACE,mBAAA;EAAqB,MAAA;EACrB,0BAAA;EAA4B,MAAA;EAC5B,yCAAA;UAAA,iCAAA;EAAmC,MAAA;AAFrC;;AAKA;;EAAA;AAIA;;EAEE,mBAAA;AAHF;;AAMA;;;EAAA;AAKA;;;EAGE,iCAAA;EAAmC,MAAA;EACnC,cAAA;EAAgB,MAAA;AAFlB;;AAKA;;EAAA;AAIA;EACE,cAAA;AAHF;;AAMA;;;EAAA;AAKA;;EAEE,cAAA;EACA,cAAA;EACA,kBAAA;EACA,wBAAA;AAJF;;AAOA;EACE,eAAA;AAJF;;AAOA;EACE,WAAA;AAJF;;AAOA;+EAAA;AAGA;;EAAA;AAIA;EACE,kBAAA;AANF;;AASA;+EAAA;AAGA;;;EAAA;AAKA;;;;;EAKE,oBAAA;EAAsB,MAAA;EACtB,eAAA;EAAiB,MAAA;EACjB,iBAAA;EAAmB,MAAA;EACnB,SAAA;EAAW,MAAA;AAJb;;AAOA;;;EAAA;AAKA;;EACQ,MAAA;EACN,iBAAA;AAJF;;AAOA;;;EAAA;AAKA;;EACS,MAAA;EACP,oBAAA;AAJF;;AAOA;;EAAA;AAIA;;;;EAIE,0BAAA;AALF;;AAQA;;EAAA;AAIA;;;;EAIE,kBAAA;EACA,UAAA;AANF;;AASA;;EAAA;AAIA;;;;EAIE,8BAAA;AAPF;;AAUA;;EAAA;AAIA;EACE,8BAAA;AARF;;AAWA;;;;;EAAA;AAOA;EACE,sBAAA;EAAwB,MAAA;EACxB,cAAA;EAAgB,MAAA;EAChB,cAAA;EAAgB,MAAA;EAChB,eAAA;EAAiB,MAAA;EACjB,UAAA;EAAY,MAAA;EACZ,mBAAA;EAAqB,MAAA;AAHvB;;AAMA;;EAAA;AAIA;EACE,wBAAA;AAJF;;AAOA;;EAAA;AAIA;EACE,cAAA;AALF;;AAQA;;;EAAA;AAKA;;EAEE,sBAAA;EAAwB,MAAA;EACxB,UAAA;EAAY,MAAA;AAJd;;AAOA;;EAAA;AAIA;;EAEE,YAAA;AALF;;AAQA;;;EAAA;AAKA;EACE,6BAAA;EAA+B,MAAA;EAC/B,oBAAA;EAAsB,MAAA;AAJxB;;AAOA;;EAAA;AAIA;EACE,wBAAA;AALF;;AAQA;;;EAAA;AAKA;EACE,0BAAA;EAA4B,MAAA;EAC5B,aAAA;EAAe,MAAA;AAJjB;;AAOA;+EAAA;AAGA;;EAAA;AAIA;EACE,cAAA;AANF;;AASA;;EAAA;AAIA;EACE,kBAAA;AAPF;;AAUA;+EAAA;AAGA;;EAAA;AAIA;EACE,aAAA;AATF;;AAYA;;EAAA;AAIA;EACE,aAAA;AAVF","file":"normalize.css","sourcesContent":["/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */\r\n\r\n/* Document\r\n   ========================================================================== */\r\n\r\n/**\r\n * 1. Correct the line height in all browsers.\r\n * 2. Prevent adjustments of font size after orientation changes in iOS.\r\n */\r\n\r\nhtml {\r\n  line-height: 1.15; /* 1 */\r\n  -webkit-text-size-adjust: 100%; /* 2 */\r\n}\r\n\r\n/* Sections\r\n   ========================================================================== */\r\n\r\n/**\r\n * Remove the margin in all browsers.\r\n */\r\n\r\nbody {\r\n  margin: 0;\r\n}\r\n\r\n/**\r\n * Render the `main` element consistently in IE.\r\n */\r\n\r\nmain {\r\n  display: block;\r\n}\r\n\r\n/**\r\n * Correct the font size and margin on `h1` elements within `section` and\r\n * `article` contexts in Chrome, Firefox, and Safari.\r\n */\r\n\r\nh1 {\r\n  font-size: 2em;\r\n  margin: 0.67em 0;\r\n}\r\n\r\n/* Grouping content\r\n   ========================================================================== */\r\n\r\n/**\r\n * 1. Add the correct box sizing in Firefox.\r\n * 2. Show the overflow in Edge and IE.\r\n */\r\n\r\nhr {\r\n  box-sizing: content-box; /* 1 */\r\n  height: 0; /* 1 */\r\n  overflow: visible; /* 2 */\r\n}\r\n\r\n/**\r\n * 1. Correct the inheritance and scaling of font size in all browsers.\r\n * 2. Correct the odd `em` font sizing in all browsers.\r\n */\r\n\r\npre {\r\n  font-family: monospace, monospace; /* 1 */\r\n  font-size: 1em; /* 2 */\r\n}\r\n\r\n/* Text-level semantics\r\n   ========================================================================== */\r\n\r\n/**\r\n * Remove the gray background on active links in IE 10.\r\n */\r\n\r\na {\r\n  background-color: transparent;\r\n}\r\n\r\n/**\r\n * 1. Remove the bottom border in Chrome 57-\r\n * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.\r\n */\r\n\r\nabbr[title] {\r\n  border-bottom: none; /* 1 */\r\n  text-decoration: underline; /* 2 */\r\n  text-decoration: underline dotted; /* 2 */\r\n}\r\n\r\n/**\r\n * Add the correct font weight in Chrome, Edge, and Safari.\r\n */\r\n\r\nb,\r\nstrong {\r\n  font-weight: bolder;\r\n}\r\n\r\n/**\r\n * 1. Correct the inheritance and scaling of font size in all browsers.\r\n * 2. Correct the odd `em` font sizing in all browsers.\r\n */\r\n\r\ncode,\r\nkbd,\r\nsamp {\r\n  font-family: monospace, monospace; /* 1 */\r\n  font-size: 1em; /* 2 */\r\n}\r\n\r\n/**\r\n * Add the correct font size in all browsers.\r\n */\r\n\r\nsmall {\r\n  font-size: 80%;\r\n}\r\n\r\n/**\r\n * Prevent `sub` and `sup` elements from affecting the line height in\r\n * all browsers.\r\n */\r\n\r\nsub,\r\nsup {\r\n  font-size: 75%;\r\n  line-height: 0;\r\n  position: relative;\r\n  vertical-align: baseline;\r\n}\r\n\r\nsub {\r\n  bottom: -0.25em;\r\n}\r\n\r\nsup {\r\n  top: -0.5em;\r\n}\r\n\r\n/* Embedded content\r\n   ========================================================================== */\r\n\r\n/**\r\n * Remove the border on images inside links in IE 10.\r\n */\r\n\r\nimg {\r\n  border-style: none;\r\n}\r\n\r\n/* Forms\r\n   ========================================================================== */\r\n\r\n/**\r\n * 1. Change the font styles in all browsers.\r\n * 2. Remove the margin in Firefox and Safari.\r\n */\r\n\r\nbutton,\r\ninput,\r\noptgroup,\r\nselect,\r\ntextarea {\r\n  font-family: inherit; /* 1 */\r\n  font-size: 100%; /* 1 */\r\n  line-height: 1.15; /* 1 */\r\n  margin: 0; /* 2 */\r\n}\r\n\r\n/**\r\n * Show the overflow in IE.\r\n * 1. Show the overflow in Edge.\r\n */\r\n\r\nbutton,\r\ninput { /* 1 */\r\n  overflow: visible;\r\n}\r\n\r\n/**\r\n * Remove the inheritance of text transform in Edge, Firefox, and IE.\r\n * 1. Remove the inheritance of text transform in Firefox.\r\n */\r\n\r\nbutton,\r\nselect { /* 1 */\r\n  text-transform: none;\r\n}\r\n\r\n/**\r\n * Correct the inability to style clickable types in iOS and Safari.\r\n */\r\n\r\nbutton,\r\n[type=\"button\"],\r\n[type=\"reset\"],\r\n[type=\"submit\"] {\r\n  -webkit-appearance: button;\r\n}\r\n\r\n/**\r\n * Remove the inner border and padding in Firefox.\r\n */\r\n\r\nbutton::-moz-focus-inner,\r\n[type=\"button\"]::-moz-focus-inner,\r\n[type=\"reset\"]::-moz-focus-inner,\r\n[type=\"submit\"]::-moz-focus-inner {\r\n  border-style: none;\r\n  padding: 0;\r\n}\r\n\r\n/**\r\n * Restore the focus styles unset by the previous rule.\r\n */\r\n\r\nbutton:-moz-focusring,\r\n[type=\"button\"]:-moz-focusring,\r\n[type=\"reset\"]:-moz-focusring,\r\n[type=\"submit\"]:-moz-focusring {\r\n  outline: 1px dotted ButtonText;\r\n}\r\n\r\n/**\r\n * Correct the padding in Firefox.\r\n */\r\n\r\nfieldset {\r\n  padding: 0.35em 0.75em 0.625em;\r\n}\r\n\r\n/**\r\n * 1. Correct the text wrapping in Edge and IE.\r\n * 2. Correct the color inheritance from `fieldset` elements in IE.\r\n * 3. Remove the padding so developers are not caught out when they zero out\r\n *    `fieldset` elements in all browsers.\r\n */\r\n\r\nlegend {\r\n  box-sizing: border-box; /* 1 */\r\n  color: inherit; /* 2 */\r\n  display: table; /* 1 */\r\n  max-width: 100%; /* 1 */\r\n  padding: 0; /* 3 */\r\n  white-space: normal; /* 1 */\r\n}\r\n\r\n/**\r\n * Add the correct vertical alignment in Chrome, Firefox, and Opera.\r\n */\r\n\r\nprogress {\r\n  vertical-align: baseline;\r\n}\r\n\r\n/**\r\n * Remove the default vertical scrollbar in IE 10+.\r\n */\r\n\r\ntextarea {\r\n  overflow: auto;\r\n}\r\n\r\n/**\r\n * 1. Add the correct box sizing in IE 10.\r\n * 2. Remove the padding in IE 10.\r\n */\r\n\r\n[type=\"checkbox\"],\r\n[type=\"radio\"] {\r\n  box-sizing: border-box; /* 1 */\r\n  padding: 0; /* 2 */\r\n}\r\n\r\n/**\r\n * Correct the cursor style of increment and decrement buttons in Chrome.\r\n */\r\n\r\n[type=\"number\"]::-webkit-inner-spin-button,\r\n[type=\"number\"]::-webkit-outer-spin-button {\r\n  height: auto;\r\n}\r\n\r\n/**\r\n * 1. Correct the odd appearance in Chrome and Safari.\r\n * 2. Correct the outline style in Safari.\r\n */\r\n\r\n[type=\"search\"] {\r\n  -webkit-appearance: textfield; /* 1 */\r\n  outline-offset: -2px; /* 2 */\r\n}\r\n\r\n/**\r\n * Remove the inner padding in Chrome and Safari on macOS.\r\n */\r\n\r\n[type=\"search\"]::-webkit-search-decoration {\r\n  -webkit-appearance: none;\r\n}\r\n\r\n/**\r\n * 1. Correct the inability to style clickable types in iOS and Safari.\r\n * 2. Change font properties to `inherit` in Safari.\r\n */\r\n\r\n::-webkit-file-upload-button {\r\n  -webkit-appearance: button; /* 1 */\r\n  font: inherit; /* 2 */\r\n}\r\n\r\n/* Interactive\r\n   ========================================================================== */\r\n\r\n/*\r\n * Add the correct display in Edge, IE 10+, and Firefox.\r\n */\r\n\r\ndetails {\r\n  display: block;\r\n}\r\n\r\n/*\r\n * Add the correct display in all browsers.\r\n */\r\n\r\nsummary {\r\n  display: list-item;\r\n}\r\n\r\n/* Misc\r\n   ========================================================================== */\r\n\r\n/**\r\n * Add the correct display in IE 10+.\r\n */\r\n\r\ntemplate {\r\n  display: none;\r\n}\r\n\r\n/**\r\n * Add the correct display in IE 10.\r\n */\r\n\r\n[hidden] {\r\n  display: none;\r\n}\r\n"]}]);
-// Exports
-module.exports = exports;
-
-
-/***/ }),
-
 /***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/assets/styles/sass/frame/layout.module.scss":
 /*!*************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-3-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./node_modules/resolve-url-loader??ref--5-oneOf-3-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-3-4!./src/assets/styles/sass/frame/layout.module.scss ***!
@@ -3333,37 +3474,6 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/assets/styles/sass/global.scss":
-/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./node_modules/resolve-url-loader??ref--5-oneOf-6-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./src/assets/styles/sass/global.scss ***!
-  \************************************************************************************************************************************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-var ___CSS_LOADER_AT_RULE_IMPORT_0___ = __webpack_require__(/*! -!../../../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!../../../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!../../../../node_modules/resolve-url-loader??ref--5-oneOf-6-3!../../../../node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!@node_modules/normalize.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/normalize.css/normalize.css");
-var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
-var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! @fonts/font-niconne/Niconne-Regular.eot */ "./src/assets/fonts/font-niconne/Niconne-Regular.eot");
-var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(/*! @fonts/font-niconne/Niconne-Regular.svg */ "./src/assets/fonts/font-niconne/Niconne-Regular.svg");
-var ___CSS_LOADER_URL_IMPORT_2___ = __webpack_require__(/*! @fonts/font-niconne/Niconne-Regular.ttf */ "./src/assets/fonts/font-niconne/Niconne-Regular.ttf");
-var ___CSS_LOADER_URL_IMPORT_3___ = __webpack_require__(/*! @fonts/font-niconne/Niconne-Regular.woff */ "./src/assets/fonts/font-niconne/Niconne-Regular.woff");
-var ___CSS_LOADER_URL_IMPORT_4___ = __webpack_require__(/*! @images/exclude/sprite.f68d229fbb465db5c9f86d4bdf34d246.png */ "./src/assets/images/exclude/sprite.f68d229fbb465db5c9f86d4bdf34d246.png");
-exports = ___CSS_LOADER_API_IMPORT___(true);
-exports.i(___CSS_LOADER_AT_RULE_IMPORT_0___);
-var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
-var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
-var ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);
-var ___CSS_LOADER_URL_REPLACEMENT_3___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_3___);
-var ___CSS_LOADER_URL_REPLACEMENT_4___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_4___);
-// Module
-exports.push([module.i, ":root {\n  --size-xxs: 10px;\n  --size-xs: 12px;\n  --size-sm: 14px;\n  --size-md: 16px;\n  --size-lg: 18px;\n  --size-xl: 24px;\n  --size-xxl: 30px;\n  --space-xxs: 5px;\n  --space-xs: 6px;\n  --space-sm: 8px;\n  --space-md: 10px;\n  --space-lg: 12px;\n  --space-xl: 14px;\n  --space-xxl: 16px;\n  --color-primary: #639;\n  --color-black: #000;\n  --color-white: #fff;\n  --color-transparent: transparent;\n  --color-light-gray: #f9f9f9;\n  --color-lighten-gray: #dadada;\n  --color-default-gray: #aaa;\n  --color-dark-gray: #888;\n  --color-highlight: red;\n}\n\n*,\n:after,\n:before {\n  box-sizing: border-box;\n}\n\n@font-face {\n  font-family: \"Niconne-Regular\";\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "), url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + "), url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + "), url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ");\n}\nbody {\n  font: lighter 14px/1.5 \"Helvetica Neue\", \"Helvetica\", \"HanHei SC\", \"PingFang SC\", \"STHeitiSC-Light\", \"Arial\", \"Microsoft Yahei\", sans-serif;\n  background-color: var(--color-light-gray);\n  color: var(--color-default-gray);\n}\n\nhtml,\nbody,\n#__next {\n  height: 100%;\n}\n\nul,\nli {\n  list-style: none;\n}\n\ni[class^=icon] {\n  display: inline-block;\n  vertical-align: middle;\n}\n\nbutton {\n  padding: 0;\n  cursor: pointer;\n}\n\nbutton,\n[type=button] {\n  -webkit-appearance: button;\n}\n\na {\n  text-decoration: none;\n  color: var(--color-default-gray);\n}\na:hover {\n  color: var(--color-primary);\n}\n\nfigure {\n  margin: 0;\n}\n\nimg {\n  max-width: 100%;\n}\n\n.font-family-niconne {\n  font-family: \"Niconne-Regular\";\n}\n\n.font-family-georgia {\n  font-family: \"Georgia\";\n}\n\n.rc-dialog {\n  position: relative;\n  top: 50%;\n  width: auto;\n  margin: 0 auto;\n  pointer-events: none;\n  transform: translateY(-50%);\n}\n.rc-dialog-mask {\n  position: fixed;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  z-index: 1000;\n  height: 100%;\n  background-color: rgba(0, 0, 0, 0.45);\n}\n.rc-dialog-mask-hidden {\n  display: none;\n}\n.rc-dialog-wrap {\n  position: fixed;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  z-index: 1000;\n  overflow: auto;\n  outline: 0;\n}\n.rc-dialog-content {\n  position: relative;\n  background-color: var(--color-white);\n  background-clip: padding-box;\n  border: 0;\n  border-radius: 5px;\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);\n  pointer-events: auto;\n  overflow: hidden;\n}\n.rc-dialog-close {\n  position: absolute;\n  top: 0;\n  right: 0;\n  background-color: var(--color-transparent);\n  border: none;\n}\n.rc-dialog-close:hover {\n  transform: rotate(360deg);\n  transition: 1.2s;\n  transform-origin: 50%;\n}\n\n.hot em {\n  position: absolute;\n  right: -12px;\n  border: 4px solid var(--color-highlight);\n  background-color: var(--color-highlight);\n  border-radius: 50%;\n}\n\n.switch {\n  position: relative;\n  min-width: 45px;\n  background-color: var(--color-lighten-gray);\n  border-radius: 50px;\n  height: 22px;\n}\n.switch .round {\n  position: absolute;\n  top: 2px;\n  left: 2px;\n  width: 18px;\n  height: 18px;\n  transition: 0.4s;\n}\n.switch .round::after {\n  content: \"\";\n  display: block;\n  height: 18px;\n  border-radius: 50px;\n  background-color: var(--color-white);\n}\n.switch .content {\n  color: var(--color-white);\n  margin: 0 5px 0 24px;\n  transition: 0.4s;\n}\n.switch.checked {\n  background-color: var(--color-primary);\n}\n.switch.checked .round {\n  left: calc(100% - 2px - 18px);\n}\n.switch.checked .content {\n  color: var(--color-white);\n  margin: 0 24px 0 5px;\n}\n\n.module-cmt-notice {\n  z-index: 1 !important;\n}\n\n.pos-fix {\n  position: fixed;\n}\n\n.pos-abs {\n  position: absolute;\n}\n\n.pos-rel {\n  position: relative;\n}\n\n.t-0 {\n  top: 0;\n}\n\n.r-0 {\n  right: 0;\n}\n\n.b-0 {\n  bottom: 0;\n}\n\n.l-0 {\n  left: 0;\n}\n\n.t-l-0 {\n  top: 0;\n  left: 0;\n}\n\n.l-b-0 {\n  left: 0;\n  bottom: 0;\n}\n\n.tblr-0 {\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n}\n\n.z-1 {\n  z-index: 1;\n}\n\n.z-2 {\n  z-index: 2;\n}\n\n.z-3 {\n  z-index: 3;\n}\n\n.z-4 {\n  z-index: 4;\n}\n\n.z-5 {\n  z-index: 5;\n}\n\n.w-h-100 {\n  width: 100%;\n  height: 100%;\n}\n\n.w-100 {\n  width: 100%;\n}\n\n.h-100 {\n  height: 100%;\n}\n\n.min-h-100 {\n  min-height: 100%;\n}\n\n.r-m-p, ul,\nli, dl,\ndd {\n  margin: 0;\n  padding: 0;\n}\n\n.m-t-xxs {\n  margin-top: var(--space-xxs);\n}\n\n.p-t-xxs {\n  padding-top: var(--space-xxs);\n}\n\n.m-t-xs {\n  margin-top: var(--space-xs);\n}\n\n.p-t-xs {\n  padding-top: var(--space-xs);\n}\n\n.m-t-sm {\n  margin-top: var(--space-sm);\n}\n\n.p-t-sm {\n  padding-top: var(--space-sm);\n}\n\n.m-t-md {\n  margin-top: var(--space-md);\n}\n\n.p-t-md {\n  padding-top: var(--space-md);\n}\n\n.m-t-lg {\n  margin-top: var(--space-lg);\n}\n\n.p-t-lg {\n  padding-top: var(--space-lg);\n}\n\n.m-t-xl {\n  margin-top: var(--space-xl);\n}\n\n.p-t-xl {\n  padding-top: var(--space-xl);\n}\n\n.m-t-xxl {\n  margin-top: var(--space-xxl);\n}\n\n.p-t-xxl {\n  padding-top: var(--space-xxl);\n}\n\n.m-r-xxs {\n  margin-right: var(--space-xxs);\n}\n\n.p-r-xxs {\n  padding-right: var(--space-xxs);\n}\n\n.m-r-xs {\n  margin-right: var(--space-xs);\n}\n\n.p-r-xs {\n  padding-right: var(--space-xs);\n}\n\n.m-r-sm {\n  margin-right: var(--space-sm);\n}\n\n.p-r-sm {\n  padding-right: var(--space-sm);\n}\n\n.m-r-md {\n  margin-right: var(--space-md);\n}\n\n.p-r-md {\n  padding-right: var(--space-md);\n}\n\n.m-r-lg {\n  margin-right: var(--space-lg);\n}\n\n.p-r-lg {\n  padding-right: var(--space-lg);\n}\n\n.m-r-xl {\n  margin-right: var(--space-xl);\n}\n\n.p-r-xl {\n  padding-right: var(--space-xl);\n}\n\n.m-r-xxl {\n  margin-right: var(--space-xxl);\n}\n\n.p-r-xxl {\n  padding-right: var(--space-xxl);\n}\n\n.m-b-xxs {\n  margin-bottom: var(--space-xxs);\n}\n\n.p-b-xxs {\n  padding-bottom: var(--space-xxs);\n}\n\n.m-b-xs {\n  margin-bottom: var(--space-xs);\n}\n\n.p-b-xs {\n  padding-bottom: var(--space-xs);\n}\n\n.m-b-sm {\n  margin-bottom: var(--space-sm);\n}\n\n.p-b-sm {\n  padding-bottom: var(--space-sm);\n}\n\n.m-b-md {\n  margin-bottom: var(--space-md);\n}\n\n.p-b-md {\n  padding-bottom: var(--space-md);\n}\n\n.m-b-lg {\n  margin-bottom: var(--space-lg);\n}\n\n.p-b-lg {\n  padding-bottom: var(--space-lg);\n}\n\n.m-b-xl {\n  margin-bottom: var(--space-xl);\n}\n\n.p-b-xl {\n  padding-bottom: var(--space-xl);\n}\n\n.m-b-xxl {\n  margin-bottom: var(--space-xxl);\n}\n\n.p-b-xxl {\n  padding-bottom: var(--space-xxl);\n}\n\n.m-l-xxs {\n  margin-left: var(--space-xxs);\n}\n\n.p-l-xxs {\n  padding-left: var(--space-xxs);\n}\n\n.m-l-xs {\n  margin-left: var(--space-xs);\n}\n\n.p-l-xs {\n  padding-left: var(--space-xs);\n}\n\n.m-l-sm {\n  margin-left: var(--space-sm);\n}\n\n.p-l-sm {\n  padding-left: var(--space-sm);\n}\n\n.m-l-md {\n  margin-left: var(--space-md);\n}\n\n.p-l-md {\n  padding-left: var(--space-md);\n}\n\n.m-l-lg {\n  margin-left: var(--space-lg);\n}\n\n.p-l-lg {\n  padding-left: var(--space-lg);\n}\n\n.m-l-xl {\n  margin-left: var(--space-xl);\n}\n\n.p-l-xl {\n  padding-left: var(--space-xl);\n}\n\n.m-l-xxl {\n  margin-left: var(--space-xxl);\n}\n\n.p-l-xxl {\n  padding-left: var(--space-xxl);\n}\n\n.m-t-b-xxs {\n  margin-top: var(--space-xxs);\n  margin-bottom: var(--space-xxs);\n}\n\n.p-t-b-xxs {\n  padding-top: var(--space-xxs);\n  padding-bottom: var(--space-xxs);\n}\n\n.m-t-b-xs {\n  margin-top: var(--space-xs);\n  margin-bottom: var(--space-xs);\n}\n\n.p-t-b-xs {\n  padding-top: var(--space-xs);\n  padding-bottom: var(--space-xs);\n}\n\n.m-t-b-sm {\n  margin-top: var(--space-sm);\n  margin-bottom: var(--space-sm);\n}\n\n.p-t-b-sm {\n  padding-top: var(--space-sm);\n  padding-bottom: var(--space-sm);\n}\n\n.m-t-b-md {\n  margin-top: var(--space-md);\n  margin-bottom: var(--space-md);\n}\n\n.p-t-b-md {\n  padding-top: var(--space-md);\n  padding-bottom: var(--space-md);\n}\n\n.m-t-b-lg {\n  margin-top: var(--space-lg);\n  margin-bottom: var(--space-lg);\n}\n\n.p-t-b-lg {\n  padding-top: var(--space-lg);\n  padding-bottom: var(--space-lg);\n}\n\n.m-t-b-xl {\n  margin-top: var(--space-xl);\n  margin-bottom: var(--space-xl);\n}\n\n.p-t-b-xl {\n  padding-top: var(--space-xl);\n  padding-bottom: var(--space-xl);\n}\n\n.m-t-b-xxl {\n  margin-top: var(--space-xxl);\n  margin-bottom: var(--space-xxl);\n}\n\n.p-t-b-xxl {\n  padding-top: var(--space-xxl);\n  padding-bottom: var(--space-xxl);\n}\n\n.m-l-r-xxs {\n  margin-left: var(--space-xxs);\n  margin-right: var(--space-xxs);\n}\n\n.p-l-r-xxs {\n  padding-left: var(--space-xxs);\n  padding-right: var(--space-xxs);\n}\n\n.m-l-r-xs {\n  margin-left: var(--space-xs);\n  margin-right: var(--space-xs);\n}\n\n.p-l-r-xs {\n  padding-left: var(--space-xs);\n  padding-right: var(--space-xs);\n}\n\n.m-l-r-sm {\n  margin-left: var(--space-sm);\n  margin-right: var(--space-sm);\n}\n\n.p-l-r-sm {\n  padding-left: var(--space-sm);\n  padding-right: var(--space-sm);\n}\n\n.m-l-r-md {\n  margin-left: var(--space-md);\n  margin-right: var(--space-md);\n}\n\n.p-l-r-md {\n  padding-left: var(--space-md);\n  padding-right: var(--space-md);\n}\n\n.m-l-r-lg {\n  margin-left: var(--space-lg);\n  margin-right: var(--space-lg);\n}\n\n.p-l-r-lg {\n  padding-left: var(--space-lg);\n  padding-right: var(--space-lg);\n}\n\n.m-l-r-xl {\n  margin-left: var(--space-xl);\n  margin-right: var(--space-xl);\n}\n\n.p-l-r-xl {\n  padding-left: var(--space-xl);\n  padding-right: var(--space-xl);\n}\n\n.m-l-r-xxl {\n  margin-left: var(--space-xxl);\n  margin-right: var(--space-xxl);\n}\n\n.p-l-r-xxl {\n  padding-left: var(--space-xxl);\n  padding-right: var(--space-xxl);\n}\n\n.m-tblr-xxs {\n  margin: var(--space-xxs);\n}\n\n.p-tblr-xxs {\n  padding: var(--space-xxs);\n}\n\n.m-tblr-xs {\n  margin: var(--space-xs);\n}\n\n.p-tblr-xs {\n  padding: var(--space-xs);\n}\n\n.m-tblr-sm {\n  margin: var(--space-sm);\n}\n\n.p-tblr-sm {\n  padding: var(--space-sm);\n}\n\n.m-tblr-md {\n  margin: var(--space-md);\n}\n\n.p-tblr-md {\n  padding: var(--space-md);\n}\n\n.m-tblr-lg {\n  margin: var(--space-lg);\n}\n\n.p-tblr-lg {\n  padding: var(--space-lg);\n}\n\n.m-tblr-xl {\n  margin: var(--space-xl);\n}\n\n.p-tblr-xl {\n  padding: var(--space-xl);\n}\n\n.m-tblr-xxl {\n  margin: var(--space-xxl);\n}\n\n.p-tblr-xxl {\n  padding: var(--space-xxl);\n}\n\n.m-auto {\n  margin: auto;\n}\n\n.tal {\n  text-align: left;\n}\n\n.tac {\n  text-align: center;\n}\n\n.tar {\n  text-align: right;\n}\n\n.font-size-xxs {\n  font-size: var(--size-xxs);\n}\n\n.font-size-xs {\n  font-size: var(--size-xs);\n}\n\n.font-size-sm {\n  font-size: var(--size-sm);\n}\n\n.font-size-md {\n  font-size: var(--size-md);\n}\n\n.font-size-lg {\n  font-size: var(--size-lg);\n}\n\n.font-size-xl {\n  font-size: var(--size-xl);\n}\n\n.font-size-xxl {\n  font-size: var(--size-xxl);\n}\n\n.font-weight-bold {\n  font-weight: 900;\n}\n\n.font-weight-normal {\n  font-weight: 300;\n}\n\n.bg-color-primary {\n  background-color: var(--color-primary);\n}\n\n.color-primary {\n  color: var(--color-primary);\n}\n\n.bg-color-black {\n  background-color: var(--color-black);\n}\n\n.color-black {\n  color: var(--color-black);\n}\n\n.bg-color-white {\n  background-color: var(--color-white);\n}\n\n.color-white {\n  color: var(--color-white);\n}\n\n.bg-color-transparent {\n  background-color: var(--color-transparent);\n}\n\n.color-transparent {\n  color: var(--color-transparent);\n}\n\n.bg-color-light-gray {\n  background-color: var(--color-light-gray);\n}\n\n.color-light-gray {\n  color: var(--color-light-gray);\n}\n\n.bg-color-lighten-gray {\n  background-color: var(--color-lighten-gray);\n}\n\n.color-lighten-gray {\n  color: var(--color-lighten-gray);\n}\n\n.bg-color-default-gray {\n  background-color: var(--color-default-gray);\n}\n\n.color-default-gray {\n  color: var(--color-default-gray);\n}\n\n.bg-color-dark-gray {\n  background-color: var(--color-dark-gray);\n}\n\n.color-dark-gray {\n  color: var(--color-dark-gray);\n}\n\n.clearfix::after {\n  display: block;\n  content: \"\";\n  clear: both;\n}\n\n.ellipsis {\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n\n.cursign {\n  cursor: pointer;\n}\n\n.vam {\n  vertical-align: middle;\n}\n\n.bdr-half {\n  border-radius: 50%;\n}\n\n.bdr-small {\n  border-radius: 5px;\n}\n\n.block {\n  display: block;\n}\n\n.hide {\n  display: none;\n}\n\n.inline-block {\n  display: inline-block;\n}\n\n.bdb-line-primary {\n  border-bottom: 1px solid var(--color-primary);\n}\n\n.bd-none {\n  border: none;\n}\n\nbody {\n  padding-left: 300px;\n}\n\n.layout-container {\n  width: 80%;\n  margin: auto;\n}\n\n.main-container {\n  padding-bottom: 60px;\n}\n\n@media (max-width: 768px) {\n  body {\n    padding-left: 0;\n  }\n\n  .main-container {\n    padding-top: 46px;\n  }\n\n  .layout-container {\n    width: 90%;\n  }\n\n  .hidden-sm {\n    display: none;\n  }\n}\n[layout-align] {\n  display: flex;\n}\n\n[layout-align=\"start start\"],\n[layout-align=\"start center\"],\n[layout-align=\"start end\"] {\n  justify-content: flex-start;\n}\n\n[layout-align=\"center start\"],\n[layout-align=\"center center\"],\n[layout-align=\"center end\"] {\n  justify-content: center;\n}\n\n[layout-align=\"end start\"],\n[layout-align=\"end center\"],\n[layout-align=\"end end\"] {\n  justify-content: flex-end;\n}\n\n[layout-align=\"space-between start\"],\n[layout-align=\"space-between center\"],\n[layout-align=\"space-between end\"] {\n  justify-content: space-between;\n}\n\n[layout-align=\"space-arround start\"],\n[layout-align=\"space-arround center\"],\n[layout-align=\"space-arround end\"] {\n  justify-content: space-around;\n}\n\n[layout-align=\"start start\"],\n[layout-align=\"center start\"],\n[layout-align=\"end start\"],\n[layout-align=\"space-between start\"],\n[layout-align=\"space-arround start\"] {\n  align-items: flex-start;\n}\n\n[layout-align=\"start center\"],\n[layout-align=\"center center\"],\n[layout-align=\"end center\"],\n[layout-align=\"space-between center\"],\n[layout-align=\"space-arround center\"] {\n  align-items: center;\n}\n\n[layout-align=\"start end\"],\n[layout-align=\"center end\"],\n[layout-align=\"end end\"],\n[layout-align=\"space-between end\"],\n[layout-align=\"space-arround end\"] {\n  align-items: flex-end;\n}\n\n@keyframes line-scale {\n  0% {\n    transform: scaley(1);\n  }\n  50% {\n    transform: scaley(0.4);\n  }\n  100% {\n    transform: scaley(1);\n  }\n}\n.line-scale > div:nth-child(1) {\n  animation: line-scale 1s -0.4s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);\n}\n.line-scale > div:nth-child(2) {\n  animation: line-scale 1s -0.3s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);\n}\n.line-scale > div:nth-child(3) {\n  animation: line-scale 1s -0.2s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);\n}\n.line-scale > div:nth-child(4) {\n  animation: line-scale 1s -0.1s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);\n}\n.line-scale > div:nth-child(5) {\n  animation: line-scale 1s 0s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);\n}\n.line-scale > div {\n  background-color: var(--color-primary);\n  width: 4px;\n  height: 25px;\n  border-radius: 2px;\n  margin: 2px;\n  animation-fill-mode: both;\n  display: inline-block;\n}\n\n.icon-bg1 {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + ");\n  background-position: 0px 0px;\n  width: 40px;\n  height: 30px;\n}\n\n.icon-bg2 {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + ");\n  background-position: -40px 0px;\n  width: 40px;\n  height: 30px;\n}\n\n.icon-bg3 {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + ");\n  background-position: 0px -30px;\n  width: 40px;\n  height: 30px;\n}\n\n.icon-bg4 {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + ");\n  background-position: -40px -30px;\n  width: 40px;\n  height: 30px;\n}\n\n.icon-bg5 {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + ");\n  background-position: -80px 0px;\n  width: 40px;\n  height: 30px;\n}", "",{"version":3,"sources":["C:/Users/19215/Desktop/my_website/src/assets/styles/sass/common/_variable.scss","C:/Users/19215/Desktop/my_website/src/assets/styles/sass/global.scss","C:/Users/19215/Desktop/my_website/src/assets/styles/sass/common/_shared.scss","C:/Users/19215/Desktop/my_website/src/assets/styles/sass/common/_mixin.scss","C:/Users/19215/Desktop/my_website/src/assets/styles/sass/common/_main.scss","C:/Users/19215/Desktop/my_website/src/assets/styles/sass/common/_layout.scss","C:/Users/19215/Desktop/my_website/src/assets/styles/sass/common/_loading.scss","C:/Users/19215/Desktop/my_website/src/assets/styles/sass/common/_sprites.scss"],"names":[],"mappings":"AAEA;EACE,gBAAA;EACA,eAAA;EACA,eAAA;EACA,eAAA;EACA,eAAA;EACA,eAAA;EACA,gBAAA;EAEA,gBAAA;EACA,eAAA;EACA,eAAA;EACA,gBAAA;EACA,gBAAA;EACA,gBAAA;EACA,iBAAA;EAEA,qBAAA;EACA,mBAAA;EACA,mBAAA;EACA,gCAAA;EACA,2BAAA;EACA,6BAAA;EACA,0BAAA;EACA,uBAAA;EACA,sBAAA;ACFF;;ACvBA;;;EAGE,sBAAA;AD0BF;;ACvBA;EACE,8BAAA;EACA,uKAAA;AD0BF;ACpBA;EACE,2IAAA;EAEA,yCAAA;EACA,gCAAA;ADqBF;;AClBA;;;EAGE,YAAA;ADqBF;;AClBA;;EAEE,gBAAA;ADqBF;;ACbA;EACE,qBAAA;EACA,sBAAA;ADgBF;;ACbA;EACE,UAAA;EACA,eAAA;ADgBF;;ACdA;;EAEE,0BAAA;ADiBF;;ACdA;EACE,qBAAA;EACA,gCAAA;ADiBF;AChBE;EACE,2BAAA;ADkBJ;;ACdA;EACE,SAAA;ADiBF;;ACdA;EACE,eAAA;ADiBF;;ACdA;EACE,8BAAA;ADiBF;;ACdA;EACE,sBAAA;ADiBF;;ACdA;EACE,kBAAA;EACA,QAAA;EACA,WAAA;EACA,cAAA;EACA,oBAAA;EACA,2BAAA;ADiBF;AChBE;EACE,eAAA;EACA,MAAA;EACA,QAAA;EACA,SAAA;EACA,OAAA;EACA,aAAA;EACA,YAAA;EACA,qCAAA;ADkBJ;AChBE;EACE,aAAA;ADkBJ;AChBE;EACE,eAAA;EACA,MAAA;EACA,QAAA;EACA,SAAA;EACA,OAAA;EACA,aAAA;EACA,cAAA;EACA,UAAA;ADkBJ;AChBE;EACE,kBAAA;EACA,oCAAA;EACA,4BAAA;EACA,SAAA;EACA,kBAAA;EACA,0CAAA;EACA,oBAAA;EACA,gBAAA;ADkBJ;AChBE;EACE,kBAAA;EACA,MAAA;EACA,QAAA;EACA,0CAAA;EACA,YAAA;ADkBJ;ACjBI;EACE,yBAAA;EACA,gBAAA;EACA,qBAAA;ADmBN;;ACbE;EACE,kBAAA;EACA,YAAA;EACA,wCAAA;EACA,wCAAA;EACA,kBAAA;ADgBJ;;ACZA;EAEE,kBAAA;EACA,eAAA;EACA,2CAAA;EACA,mBAAA;EACA,YAAA;ADcF;ACbE;EACE,kBAAA;EACA,QAAA;EACA,SAAA;EC7EF,WDoES;ECnET,YDmES;EAWP,gBAAA;ADgBJ;ACfI;EACE,WAAA;EACA,cAAA;EACA,YAfK;EAgBL,mBAAA;EACA,oCAAA;ADiBN;ACdE;EACE,yBAAA;EACA,oBAAA;EACA,gBAAA;ADgBJ;ACdE;EACE,sCAAA;ADgBJ;ACfI;EACE,6BAAA;ADiBN;ACfI;EACE,yBAAA;EACA,oBAAA;ADiBN;;ACZA;EACE,qBAAA;ADeF;;AG/LE;EACE,eAAA;AHkMJ;;AGnME;EACE,kBAAA;AHsMJ;;AGvME;EACE,kBAAA;AH0MJ;;AE9EE;EAGI,MAAA;AF+EN;;AElFE;EAGI,QAAA;AFmFN;;AEtFE;EAGI,SAAA;AFuFN;;AE1FE;EAGI,OAAA;AF2FN;;AE9FE;EAGI,MAAA;EAAA,OAAA;AFgGN;;AEnGE;EAGI,OAAA;EAAA,SAAA;AFqGN;;AExGE;EAGI,MAAA;EAAA,SAAA;EAAA,OAAA;EAAA,QAAA;AF4GN;;AGlOE;EACE,UAFS;AHuOb;;AGtOE;EACE,UAFS;AH2Ob;;AG1OE;EACE,UAFS;AH+Ob;;AG9OE;EACE,UAFS;AHmPb;;AGlPE;EACE,UAFS;AHuPb;;AGhPA;EDsDE,WCrDkB;EDsDlB,YCtDkB;AHoPpB;;AGjPA;EACE,WAAA;AHoPF;;AGjPA;EACE,YAAA;AHoPF;;AGjPA;EACE,gBAAA;AHoPF;;AGhPA;;;EACE,SAAA;EACA,UAAA;AHqPF;;AExKE;EAMM,4BAAA;AFsKR;;AE5KE;EAMM,6BAAA;AF0KR;;AEhLE;EAMM,2BAAA;AF8KR;;AEpLE;EAMM,4BAAA;AFkLR;;AExLE;EAMM,2BAAA;AFsLR;;AE5LE;EAMM,4BAAA;AF0LR;;AEhME;EAMM,2BAAA;AF8LR;;AEpME;EAMM,4BAAA;AFkMR;;AExME;EAMM,2BAAA;AFsMR;;AE5ME;EAMM,4BAAA;AF0MR;;AEhNE;EAMM,2BAAA;AF8MR;;AEpNE;EAMM,4BAAA;AFkNR;;AExNE;EAMM,4BAAA;AFsNR;;AE5NE;EAMM,6BAAA;AF0NR;;AEhOE;EAMM,8BAAA;AF8NR;;AEpOE;EAMM,+BAAA;AFkOR;;AExOE;EAMM,6BAAA;AFsOR;;AE5OE;EAMM,8BAAA;AF0OR;;AEhPE;EAMM,6BAAA;AF8OR;;AEpPE;EAMM,8BAAA;AFkPR;;AExPE;EAMM,6BAAA;AFsPR;;AE5PE;EAMM,8BAAA;AF0PR;;AEhQE;EAMM,6BAAA;AF8PR;;AEpQE;EAMM,8BAAA;AFkQR;;AExQE;EAMM,6BAAA;AFsQR;;AE5QE;EAMM,8BAAA;AF0QR;;AEhRE;EAMM,8BAAA;AF8QR;;AEpRE;EAMM,+BAAA;AFkRR;;AExRE;EAMM,+BAAA;AFsRR;;AE5RE;EAMM,gCAAA;AF0RR;;AEhSE;EAMM,8BAAA;AF8RR;;AEpSE;EAMM,+BAAA;AFkSR;;AExSE;EAMM,8BAAA;AFsSR;;AE5SE;EAMM,+BAAA;AF0SR;;AEhTE;EAMM,8BAAA;AF8SR;;AEpTE;EAMM,+BAAA;AFkTR;;AExTE;EAMM,8BAAA;AFsTR;;AE5TE;EAMM,+BAAA;AF0TR;;AEhUE;EAMM,8BAAA;AF8TR;;AEpUE;EAMM,+BAAA;AFkUR;;AExUE;EAMM,+BAAA;AFsUR;;AE5UE;EAMM,gCAAA;AF0UR;;AEhVE;EAMM,6BAAA;AF8UR;;AEpVE;EAMM,8BAAA;AFkVR;;AExVE;EAMM,4BAAA;AFsVR;;AE5VE;EAMM,6BAAA;AF0VR;;AEhWE;EAMM,4BAAA;AF8VR;;AEpWE;EAMM,6BAAA;AFkWR;;AExWE;EAMM,4BAAA;AFsWR;;AE5WE;EAMM,6BAAA;AF0WR;;AEhXE;EAMM,4BAAA;AF8WR;;AEpXE;EAMM,6BAAA;AFkXR;;AExXE;EAMM,4BAAA;AFsXR;;AE5XE;EAMM,6BAAA;AF0XR;;AEhYE;EAMM,6BAAA;AF8XR;;AEpYE;EAMM,8BAAA;AFkYR;;AExYE;EAMM,4BAAA;EAAA,+BAAA;AFuYR;;AE7YE;EAMM,6BAAA;EAAA,gCAAA;AF4YR;;AElZE;EAMM,2BAAA;EAAA,8BAAA;AFiZR;;AEvZE;EAMM,4BAAA;EAAA,+BAAA;AFsZR;;AE5ZE;EAMM,2BAAA;EAAA,8BAAA;AF2ZR;;AEjaE;EAMM,4BAAA;EAAA,+BAAA;AFgaR;;AEtaE;EAMM,2BAAA;EAAA,8BAAA;AFqaR;;AE3aE;EAMM,4BAAA;EAAA,+BAAA;AF0aR;;AEhbE;EAMM,2BAAA;EAAA,8BAAA;AF+aR;;AErbE;EAMM,4BAAA;EAAA,+BAAA;AFobR;;AE1bE;EAMM,2BAAA;EAAA,8BAAA;AFybR;;AE/bE;EAMM,4BAAA;EAAA,+BAAA;AF8bR;;AEpcE;EAMM,4BAAA;EAAA,+BAAA;AFmcR;;AEzcE;EAMM,6BAAA;EAAA,gCAAA;AFwcR;;AE9cE;EAMM,6BAAA;EAAA,8BAAA;AF6cR;;AEndE;EAMM,8BAAA;EAAA,+BAAA;AFkdR;;AExdE;EAMM,4BAAA;EAAA,6BAAA;AFudR;;AE7dE;EAMM,6BAAA;EAAA,8BAAA;AF4dR;;AEleE;EAMM,4BAAA;EAAA,6BAAA;AFieR;;AEveE;EAMM,6BAAA;EAAA,8BAAA;AFseR;;AE5eE;EAMM,4BAAA;EAAA,6BAAA;AF2eR;;AEjfE;EAMM,6BAAA;EAAA,8BAAA;AFgfR;;AEtfE;EAMM,4BAAA;EAAA,6BAAA;AFqfR;;AE3fE;EAMM,6BAAA;EAAA,8BAAA;AF0fR;;AEhgBE;EAMM,4BAAA;EAAA,6BAAA;AF+fR;;AErgBE;EAMM,6BAAA;EAAA,8BAAA;AFogBR;;AE1gBE;EAMM,6BAAA;EAAA,8BAAA;AFygBR;;AE/gBE;EAMM,8BAAA;EAAA,+BAAA;AF8gBR;;AEphBE;EAIM,wBAAA;AFohBR;;AExhBE;EAIM,yBAAA;AFwhBR;;AE5hBE;EAIM,uBAAA;AF4hBR;;AEhiBE;EAIM,wBAAA;AFgiBR;;AEpiBE;EAIM,uBAAA;AFoiBR;;AExiBE;EAIM,wBAAA;AFwiBR;;AE5iBE;EAIM,uBAAA;AF4iBR;;AEhjBE;EAIM,wBAAA;AFgjBR;;AEpjBE;EAIM,uBAAA;AFojBR;;AExjBE;EAIM,wBAAA;AFwjBR;;AE5jBE;EAIM,uBAAA;AF4jBR;;AEhkBE;EAIM,wBAAA;AFgkBR;;AEpkBE;EAIM,wBAAA;AFokBR;;AExkBE;EAIM,yBAAA;AFwkBR;;AG3oBA;EACE,YAAA;AH8oBF;;AGzoBE;EACE,gBAAA;AH4oBJ;;AG7oBE;EACE,kBAAA;AHgpBJ;;AGjpBE;EACE,iBAAA;AHopBJ;;AG/oBE;EACE,0BDGgB;AF+oBpB;;AGnpBE;EACE,yBDGgB;AFmpBpB;;AGvpBE;EACE,yBDGgB;AFupBpB;;AG3pBE;EACE,yBDGgB;AF2pBpB;;AG/pBE;EACE,yBDGgB;AF+pBpB;;AGnqBE;EACE,yBDGgB;AFmqBpB;;AGvqBE;EACE,0BDGgB;AFuqBpB;;AGtqBA;EACE,gBAAA;AHyqBF;;AGtqBA;EACE,gBAAA;AHyqBF;;AGlqBE;EACE,sCDdgB;AFmrBpB;;AGnqBE;EACE,2BDjBgB;AFurBpB;;AG1qBE;EACE,oCDdgB;AF2rBpB;;AG3qBE;EACE,yBDjBgB;AF+rBpB;;AGlrBE;EACE,oCDdgB;AFmsBpB;;AGnrBE;EACE,yBDjBgB;AFusBpB;;AG1rBE;EACE,0CDdgB;AF2sBpB;;AG3rBE;EACE,+BDjBgB;AF+sBpB;;AGlsBE;EACE,yCDdgB;AFmtBpB;;AGnsBE;EACE,8BDjBgB;AFutBpB;;AG1sBE;EACE,2CDdgB;AF2tBpB;;AG3sBE;EACE,gCDjBgB;AF+tBpB;;AGltBE;EACE,2CDdgB;AFmuBpB;;AGntBE;EACE,gCDjBgB;AFuuBpB;;AG1tBE;EACE,wCDdgB;AF2uBpB;;AG3tBE;EACE,6BDjBgB;AF+uBpB;;AE9pBE;EACE,cAAA;EACA,WAAA;EACA,WAAA;AFiqBJ;;AG1tBA;EACE,mBAAA;EACA,gBAAA;EACA,uBAAA;AH6tBF;;AG1tBA;EACE,eAAA;AH6tBF;;AG1tBA;EACE,sBAAA;AH6tBF;;AG1tBA;EACE,kBAAA;AH6tBF;;AG1tBA;EACE,kBAAA;AH6tBF;;AG1tBA;EACE,cAAA;AH6tBF;;AG1tBA;EACE,aAAA;AH6tBF;;AG1tBA;EACE,qBAAA;AH6tBF;;AG1tBA;EACE,6CAAA;AH6tBF;;AG1tBA;EACE,YAAA;AH6tBF;;AIp2BA;EACE,mBFGW;AFo2Bb;;AIr2BA;EACE,UAAA;EACA,YAAA;AJw2BF;;AIt2BA;EACE,oBAAA;AJy2BF;;AEvuBE;EE9HA;IACE,eAAA;EJy2BF;;EIv2BA;IACE,iBAAA;EJ02BF;;EIx2BA;IACE,UAAA;EJ22BF;;EIz2BA;IACE,aAAA;EJ42BF;AACF;AIz2BA;EACE,aAAA;AJ22BF;;AIx2BA;;;EAGE,2BAAA;AJ22BF;;AIx2BA;;;EAGE,uBAAA;AJ22BF;;AIx2BA;;;EAGE,yBAAA;AJ22BF;;AIx2BA;;;EAGE,8BAAA;AJ22BF;;AIx2BA;;;EAGE,6BAAA;AJ22BF;;AIx2BA;;;;;EAKE,uBAAA;AJ22BF;;AIx2BA;;;;;EAKE,mBAAA;AJ22BF;;AIx2BA;;;;;EAKE,qBAAA;AJ22BF;;AKh6BA;EACE;IACE,oBAAA;ELm6BF;EKj6BA;IACE,sBAAA;ELm6BF;EKj6BA;IACE,oBAAA;ELm6BF;AACF;AK95BI;EACE,2EAAA;ALg6BN;AKj6BI;EACE,2EAAA;ALm6BN;AKp6BI;EACE,2EAAA;ALs6BN;AKv6BI;EACE,2EAAA;ALy6BN;AK16BI;EACE,wEAAA;AL46BN;AKh6BE;EA/CA,sCANc;EAgBd,UAbW;EAcX,YAfY;EAgBZ,kBAAA;EACA,WAlBO;EASP,yBAAA;EA+CE,qBAAA;ALq6BJ;;AM/1BI;EAjBF,yDAAA;EALA,4BAAA;EAVA,WAAA;EAIA,YAAA;ANk4BF;;AMt2BI;EAjBF,yDAAA;EALA,8BAAA;EAVA,WAAA;EAIA,YAAA;ANy4BF;;AM72BI;EAjBF,yDAAA;EALA,8BAAA;EAVA,WAAA;EAIA,YAAA;ANg5BF;;AMp3BI;EAjBF,yDAAA;EALA,gCAAA;EAVA,WAAA;EAIA,YAAA;ANu5BF;;AM33BI;EAjBF,yDAAA;EALA,8BAAA;EAVA,WAAA;EAIA,YAAA;AN85BF","file":"global.scss","sourcesContent":["@import '../common/mixin';\r\n\r\n:root {\r\n  --size-xxs: 10px;\r\n  --size-xs: 12px;\r\n  --size-sm: 14px;\r\n  --size-md: 16px;\r\n  --size-lg: 18px;\r\n  --size-xl: 24px;\r\n  --size-xxl: 30px;\r\n\r\n  --space-xxs: 5px;\r\n  --space-xs: 6px;\r\n  --space-sm: 8px;\r\n  --space-md: 10px;\r\n  --space-lg: 12px;\r\n  --space-xl: 14px;\r\n  --space-xxl: 16px;\r\n\r\n  --color-primary: #639;\r\n  --color-black: #000;\r\n  --color-white: #fff;\r\n  --color-transparent: transparent;\r\n  --color-light-gray: #f9f9f9;\r\n  --color-lighten-gray: #dadada;\r\n  --color-default-gray: #aaa;\r\n  --color-dark-gray: #888;\r\n  --color-highlight: red;\r\n}\r\n@media (prefers-color-scheme: dark) {\r\n}\r\n","@import '~@node_modules/normalize.css';\n:root {\n  --size-xxs: 10px;\n  --size-xs: 12px;\n  --size-sm: 14px;\n  --size-md: 16px;\n  --size-lg: 18px;\n  --size-xl: 24px;\n  --size-xxl: 30px;\n  --space-xxs: 5px;\n  --space-xs: 6px;\n  --space-sm: 8px;\n  --space-md: 10px;\n  --space-lg: 12px;\n  --space-xl: 14px;\n  --space-xxl: 16px;\n  --color-primary: #639;\n  --color-black: #000;\n  --color-white: #fff;\n  --color-transparent: transparent;\n  --color-light-gray: #f9f9f9;\n  --color-lighten-gray: #dadada;\n  --color-default-gray: #aaa;\n  --color-dark-gray: #888;\n  --color-highlight: red;\n}\n\n*,\n:after,\n:before {\n  box-sizing: border-box;\n}\n\n@font-face {\n  font-family: \"Niconne-Regular\";\n  src: url(\"~@fonts/font-niconne/Niconne-Regular.eot\"), url(\"~@fonts/font-niconne/Niconne-Regular.svg\"), url(\"~@fonts/font-niconne/Niconne-Regular.ttf\"), url(\"~@fonts/font-niconne/Niconne-Regular.woff\");\n}\nbody {\n  font: lighter 14px/1.5 \"Helvetica Neue\", \"Helvetica\", \"HanHei SC\", \"PingFang SC\", \"STHeitiSC-Light\", \"Arial\", \"Microsoft Yahei\", sans-serif;\n  background-color: var(--color-light-gray);\n  color: var(--color-default-gray);\n}\n\nhtml,\nbody,\n#__next {\n  height: 100%;\n}\n\nul,\nli {\n  list-style: none;\n}\n\ni[class^=icon] {\n  display: inline-block;\n  vertical-align: middle;\n}\n\nbutton {\n  padding: 0;\n  cursor: pointer;\n}\n\nbutton,\n[type=button] {\n  -webkit-appearance: button;\n}\n\na {\n  text-decoration: none;\n  color: var(--color-default-gray);\n}\na:hover {\n  color: var(--color-primary);\n}\n\nfigure {\n  margin: 0;\n}\n\nimg {\n  max-width: 100%;\n}\n\n.font-family-niconne {\n  font-family: \"Niconne-Regular\";\n}\n\n.font-family-georgia {\n  font-family: \"Georgia\";\n}\n\n.rc-dialog {\n  position: relative;\n  top: 50%;\n  width: auto;\n  margin: 0 auto;\n  pointer-events: none;\n  transform: translateY(-50%);\n}\n.rc-dialog-mask {\n  position: fixed;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  z-index: 1000;\n  height: 100%;\n  background-color: rgba(0, 0, 0, 0.45);\n}\n.rc-dialog-mask-hidden {\n  display: none;\n}\n.rc-dialog-wrap {\n  position: fixed;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  z-index: 1000;\n  overflow: auto;\n  outline: 0;\n}\n.rc-dialog-content {\n  position: relative;\n  background-color: var(--color-white);\n  background-clip: padding-box;\n  border: 0;\n  border-radius: 5px;\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);\n  pointer-events: auto;\n  overflow: hidden;\n}\n.rc-dialog-close {\n  position: absolute;\n  top: 0;\n  right: 0;\n  background-color: var(--color-transparent);\n  border: none;\n}\n.rc-dialog-close:hover {\n  transform: rotate(360deg);\n  transition: 1.2s;\n  transform-origin: 50%;\n}\n\n.hot em {\n  position: absolute;\n  right: -12px;\n  border: 4px solid var(--color-highlight);\n  background-color: var(--color-highlight);\n  border-radius: 50%;\n}\n\n.switch {\n  position: relative;\n  min-width: 45px;\n  background-color: var(--color-lighten-gray);\n  border-radius: 50px;\n  height: 22px;\n}\n.switch .round {\n  position: absolute;\n  top: 2px;\n  left: 2px;\n  width: 18px;\n  height: 18px;\n  transition: 0.4s;\n}\n.switch .round::after {\n  content: \"\";\n  display: block;\n  height: 18px;\n  border-radius: 50px;\n  background-color: var(--color-white);\n}\n.switch .content {\n  color: var(--color-white);\n  margin: 0 5px 0 24px;\n  transition: 0.4s;\n}\n.switch.checked {\n  background-color: var(--color-primary);\n}\n.switch.checked .round {\n  left: calc(100% - 2px - 18px);\n}\n.switch.checked .content {\n  color: var(--color-white);\n  margin: 0 24px 0 5px;\n}\n\n.module-cmt-notice {\n  z-index: 1 !important;\n}\n\n.pos-fix {\n  position: fixed;\n}\n\n.pos-abs {\n  position: absolute;\n}\n\n.pos-rel {\n  position: relative;\n}\n\n.t-0 {\n  top: 0;\n}\n\n.r-0 {\n  right: 0;\n}\n\n.b-0 {\n  bottom: 0;\n}\n\n.l-0 {\n  left: 0;\n}\n\n.t-l-0 {\n  top: 0;\n  left: 0;\n}\n\n.l-b-0 {\n  left: 0;\n  bottom: 0;\n}\n\n.tblr-0 {\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n}\n\n.z-1 {\n  z-index: 1;\n}\n\n.z-2 {\n  z-index: 2;\n}\n\n.z-3 {\n  z-index: 3;\n}\n\n.z-4 {\n  z-index: 4;\n}\n\n.z-5 {\n  z-index: 5;\n}\n\n.w-h-100 {\n  width: 100%;\n  height: 100%;\n}\n\n.w-100 {\n  width: 100%;\n}\n\n.h-100 {\n  height: 100%;\n}\n\n.min-h-100 {\n  min-height: 100%;\n}\n\n.r-m-p, ul,\nli, dl,\ndd {\n  margin: 0;\n  padding: 0;\n}\n\n.m-t-xxs {\n  margin-top: var(--space-xxs);\n}\n\n.p-t-xxs {\n  padding-top: var(--space-xxs);\n}\n\n.m-t-xs {\n  margin-top: var(--space-xs);\n}\n\n.p-t-xs {\n  padding-top: var(--space-xs);\n}\n\n.m-t-sm {\n  margin-top: var(--space-sm);\n}\n\n.p-t-sm {\n  padding-top: var(--space-sm);\n}\n\n.m-t-md {\n  margin-top: var(--space-md);\n}\n\n.p-t-md {\n  padding-top: var(--space-md);\n}\n\n.m-t-lg {\n  margin-top: var(--space-lg);\n}\n\n.p-t-lg {\n  padding-top: var(--space-lg);\n}\n\n.m-t-xl {\n  margin-top: var(--space-xl);\n}\n\n.p-t-xl {\n  padding-top: var(--space-xl);\n}\n\n.m-t-xxl {\n  margin-top: var(--space-xxl);\n}\n\n.p-t-xxl {\n  padding-top: var(--space-xxl);\n}\n\n.m-r-xxs {\n  margin-right: var(--space-xxs);\n}\n\n.p-r-xxs {\n  padding-right: var(--space-xxs);\n}\n\n.m-r-xs {\n  margin-right: var(--space-xs);\n}\n\n.p-r-xs {\n  padding-right: var(--space-xs);\n}\n\n.m-r-sm {\n  margin-right: var(--space-sm);\n}\n\n.p-r-sm {\n  padding-right: var(--space-sm);\n}\n\n.m-r-md {\n  margin-right: var(--space-md);\n}\n\n.p-r-md {\n  padding-right: var(--space-md);\n}\n\n.m-r-lg {\n  margin-right: var(--space-lg);\n}\n\n.p-r-lg {\n  padding-right: var(--space-lg);\n}\n\n.m-r-xl {\n  margin-right: var(--space-xl);\n}\n\n.p-r-xl {\n  padding-right: var(--space-xl);\n}\n\n.m-r-xxl {\n  margin-right: var(--space-xxl);\n}\n\n.p-r-xxl {\n  padding-right: var(--space-xxl);\n}\n\n.m-b-xxs {\n  margin-bottom: var(--space-xxs);\n}\n\n.p-b-xxs {\n  padding-bottom: var(--space-xxs);\n}\n\n.m-b-xs {\n  margin-bottom: var(--space-xs);\n}\n\n.p-b-xs {\n  padding-bottom: var(--space-xs);\n}\n\n.m-b-sm {\n  margin-bottom: var(--space-sm);\n}\n\n.p-b-sm {\n  padding-bottom: var(--space-sm);\n}\n\n.m-b-md {\n  margin-bottom: var(--space-md);\n}\n\n.p-b-md {\n  padding-bottom: var(--space-md);\n}\n\n.m-b-lg {\n  margin-bottom: var(--space-lg);\n}\n\n.p-b-lg {\n  padding-bottom: var(--space-lg);\n}\n\n.m-b-xl {\n  margin-bottom: var(--space-xl);\n}\n\n.p-b-xl {\n  padding-bottom: var(--space-xl);\n}\n\n.m-b-xxl {\n  margin-bottom: var(--space-xxl);\n}\n\n.p-b-xxl {\n  padding-bottom: var(--space-xxl);\n}\n\n.m-l-xxs {\n  margin-left: var(--space-xxs);\n}\n\n.p-l-xxs {\n  padding-left: var(--space-xxs);\n}\n\n.m-l-xs {\n  margin-left: var(--space-xs);\n}\n\n.p-l-xs {\n  padding-left: var(--space-xs);\n}\n\n.m-l-sm {\n  margin-left: var(--space-sm);\n}\n\n.p-l-sm {\n  padding-left: var(--space-sm);\n}\n\n.m-l-md {\n  margin-left: var(--space-md);\n}\n\n.p-l-md {\n  padding-left: var(--space-md);\n}\n\n.m-l-lg {\n  margin-left: var(--space-lg);\n}\n\n.p-l-lg {\n  padding-left: var(--space-lg);\n}\n\n.m-l-xl {\n  margin-left: var(--space-xl);\n}\n\n.p-l-xl {\n  padding-left: var(--space-xl);\n}\n\n.m-l-xxl {\n  margin-left: var(--space-xxl);\n}\n\n.p-l-xxl {\n  padding-left: var(--space-xxl);\n}\n\n.m-t-b-xxs {\n  margin-top: var(--space-xxs);\n  margin-bottom: var(--space-xxs);\n}\n\n.p-t-b-xxs {\n  padding-top: var(--space-xxs);\n  padding-bottom: var(--space-xxs);\n}\n\n.m-t-b-xs {\n  margin-top: var(--space-xs);\n  margin-bottom: var(--space-xs);\n}\n\n.p-t-b-xs {\n  padding-top: var(--space-xs);\n  padding-bottom: var(--space-xs);\n}\n\n.m-t-b-sm {\n  margin-top: var(--space-sm);\n  margin-bottom: var(--space-sm);\n}\n\n.p-t-b-sm {\n  padding-top: var(--space-sm);\n  padding-bottom: var(--space-sm);\n}\n\n.m-t-b-md {\n  margin-top: var(--space-md);\n  margin-bottom: var(--space-md);\n}\n\n.p-t-b-md {\n  padding-top: var(--space-md);\n  padding-bottom: var(--space-md);\n}\n\n.m-t-b-lg {\n  margin-top: var(--space-lg);\n  margin-bottom: var(--space-lg);\n}\n\n.p-t-b-lg {\n  padding-top: var(--space-lg);\n  padding-bottom: var(--space-lg);\n}\n\n.m-t-b-xl {\n  margin-top: var(--space-xl);\n  margin-bottom: var(--space-xl);\n}\n\n.p-t-b-xl {\n  padding-top: var(--space-xl);\n  padding-bottom: var(--space-xl);\n}\n\n.m-t-b-xxl {\n  margin-top: var(--space-xxl);\n  margin-bottom: var(--space-xxl);\n}\n\n.p-t-b-xxl {\n  padding-top: var(--space-xxl);\n  padding-bottom: var(--space-xxl);\n}\n\n.m-l-r-xxs {\n  margin-left: var(--space-xxs);\n  margin-right: var(--space-xxs);\n}\n\n.p-l-r-xxs {\n  padding-left: var(--space-xxs);\n  padding-right: var(--space-xxs);\n}\n\n.m-l-r-xs {\n  margin-left: var(--space-xs);\n  margin-right: var(--space-xs);\n}\n\n.p-l-r-xs {\n  padding-left: var(--space-xs);\n  padding-right: var(--space-xs);\n}\n\n.m-l-r-sm {\n  margin-left: var(--space-sm);\n  margin-right: var(--space-sm);\n}\n\n.p-l-r-sm {\n  padding-left: var(--space-sm);\n  padding-right: var(--space-sm);\n}\n\n.m-l-r-md {\n  margin-left: var(--space-md);\n  margin-right: var(--space-md);\n}\n\n.p-l-r-md {\n  padding-left: var(--space-md);\n  padding-right: var(--space-md);\n}\n\n.m-l-r-lg {\n  margin-left: var(--space-lg);\n  margin-right: var(--space-lg);\n}\n\n.p-l-r-lg {\n  padding-left: var(--space-lg);\n  padding-right: var(--space-lg);\n}\n\n.m-l-r-xl {\n  margin-left: var(--space-xl);\n  margin-right: var(--space-xl);\n}\n\n.p-l-r-xl {\n  padding-left: var(--space-xl);\n  padding-right: var(--space-xl);\n}\n\n.m-l-r-xxl {\n  margin-left: var(--space-xxl);\n  margin-right: var(--space-xxl);\n}\n\n.p-l-r-xxl {\n  padding-left: var(--space-xxl);\n  padding-right: var(--space-xxl);\n}\n\n.m-tblr-xxs {\n  margin: var(--space-xxs);\n}\n\n.p-tblr-xxs {\n  padding: var(--space-xxs);\n}\n\n.m-tblr-xs {\n  margin: var(--space-xs);\n}\n\n.p-tblr-xs {\n  padding: var(--space-xs);\n}\n\n.m-tblr-sm {\n  margin: var(--space-sm);\n}\n\n.p-tblr-sm {\n  padding: var(--space-sm);\n}\n\n.m-tblr-md {\n  margin: var(--space-md);\n}\n\n.p-tblr-md {\n  padding: var(--space-md);\n}\n\n.m-tblr-lg {\n  margin: var(--space-lg);\n}\n\n.p-tblr-lg {\n  padding: var(--space-lg);\n}\n\n.m-tblr-xl {\n  margin: var(--space-xl);\n}\n\n.p-tblr-xl {\n  padding: var(--space-xl);\n}\n\n.m-tblr-xxl {\n  margin: var(--space-xxl);\n}\n\n.p-tblr-xxl {\n  padding: var(--space-xxl);\n}\n\n.m-auto {\n  margin: auto;\n}\n\n.tal {\n  text-align: left;\n}\n\n.tac {\n  text-align: center;\n}\n\n.tar {\n  text-align: right;\n}\n\n.font-size-xxs {\n  font-size: var(--size-xxs);\n}\n\n.font-size-xs {\n  font-size: var(--size-xs);\n}\n\n.font-size-sm {\n  font-size: var(--size-sm);\n}\n\n.font-size-md {\n  font-size: var(--size-md);\n}\n\n.font-size-lg {\n  font-size: var(--size-lg);\n}\n\n.font-size-xl {\n  font-size: var(--size-xl);\n}\n\n.font-size-xxl {\n  font-size: var(--size-xxl);\n}\n\n.font-weight-bold {\n  font-weight: 900;\n}\n\n.font-weight-normal {\n  font-weight: 300;\n}\n\n.bg-color-primary {\n  background-color: var(--color-primary);\n}\n\n.color-primary {\n  color: var(--color-primary);\n}\n\n.bg-color-black {\n  background-color: var(--color-black);\n}\n\n.color-black {\n  color: var(--color-black);\n}\n\n.bg-color-white {\n  background-color: var(--color-white);\n}\n\n.color-white {\n  color: var(--color-white);\n}\n\n.bg-color-transparent {\n  background-color: var(--color-transparent);\n}\n\n.color-transparent {\n  color: var(--color-transparent);\n}\n\n.bg-color-light-gray {\n  background-color: var(--color-light-gray);\n}\n\n.color-light-gray {\n  color: var(--color-light-gray);\n}\n\n.bg-color-lighten-gray {\n  background-color: var(--color-lighten-gray);\n}\n\n.color-lighten-gray {\n  color: var(--color-lighten-gray);\n}\n\n.bg-color-default-gray {\n  background-color: var(--color-default-gray);\n}\n\n.color-default-gray {\n  color: var(--color-default-gray);\n}\n\n.bg-color-dark-gray {\n  background-color: var(--color-dark-gray);\n}\n\n.color-dark-gray {\n  color: var(--color-dark-gray);\n}\n\n.clearfix::after {\n  display: block;\n  content: \"\";\n  clear: both;\n}\n\n.ellipsis {\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n\n.cursign {\n  cursor: pointer;\n}\n\n.vam {\n  vertical-align: middle;\n}\n\n.bdr-half {\n  border-radius: 50%;\n}\n\n.bdr-small {\n  border-radius: 5px;\n}\n\n.block {\n  display: block;\n}\n\n.hide {\n  display: none;\n}\n\n.inline-block {\n  display: inline-block;\n}\n\n.bdb-line-primary {\n  border-bottom: 1px solid var(--color-primary);\n}\n\n.bd-none {\n  border: none;\n}\n\nbody {\n  padding-left: 300px;\n}\n\n.layout-container {\n  width: 80%;\n  margin: auto;\n}\n\n.main-container {\n  padding-bottom: 60px;\n}\n\n@media (max-width: 768px) {\n  body {\n    padding-left: 0;\n  }\n\n  .main-container {\n    padding-top: 46px;\n  }\n\n  .layout-container {\n    width: 90%;\n  }\n\n  .hidden-sm {\n    display: none;\n  }\n}\n[layout-align] {\n  display: flex;\n}\n\n[layout-align=\"start start\"],\n[layout-align=\"start center\"],\n[layout-align=\"start end\"] {\n  justify-content: flex-start;\n}\n\n[layout-align=\"center start\"],\n[layout-align=\"center center\"],\n[layout-align=\"center end\"] {\n  justify-content: center;\n}\n\n[layout-align=\"end start\"],\n[layout-align=\"end center\"],\n[layout-align=\"end end\"] {\n  justify-content: flex-end;\n}\n\n[layout-align=\"space-between start\"],\n[layout-align=\"space-between center\"],\n[layout-align=\"space-between end\"] {\n  justify-content: space-between;\n}\n\n[layout-align=\"space-arround start\"],\n[layout-align=\"space-arround center\"],\n[layout-align=\"space-arround end\"] {\n  justify-content: space-around;\n}\n\n[layout-align=\"start start\"],\n[layout-align=\"center start\"],\n[layout-align=\"end start\"],\n[layout-align=\"space-between start\"],\n[layout-align=\"space-arround start\"] {\n  align-items: flex-start;\n}\n\n[layout-align=\"start center\"],\n[layout-align=\"center center\"],\n[layout-align=\"end center\"],\n[layout-align=\"space-between center\"],\n[layout-align=\"space-arround center\"] {\n  align-items: center;\n}\n\n[layout-align=\"start end\"],\n[layout-align=\"center end\"],\n[layout-align=\"end end\"],\n[layout-align=\"space-between end\"],\n[layout-align=\"space-arround end\"] {\n  align-items: flex-end;\n}\n\n@keyframes line-scale {\n  0% {\n    transform: scaley(1);\n  }\n  50% {\n    transform: scaley(0.4);\n  }\n  100% {\n    transform: scaley(1);\n  }\n}\n.line-scale > div:nth-child(1) {\n  animation: line-scale 1s -0.4s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);\n}\n.line-scale > div:nth-child(2) {\n  animation: line-scale 1s -0.3s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);\n}\n.line-scale > div:nth-child(3) {\n  animation: line-scale 1s -0.2s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);\n}\n.line-scale > div:nth-child(4) {\n  animation: line-scale 1s -0.1s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);\n}\n.line-scale > div:nth-child(5) {\n  animation: line-scale 1s 0s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);\n}\n.line-scale > div {\n  background-color: var(--color-primary);\n  width: 4px;\n  height: 25px;\n  border-radius: 2px;\n  margin: 2px;\n  animation-fill-mode: both;\n  display: inline-block;\n}\n\n.icon-bg1 {\n  background-image: url(~@images/exclude/sprite.f68d229fbb465db5c9f86d4bdf34d246.png);\n  background-position: 0px 0px;\n  width: 40px;\n  height: 30px;\n}\n\n.icon-bg2 {\n  background-image: url(~@images/exclude/sprite.f68d229fbb465db5c9f86d4bdf34d246.png);\n  background-position: -40px 0px;\n  width: 40px;\n  height: 30px;\n}\n\n.icon-bg3 {\n  background-image: url(~@images/exclude/sprite.f68d229fbb465db5c9f86d4bdf34d246.png);\n  background-position: 0px -30px;\n  width: 40px;\n  height: 30px;\n}\n\n.icon-bg4 {\n  background-image: url(~@images/exclude/sprite.f68d229fbb465db5c9f86d4bdf34d246.png);\n  background-position: -40px -30px;\n  width: 40px;\n  height: 30px;\n}\n\n.icon-bg5 {\n  background-image: url(~@images/exclude/sprite.f68d229fbb465db5c9f86d4bdf34d246.png);\n  background-position: -80px 0px;\n  width: 40px;\n  height: 30px;\n}","@import '~@node_modules/normalize.css';\r\n\r\n*,\r\n:after,\r\n:before {\r\n  box-sizing: border-box;\r\n}\r\n\r\n@font-face {\r\n  font-family: 'Niconne-Regular';\r\n  src: url('~@fonts/font-niconne/Niconne-Regular.eot'),\r\n    url('~@fonts/font-niconne/Niconne-Regular.svg'),\r\n    url('~@fonts/font-niconne/Niconne-Regular.ttf'),\r\n    url('~@fonts/font-niconne/Niconne-Regular.woff');\r\n}\r\n\r\nbody {\r\n  font: lighter 14px/1.5 'Helvetica Neue', 'Helvetica', 'HanHei SC',\r\n    'PingFang SC', 'STHeitiSC-Light', 'Arial', 'Microsoft Yahei', sans-serif;\r\n  background-color: var(--color-light-gray);\r\n  color: var(--color-default-gray);\r\n}\r\n\r\nhtml,\r\nbody,\r\n#__next {\r\n  height: 100%;\r\n}\r\n\r\nul,\r\nli {\r\n  list-style: none;\r\n  @extend .r-m-p;\r\n}\r\ndl,\r\ndd {\r\n  @extend .r-m-p;\r\n}\r\n\r\ni[class^='icon'] {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n}\r\n\r\nbutton {\r\n  padding: 0;\r\n  cursor: pointer;\r\n}\r\nbutton,\r\n[type='button'] {\r\n  -webkit-appearance: button;\r\n}\r\n\r\na {\r\n  text-decoration: none;\r\n  color: var(--color-default-gray);\r\n  &:hover {\r\n    color: var(--color-primary);\r\n  }\r\n}\r\n\r\nfigure {\r\n  margin: 0;\r\n}\r\n\r\nimg {\r\n  max-width: 100%;\r\n}\r\n\r\n.font-family-niconne {\r\n  font-family: 'Niconne-Regular';\r\n}\r\n\r\n.font-family-georgia {\r\n  font-family: 'Georgia';\r\n}\r\n\r\n.rc-dialog {\r\n  position: relative;\r\n  top: 50%;\r\n  width: auto;\r\n  margin: 0 auto;\r\n  pointer-events: none;\r\n  transform: translateY(-50%);\r\n  &-mask {\r\n    position: fixed;\r\n    top: 0;\r\n    right: 0;\r\n    bottom: 0;\r\n    left: 0;\r\n    z-index: 1000;\r\n    height: 100%;\r\n    background-color: rgba(0, 0, 0, 0.45);\r\n  }\r\n  &-mask-hidden {\r\n    display: none;\r\n  }\r\n  &-wrap {\r\n    position: fixed;\r\n    top: 0;\r\n    right: 0;\r\n    bottom: 0;\r\n    left: 0;\r\n    z-index: 1000;\r\n    overflow: auto;\r\n    outline: 0;\r\n  }\r\n  &-content {\r\n    position: relative;\r\n    background-color: var(--color-white);\r\n    background-clip: padding-box;\r\n    border: 0;\r\n    border-radius: 5px;\r\n    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);\r\n    pointer-events: auto;\r\n    overflow: hidden;\r\n  }\r\n  &-close {\r\n    position: absolute;\r\n    top: 0;\r\n    right: 0;\r\n    background-color: var(--color-transparent);\r\n    border: none;\r\n    &:hover {\r\n      transform: rotate(360deg);\r\n      transition: 1.2s;\r\n      transform-origin: 50%;\r\n    }\r\n  }\r\n}\r\n\r\n.hot {\r\n  em {\r\n    position: absolute;\r\n    right: -12px;\r\n    border: 4px solid var(--color-highlight);\r\n    background-color: var(--color-highlight);\r\n    border-radius: 50%;\r\n  }\r\n}\r\n\r\n.switch {\r\n  $height: 18px;\r\n  position: relative;\r\n  min-width: 45px;\r\n  background-color: var(--color-lighten-gray);\r\n  border-radius: 50px;\r\n  height: 22px;\r\n  .round {\r\n    position: absolute;\r\n    top: 2px;\r\n    left: 2px;\r\n    @include equal-wh($height);\r\n    transition: 0.4s;\r\n    &::after {\r\n      content: '';\r\n      display: block;\r\n      height: $height;\r\n      border-radius: 50px;\r\n      background-color: var(--color-white);\r\n    }\r\n  }\r\n  .content {\r\n    color: var(--color-white);\r\n    margin: 0 5px 0 24px;\r\n    transition: 0.4s;\r\n  }\r\n  &.checked {\r\n    background-color: var(--color-primary);\r\n    .round {\r\n      left: calc(100% - 2px - 18px);\r\n    }\r\n    .content {\r\n      color: var(--color-white);\r\n      margin: 0 24px 0 5px;\r\n    }\r\n  }\r\n}\r\n\r\n.module-cmt-notice {\r\n  z-index: 1 !important;\r\n}\r\n","@use \"sass:map\";\r\n@use \"sass:list\";\r\n@use \"sass:string\";\r\n\r\n$side-width: 300px;\r\n\r\n$position-list: (\r\n  fix: fixed,\r\n  abs: absolute,\r\n  rel: relative,\r\n);\r\n\r\n$text-align-list: (\r\n  l: left,\r\n  c: center,\r\n  r: right,\r\n);\r\n\r\n$size-list: (\r\n  xxs: --size-xxs,\r\n  xs: --size-xs,\r\n  sm: --size-sm,\r\n  md: --size-md,\r\n  lg: --size-lg,\r\n  xl: --size-xl,\r\n  xxl: --size-xxl,\r\n);\r\n\r\n$space-list: (\r\n  xxs: --space-xxs,\r\n  xs: --space-xs,\r\n  sm: --space-sm,\r\n  md: --space-md,\r\n  lg: --space-lg,\r\n  xl: --space-xl,\r\n  xxl: --space-xxl,\r\n);\r\n\r\n$color-list: (\r\n  primary: --color-primary,\r\n  black: --color-black,\r\n  white: --color-white,\r\n  transparent: --color-transparent,\r\n  light gray: --color-light-gray,\r\n  lighten gray: --color-lighten-gray,\r\n  default gray: --color-default-gray,\r\n  dark gray: --color-dark-gray,\r\n);\r\n\r\n$dir-list: (\r\n  t: top,\r\n  r: right,\r\n  b: bottom,\r\n  l: left,\r\n);\r\n\r\n$locate-list: map.merge(\r\n  $dir-list,\r\n  (t l: top left, l b: left bottom, tblr: top bottom left right)\r\n);\r\n\r\n$locate-space-list: map.merge(\r\n  $dir-list,\r\n  (t b: top bottom, l r: left right, tblr: all)\r\n);\r\n\r\n//ref:https://github.com/sass/sass/issues/871\r\n@mixin each-content($list, $is-var: false) {\r\n  @each $key, $value in $list {\r\n    @content ($key, if($is-var,var($value),$value));\r\n  }\r\n}\r\n\r\n@mixin box-wh($width: 100%, $height: 100%) {\r\n  width: $width;\r\n  height: $height;\r\n}\r\n\r\n@mixin equal-wh($num: 100%) {\r\n  @if unitless($num) {\r\n    $num: #{$num}px;\r\n  }\r\n  @include box-wh($num, $num);\r\n}\r\n\r\n@mixin border($dir, $color: --color-default-gray, $num: 1) {\r\n  @if unitless($num) {\r\n    $num: #{$num}px;\r\n  }\r\n  @if $dir {\r\n    border-#{$dir}: #{$num} solid $color;\r\n  } @else {\r\n    border: #{$num} solid $color;\r\n  }\r\n}\r\n\r\n@mixin animation-effect() {\r\n  $name: ani-#{unique-id()};\r\n  @keyframes #{$name} {\r\n    @content (null);\r\n  }\r\n  :local {\r\n    @content ($name);\r\n    // animation: $name $duration linear infinite;\r\n  }\r\n}\r\n\r\n//生成边距样式\r\n@function generate-cls-name($list, $cls) {\r\n  @each $key in $list {\r\n    $cls: $cls + if($cls, '-', '') + #{$key};\r\n  }\r\n  @return $cls;\r\n}\r\n\r\n@mixin generate-mp-content($list, $cls, $prefix: margin, $size: --space-md) {\r\n  #{$cls} {\r\n    @include each-content($list) using ($res...) {\r\n      $key: list.nth($res, 1);\r\n      @if $key== all {\r\n        #{$prefix}: var($size);\r\n      } @else {\r\n        #{$prefix}-#{$key}: var($size);\r\n      }\r\n    }\r\n  }\r\n}\r\n\r\n@mixin generate-locate-content($list, $cls) {\r\n  #{$cls} {\r\n    @include each-content($list) using ($res...) {\r\n      $key: list.nth($res, 1);\r\n      #{$key}: 0;\r\n    }\r\n  }\r\n}\r\n\r\n@mixin media-md() {\r\n  @media (max-width: 768px) {\r\n    @content;\r\n  }\r\n}\r\n\r\n@mixin media-lg() {\r\n  @media (max-width: 992px) {\r\n    @content;\r\n  }\r\n}\r\n\r\n@mixin clearfix() {\r\n  &::after {\r\n    display: block;\r\n    content: '';\r\n    clear: both;\r\n  }\r\n}\r\n","@import 'mixin';\r\n\r\n// 定位\r\n@include each-content($position-list) using ($key, $value) {\r\n  .pos-#{$key} {\r\n    position: #{$value};\r\n  }\r\n}\r\n@include each-content($locate-list) using ($keys, $values) {\r\n  $cls: generate-cls-name($keys, null);\r\n  @include generate-locate-content($values, '.#{$cls}-0');\r\n}\r\n\r\n@for $i from 1 through 5 {\r\n  .z-#{$i} {\r\n    z-index: $i;\r\n  }\r\n}\r\n\r\n// 布局\r\n.w-h-100 {\r\n  @include equal-wh(100%);\r\n}\r\n\r\n.w-100 {\r\n  width: 100%;\r\n}\r\n\r\n.h-100 {\r\n  height: 100%;\r\n}\r\n\r\n.min-h-100 {\r\n  min-height: 100%;\r\n}\r\n\r\n// 边距\r\n.r-m-p {\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\n$margin-cls: '.m';\r\n$padding-cls: '.p';\r\n@include each-content($locate-space-list) using ($keys, $values) {\r\n  $mcls: generate-cls-name($keys, $margin-cls);\r\n  $pcls: generate-cls-name($keys, $padding-cls);\r\n\r\n  @include each-content($space-list) using ($key, $size) {\r\n    @include generate-mp-content($values, '#{$mcls}-#{$key}', margin, $size);\r\n    @include generate-mp-content($values, '#{$pcls}-#{$key}', padding, $size);\r\n  }\r\n}\r\n.m-auto {\r\n  margin: auto;\r\n}\r\n\r\n// 字体位置、大小、细粗\r\n@include each-content($text-align-list) using ($key, $value) {\r\n  .ta#{$key} {\r\n    text-align: #{$value};\r\n  }\r\n}\r\n\r\n@include each-content($size-list, true) using ($key, $value) {\r\n  .font-size-#{$key} {\r\n    font-size: $value;\r\n  }\r\n}\r\n\r\n.font-weight-bold {\r\n  font-weight: 900;\r\n}\r\n\r\n.font-weight-normal {\r\n  font-weight: 300;\r\n}\r\n\r\n// 背景(字体)颜色\r\n@include each-content($color-list, true) using ($keys, $value) {\r\n  $bg-cls: generate-cls-name($keys, '.bg-color');\r\n  $color-cls: generate-cls-name($keys, '.color');\r\n  #{$bg-cls} {\r\n    background-color: $value;\r\n  }\r\n  #{$color-cls} {\r\n    color: $value;\r\n  }\r\n}\r\n\r\n//其它\r\n\r\n.clearfix {\r\n  @include clearfix();\r\n}\r\n\r\n.ellipsis {\r\n  white-space: nowrap;\r\n  overflow: hidden;\r\n  text-overflow: ellipsis;\r\n}\r\n\r\n.cursign {\r\n  cursor: pointer;\r\n}\r\n\r\n.vam {\r\n  vertical-align: middle;\r\n}\r\n\r\n.bdr-half {\r\n  border-radius: 50%;\r\n}\r\n\r\n.bdr-small {\r\n  border-radius: 5px;\r\n}\r\n\r\n.block {\r\n  display: block;\r\n}\r\n\r\n.hide {\r\n  display: none;\r\n}\r\n\r\n.inline-block {\r\n  display: inline-block;\r\n}\r\n\r\n.bdb-line-primary {\r\n  border-bottom: 1px solid var(--color-primary);\r\n}\r\n\r\n.bd-none {\r\n  border: none;\r\n}\r\n","body {\r\n  padding-left: $side-width;\r\n}\r\n.layout-container {\r\n  width: 80%;\r\n  margin: auto;\r\n}\r\n.main-container {\r\n  padding-bottom: 60px;\r\n}\r\n\r\n@include media-md() {\r\n  body {\r\n    padding-left: 0;\r\n  }\r\n  .main-container {\r\n    padding-top: 46px;\r\n  }\r\n  .layout-container {\r\n    width: 90%;\r\n  }\r\n  .hidden-sm {\r\n    display: none;\r\n  }\r\n}\r\n\r\n[layout-align] {\r\n  display: flex;\r\n}\r\n\r\n[layout-align='start start'],\r\n[layout-align='start center'],\r\n[layout-align='start end'] {\r\n  justify-content: flex-start;\r\n}\r\n\r\n[layout-align='center start'],\r\n[layout-align='center center'],\r\n[layout-align='center end'] {\r\n  justify-content: center;\r\n}\r\n\r\n[layout-align='end start'],\r\n[layout-align='end center'],\r\n[layout-align='end end'] {\r\n  justify-content: flex-end;\r\n}\r\n\r\n[layout-align='space-between start'],\r\n[layout-align='space-between center'],\r\n[layout-align='space-between end'] {\r\n  justify-content: space-between;\r\n}\r\n\r\n[layout-align='space-arround start'],\r\n[layout-align='space-arround center'],\r\n[layout-align='space-arround end'] {\r\n  justify-content: space-around;\r\n}\r\n\r\n[layout-align='start start'],\r\n[layout-align='center start'],\r\n[layout-align='end start'],\r\n[layout-align='space-between start'],\r\n[layout-align='space-arround start'] {\r\n  align-items: flex-start;\r\n}\r\n\r\n[layout-align='start center'],\r\n[layout-align='center center'],\r\n[layout-align='end center'],\r\n[layout-align='space-between center'],\r\n[layout-align='space-arround center'] {\r\n  align-items: center;\r\n}\r\n\r\n[layout-align='start end'],\r\n[layout-align='center end'],\r\n[layout-align='end end'],\r\n[layout-align='space-between end'],\r\n[layout-align='space-arround end'] {\r\n  align-items: flex-end;\r\n}\r\n","//ref:https://github.com/ConnorAtherton/loaders.css\r\n\r\n$primary-color: var(--color-primary) !default;\r\n$margin: 2px !default;\r\n$line-height: 25px !default;\r\n$line-width: 4px !default;\r\n\r\n@mixin global-bg() {\r\n  background-color: $primary-color;\r\n}\r\n\r\n@mixin global-animation() {\r\n  animation-fill-mode: both;\r\n}\r\n\r\n@mixin lines() {\r\n  @include global-bg();\r\n\r\n  width: $line-width;\r\n  height: $line-height;\r\n  border-radius: 2px;\r\n  margin: $margin;\r\n}\r\n\r\n@function delay($interval, $count, $index) {\r\n  @return ($index * $interval) - ($interval * $count);\r\n}\r\n\r\n@keyframes line-scale {\r\n  0% {\r\n    transform: scaley(1);\r\n  }\r\n  50% {\r\n    transform: scaley(0.4);\r\n  }\r\n  100% {\r\n    transform: scaley(1);\r\n  }\r\n}\r\n\r\n@mixin line-scale($n: 5) {\r\n  @for $i from 1 through $n {\r\n    > div:nth-child(#{$i}) {\r\n      animation: line-scale\r\n        1s\r\n        delay(0.1s, $n, $i)\r\n        infinite\r\n        cubic-bezier(0.2, 0.68, 0.18, 1.08);\r\n    }\r\n  }\r\n}\r\n\r\n.line-scale {\r\n  @include line-scale();\r\n\r\n  > div {\r\n    @include lines();\r\n    @include global-animation();\r\n\r\n    display: inline-block;\r\n  }\r\n}\r\n","// SCSS variables are information about icon's compiled state, stored under its original file name\r\n//\r\n// .icon-home {\r\n//   width: $icon-home-width;\r\n// }\r\n//\r\n// The large array-like variables contain all information about a single icon\r\n// $icon-home: x y offset_x offset_y width height total_width total_height image_path;\r\n//\r\n// At the bottom of this section, we provide information about the spritesheet itself\r\n// $spritesheet: width height image $spritesheet-sprites;\r\n$icon-bg1-name: 'icon-bg1';\r\n$icon-bg1-x: 0px;\r\n$icon-bg1-y: 0px;\r\n$icon-bg1-offset-x: 0px;\r\n$icon-bg1-offset-y: 0px;\r\n$icon-bg1-width: 40px;\r\n$icon-bg1-height: 30px;\r\n$icon-bg1-total-width: 120px;\r\n$icon-bg1-total-height: 60px;\r\n$icon-bg1-image: '~@images/exclude/sprite.f68d229fbb465db5c9f86d4bdf34d246.png';\r\n$icon-bg1: (0px, 0px, 0px, 0px, 40px, 30px, 120px, 60px, '~@images/exclude/sprite.f68d229fbb465db5c9f86d4bdf34d246.png', 'icon-bg1', );\r\n$icon-bg2-name: 'icon-bg2';\r\n$icon-bg2-x: 40px;\r\n$icon-bg2-y: 0px;\r\n$icon-bg2-offset-x: -40px;\r\n$icon-bg2-offset-y: 0px;\r\n$icon-bg2-width: 40px;\r\n$icon-bg2-height: 30px;\r\n$icon-bg2-total-width: 120px;\r\n$icon-bg2-total-height: 60px;\r\n$icon-bg2-image: '~@images/exclude/sprite.f68d229fbb465db5c9f86d4bdf34d246.png';\r\n$icon-bg2: (40px, 0px, -40px, 0px, 40px, 30px, 120px, 60px, '~@images/exclude/sprite.f68d229fbb465db5c9f86d4bdf34d246.png', 'icon-bg2', );\r\n$icon-bg3-name: 'icon-bg3';\r\n$icon-bg3-x: 0px;\r\n$icon-bg3-y: 30px;\r\n$icon-bg3-offset-x: 0px;\r\n$icon-bg3-offset-y: -30px;\r\n$icon-bg3-width: 40px;\r\n$icon-bg3-height: 30px;\r\n$icon-bg3-total-width: 120px;\r\n$icon-bg3-total-height: 60px;\r\n$icon-bg3-image: '~@images/exclude/sprite.f68d229fbb465db5c9f86d4bdf34d246.png';\r\n$icon-bg3: (0px, 30px, 0px, -30px, 40px, 30px, 120px, 60px, '~@images/exclude/sprite.f68d229fbb465db5c9f86d4bdf34d246.png', 'icon-bg3', );\r\n$icon-bg4-name: 'icon-bg4';\r\n$icon-bg4-x: 40px;\r\n$icon-bg4-y: 30px;\r\n$icon-bg4-offset-x: -40px;\r\n$icon-bg4-offset-y: -30px;\r\n$icon-bg4-width: 40px;\r\n$icon-bg4-height: 30px;\r\n$icon-bg4-total-width: 120px;\r\n$icon-bg4-total-height: 60px;\r\n$icon-bg4-image: '~@images/exclude/sprite.f68d229fbb465db5c9f86d4bdf34d246.png';\r\n$icon-bg4: (40px, 30px, -40px, -30px, 40px, 30px, 120px, 60px, '~@images/exclude/sprite.f68d229fbb465db5c9f86d4bdf34d246.png', 'icon-bg4', );\r\n$icon-bg5-name: 'icon-bg5';\r\n$icon-bg5-x: 80px;\r\n$icon-bg5-y: 0px;\r\n$icon-bg5-offset-x: -80px;\r\n$icon-bg5-offset-y: 0px;\r\n$icon-bg5-width: 40px;\r\n$icon-bg5-height: 30px;\r\n$icon-bg5-total-width: 120px;\r\n$icon-bg5-total-height: 60px;\r\n$icon-bg5-image: '~@images/exclude/sprite.f68d229fbb465db5c9f86d4bdf34d246.png';\r\n$icon-bg5: (80px, 0px, -80px, 0px, 40px, 30px, 120px, 60px, '~@images/exclude/sprite.f68d229fbb465db5c9f86d4bdf34d246.png', 'icon-bg5', );\r\n$spritesheet-width: 120px;\r\n$spritesheet-height: 60px;\r\n$spritesheet-image: '~@images/exclude/sprite.f68d229fbb465db5c9f86d4bdf34d246.png';\r\n$spritesheet-sprites: ($icon-bg1, $icon-bg2, $icon-bg3, $icon-bg4, $icon-bg5, );\r\n$spritesheet: (120px, 60px, '~@images/exclude/sprite.f68d229fbb465db5c9f86d4bdf34d246.png', $spritesheet-sprites, );\r\n\r\n// The provided mixins are intended to be used with the array-like variables\r\n//\r\n// .icon-home {\r\n//   @include sprite-width($icon-home);\r\n// }\r\n//\r\n// .icon-email {\r\n//   @include sprite($icon-email);\r\n// }\r\n//\r\n// Example usage in HTML:\r\n//\r\n// `display: block` sprite:\r\n// <div class=\"icon-home\"></div>\r\n//\r\n// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:\r\n//\r\n// // CSS\r\n// .icon {\r\n//   display: inline-block;\r\n// }\r\n//\r\n// // HTML\r\n// <i class=\"icon icon-home\"></i>\r\n@mixin sprite-width($sprite) {\r\n  width: nth($sprite, 5);\r\n}\r\n\r\n@mixin sprite-height($sprite) {\r\n  height: nth($sprite, 6);\r\n}\r\n\r\n@mixin sprite-position($sprite) {\r\n  $sprite-offset-x: nth($sprite, 3);\r\n  $sprite-offset-y: nth($sprite, 4);\r\n  background-position: $sprite-offset-x  $sprite-offset-y;\r\n}\r\n\r\n@mixin sprite-image($sprite) {\r\n  $sprite-image: nth($sprite, 9);\r\n  background-image: url(#{$sprite-image});\r\n}\r\n\r\n@mixin sprite($sprite) {\r\n  @include sprite-image($sprite);\r\n  @include sprite-position($sprite);\r\n  @include sprite-width($sprite);\r\n  @include sprite-height($sprite);\r\n}\r\n\r\n// The `sprites` mixin generates identical output to the CSS template\r\n//   but can be overridden inside of SCSS\r\n//\r\n// @include sprites($spritesheet-sprites);\r\n@mixin sprites($sprites) {\r\n  @each $sprite in $sprites {\r\n    $sprite-name: nth($sprite, 10);\r\n    .#{$sprite-name} {\r\n      @include sprite($sprite);\r\n    }\r\n  }\r\n}\r\n"]}]);
-// Exports
-module.exports = exports;
-
-
-/***/ }),
-
 /***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/assets/styles/sass/page/home.module.scss":
 /*!**********************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-3-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./node_modules/resolve-url-loader??ref--5-oneOf-3-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-3-4!./src/assets/styles/sass/page/home.module.scss ***!
@@ -3385,6 +3495,28 @@ exports.locals = {
 	"ani-uh579er": "home_ani-uh579er__1O37S",
 	"work_list": "home_work_list__2K0pK",
 	"ani-uh579f7": "home_ani-uh579f7__1snIf"
+};
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/assets/styles/sass/page/works.module.scss":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-3-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./node_modules/resolve-url-loader??ref--5-oneOf-3-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-3-4!./src/assets/styles/sass/page/works.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(true);
+// Module
+exports.push([module.i, "@media (max-width: 992px) {\n  .works_works_wrapper__2WoW- .active {\n    border-bottom: 2px solid var(--color-primary);\n  }\n  .works_works_wrapper__2WoW- .tabs-wrapper a {\n    margin: 0 var(--space-sm);\n  }\n  .works_works_wrapper__2WoW- .tabs-active {\n    display: none;\n  }\n}\n.works_works_wrapper__2WoW- .tabs-active {\n  border-bottom: 2px solid var(--color-primary);\n}\n\n.works_works_list__1l-Xw {\n  margin-top: 2%;\n}\n.works_works_list__1l-Xw .item {\n  margin-bottom: 2%;\n}\n.works_works_list__1l-Xw .item:hover {\n  transition: 0.8s;\n  transform: translateY(-2px);\n  box-shadow: 0 0 10px var(--color-default-gray);\n}\n.works_works_list__1l-Xw .item .photo {\n  transition: 0.8s;\n  opacity: 0.6;\n}\n.works_works_list__1l-Xw .category {\n  border: 1px solid var(--color-default-gray);\n  padding: 2px 10px;\n  color: var(--color-gray);\n  border-radius: 15px;\n}\n.works_works_list__1l-Xw .item {\n  position: relative;\n  border: 1px solid var(--color-lighten-gray);\n}\n.works_works_list__1l-Xw .item > a {\n  position: relative;\n  max-height: 350px;\n  overflow: hidden;\n}\n.works_works_list__1l-Xw .mouse-move-layer {\n  position: absolute;\n  left: 0;\n  width: 100%;\n  height: 50%;\n}\n.works_works_list__1l-Xw .content {\n  padding: 2%;\n}\n.works_works_list__1l-Xw .mask-root .app-dec {\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%);\n}\n.works_works_list__1l-Xw .mask-layer {\n  background-color: rgba(0, 0, 0, 0.5);\n}", "",{"version":3,"sources":["C:/Users/19215/Desktop/my_website/src/assets/styles/sass/common/_mixin.scss","C:/Users/19215/Desktop/my_website/src/assets/styles/sass/page/works.module.scss"],"names":[],"mappings":"AAgJE;EC3II;IACE,6CAAA;EAHN;EAMM;IACE,yBAAA;EAJR;EAOI;IACE,aAAA;EALN;AACF;AAYI;EACE,6CAAA;AAVN;;AAeA;EACE,cAAA;AAZF;AAcI;EACE,iBAAA;AAZN;AAaM;EACE,gBAAA;EACA,2BAAA;EACA,8CAAA;AAXR;AAaM;EACE,gBAAA;EACA,YAAA;AAXR;AAcI;EACE,2CAAA;EACA,iBAAA;EACA,wBAAA;EACA,mBAAA;AAZN;AAcI;EACE,kBAAA;EACA,2CAAA;AAZN;AAaM;EACE,kBAAA;EACA,iBAAA;EACA,gBAAA;AAXR;AAcI;EACE,kBAAA;EACA,OAAA;EACA,WAAA;EACA,WAAA;AAZN;AAcI;EACE,WAAA;AAZN;AAeM;EACE,QAAA;EACA,SAAA;EACA,0BAAA;AAbR;AAiBI;EACE,oCAAA;AAfN","file":"works.module.scss","sourcesContent":["@use \"sass:map\";\r\n@use \"sass:list\";\r\n@use \"sass:string\";\r\n\r\n$side-width: 300px;\r\n\r\n$position-list: (\r\n  fix: fixed,\r\n  abs: absolute,\r\n  rel: relative,\r\n);\r\n\r\n$text-align-list: (\r\n  l: left,\r\n  c: center,\r\n  r: right,\r\n);\r\n\r\n$size-list: (\r\n  xxs: --size-xxs,\r\n  xs: --size-xs,\r\n  sm: --size-sm,\r\n  md: --size-md,\r\n  lg: --size-lg,\r\n  xl: --size-xl,\r\n  xxl: --size-xxl,\r\n);\r\n\r\n$space-list: (\r\n  xxs: --space-xxs,\r\n  xs: --space-xs,\r\n  sm: --space-sm,\r\n  md: --space-md,\r\n  lg: --space-lg,\r\n  xl: --space-xl,\r\n  xxl: --space-xxl,\r\n);\r\n\r\n$color-list: (\r\n  primary: --color-primary,\r\n  black: --color-black,\r\n  white: --color-white,\r\n  transparent: --color-transparent,\r\n  light gray: --color-light-gray,\r\n  lighten gray: --color-lighten-gray,\r\n  default gray: --color-default-gray,\r\n  dark gray: --color-dark-gray,\r\n);\r\n\r\n$dir-list: (\r\n  t: top,\r\n  r: right,\r\n  b: bottom,\r\n  l: left,\r\n);\r\n\r\n$locate-list: map.merge(\r\n  $dir-list,\r\n  (t l: top left, l b: left bottom, tblr: top bottom left right)\r\n);\r\n\r\n$locate-space-list: map.merge(\r\n  $dir-list,\r\n  (t b: top bottom, l r: left right, tblr: all)\r\n);\r\n\r\n//ref:https://github.com/sass/sass/issues/871\r\n@mixin each-content($list, $is-var: false) {\r\n  @each $key, $value in $list {\r\n    @content ($key, if($is-var,var($value),$value));\r\n  }\r\n}\r\n\r\n@mixin box-wh($width: 100%, $height: 100%) {\r\n  width: $width;\r\n  height: $height;\r\n}\r\n\r\n@mixin equal-wh($num: 100%) {\r\n  @if unitless($num) {\r\n    $num: #{$num}px;\r\n  }\r\n  @include box-wh($num, $num);\r\n}\r\n\r\n@mixin border($dir, $color: --color-default-gray, $num: 1) {\r\n  @if unitless($num) {\r\n    $num: #{$num}px;\r\n  }\r\n  @if $dir {\r\n    border-#{$dir}: #{$num} solid $color;\r\n  } @else {\r\n    border: #{$num} solid $color;\r\n  }\r\n}\r\n\r\n@mixin animation-effect() {\r\n  $name: ani-#{unique-id()};\r\n  @keyframes #{$name} {\r\n    @content (null);\r\n  }\r\n  :local {\r\n    @content ($name);\r\n    // animation: $name $duration linear infinite;\r\n  }\r\n}\r\n\r\n//生成边距样式\r\n@function generate-cls-name($list, $cls) {\r\n  @each $key in $list {\r\n    $cls: $cls + if($cls, '-', '') + #{$key};\r\n  }\r\n  @return $cls;\r\n}\r\n\r\n@mixin generate-mp-content($list, $cls, $prefix: margin, $size: --space-md) {\r\n  #{$cls} {\r\n    @include each-content($list) using ($res...) {\r\n      $key: list.nth($res, 1);\r\n      @if $key== all {\r\n        #{$prefix}: var($size);\r\n      } @else {\r\n        #{$prefix}-#{$key}: var($size);\r\n      }\r\n    }\r\n  }\r\n}\r\n\r\n@mixin generate-locate-content($list, $cls) {\r\n  #{$cls} {\r\n    @include each-content($list) using ($res...) {\r\n      $key: list.nth($res, 1);\r\n      #{$key}: 0;\r\n    }\r\n  }\r\n}\r\n\r\n@mixin media-md() {\r\n  @media (max-width: 768px) {\r\n    @content;\r\n  }\r\n}\r\n\r\n@mixin media-lg() {\r\n  @media (max-width: 992px) {\r\n    @content;\r\n  }\r\n}\r\n\r\n@mixin clearfix() {\r\n  &::after {\r\n    display: block;\r\n    content: '';\r\n    clear: both;\r\n  }\r\n}\r\n","@import '../common/mixin';\r\n\r\n@include media-lg() {\r\n  .works_wrapper {\r\n    :global {\r\n      .active {\r\n        border-bottom: 2px solid var(--color-primary);\r\n      }\r\n      .tabs-wrapper {\r\n        a {\r\n          margin: 0 var(--space-sm);\r\n        }\r\n      }\r\n      .tabs-active {\r\n        display: none;\r\n      }\r\n    }\r\n  }\r\n}\r\n\r\n.works_wrapper {\r\n  :global {\r\n    .tabs-active {\r\n      border-bottom: 2px solid var(--color-primary);\r\n    }\r\n  }\r\n}\r\n\r\n.works_list {\r\n  margin-top: 2%;\r\n  :global {\r\n    .item {\r\n      margin-bottom: 2%;\r\n      &:hover {\r\n        transition: 0.8s;\r\n        transform: translateY(-2px);\r\n        box-shadow: 0 0 10px var(--color-default-gray);\r\n      }\r\n      .photo {\r\n        transition: 0.8s;\r\n        opacity: 0.6;\r\n      }\r\n    }\r\n    .category {\r\n      border: 1px solid var(--color-default-gray);\r\n      padding: 2px 10px;\r\n      color: var(--color-gray);\r\n      border-radius: 15px;\r\n    }\r\n    .item {\r\n      position: relative;\r\n      border: 1px solid var(--color-lighten-gray);\r\n      > a {\r\n        position: relative;\r\n        max-height: 350px;\r\n        overflow: hidden;\r\n      }\r\n    }\r\n    .mouse-move-layer {\r\n      position: absolute;\r\n      left: 0;\r\n      width: 100%;\r\n      height: 50%;\r\n    }\r\n    .content {\r\n      padding: 2%;\r\n    }\r\n    .mask-root {\r\n      .app-dec {\r\n        top: 50%;\r\n        left: 50%;\r\n        transform: translate(-50%);\r\n      }\r\n    }\r\n\r\n    .mask-layer {\r\n      background-color: rgba(#000, 0.5);\r\n    }\r\n  }\r\n}\r\n"]}]);
+// Exports
+exports.locals = {
+	"works_wrapper": "works_works_wrapper__2WoW-",
+	"works_list": "works_works_list__1l-Xw"
 };
 module.exports = exports;
 
@@ -3493,51 +3625,6 @@ function toComment(sourceMap) {
   var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
   return "/*# ".concat(data, " */");
 }
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
-/*!********************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-module.exports = function (url, options) {
-  if (!options) {
-    // eslint-disable-next-line no-param-reassign
-    options = {};
-  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign
-
-
-  url = url && url.__esModule ? url.default : url;
-
-  if (typeof url !== 'string') {
-    return url;
-  } // If url is already wrapped in quotes, remove them
-
-
-  if (/^['"].*['"]$/.test(url)) {
-    // eslint-disable-next-line no-param-reassign
-    url = url.slice(1, -1);
-  }
-
-  if (options.hash) {
-    // eslint-disable-next-line no-param-reassign
-    url += options.hash;
-  } // Should url be wrapped?
-  // See https://drafts.csswg.org/css-values-3/#urls
-
-
-  if (/["'() \t\n]/.test(url) || options.needQuotes) {
-    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, '\\n'), "\"");
-  }
-
-  return url;
-};
 
 /***/ }),
 
@@ -12200,18 +12287,6 @@ var e,t=(e=__webpack_require__(/*! querystring */ "./node_modules/querystring-es
 
 /***/ }),
 
-/***/ "./node_modules/next/app.js":
-/*!**********************************!*\
-  !*** ./node_modules/next/app.js ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! ./dist/pages/_app */ "./node_modules/next/dist/pages/_app.js")
-
-
-/***/ }),
-
 /***/ "./node_modules/next/dist/build/polyfills/object-assign.js":
 /*!***********************************************************************************************************************!*\
   !*** delegated ./node_modules/next/dist/build/polyfills/object-assign.js from dll-reference dll_e9e577f89808b21d8ba8 ***!
@@ -12235,23 +12310,23 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.tsx&hotRouterUpdates=true!./":
-/*!********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.tsx&hotRouterUpdates=true ***!
-  \********************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fworks&absolutePagePath=C%3A%5CUsers%5C19215%5CDesktop%5Cmy_website%5Csrc%5Cpages%5Cworks.tsx&hotRouterUpdates=true!./":
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fworks&absolutePagePath=C%3A%5CUsers%5C19215%5CDesktop%5Cmy_website%5Csrc%5Cpages%5Cworks.tsx&hotRouterUpdates=true ***!
+  \*************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
     (window.__NEXT_P = window.__NEXT_P || []).push([
-      "/_app",
+      "/works",
       function () {
-        var mod = __webpack_require__(/*! private-next-pages/_app.tsx */ "./src/pages/_app.tsx");
+        var mod = __webpack_require__(/*! ./src/pages/works.tsx */ "./src/pages/works.tsx");
         if (true) {
-          module.hot.accept(/*! private-next-pages/_app.tsx */ "./src/pages/_app.tsx", function () {
-            if (!next.router.components["/_app"]) return;
-            var updatedPage = __webpack_require__(/*! private-next-pages/_app.tsx */ "./src/pages/_app.tsx");
-            next.router.update("/_app", updatedPage);
+          module.hot.accept(/*! ./src/pages/works.tsx */ "./src/pages/works.tsx", function () {
+            if (!next.router.components["/works"]) return;
+            var updatedPage = __webpack_require__(/*! ./src/pages/works.tsx */ "./src/pages/works.tsx");
+            next.router.update("/works", updatedPage);
           });
         }
         return mod;
@@ -15017,183 +15092,6 @@ exports.ST = exports.SP && typeof performance.mark === 'function' && typeof perf
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/pages/_app.js":
-/*!**********************************************!*\
-  !*** ./node_modules/next/dist/pages/_app.js ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _classCallCheck = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/classCallCheck.js");
-
-var _createClass = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/createClass.js");
-
-var _inherits = __webpack_require__(/*! @babel/runtime/helpers/inherits */ "./node_modules/@babel/runtime/helpers/inherits.js");
-
-var _possibleConstructorReturn = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js");
-
-var _getPrototypeOf = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js");
-
-var _regeneratorRuntime = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
-
-function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
-
-function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
-
-exports.__esModule = true;
-exports.Container = Container;
-exports.createUrl = createUrl;
-exports["default"] = void 0;
-
-var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-
-var _utils = __webpack_require__(/*! ../next-server/lib/utils */ "./node_modules/next/dist/next-server/lib/utils.js");
-
-exports.AppInitialProps = _utils.AppInitialProps;
-/**
-* `App` component is used for initialize of pages. It allows for overwriting and full control of the `page` initialization.
-* This allows for keeping state between navigation, custom error handling, injecting additional data.
-*/
-
-function appGetInitialProps(_ref) {
-  var Component, ctx, pageProps;
-  return _regeneratorRuntime.async(function appGetInitialProps$(_context) {
-    while (1) {
-      switch (_context.prev = _context.next) {
-        case 0:
-          Component = _ref.Component, ctx = _ref.ctx;
-          _context.next = 3;
-          return _regeneratorRuntime.awrap((0, _utils.loadGetInitialProps)(Component, ctx));
-
-        case 3:
-          pageProps = _context.sent;
-          return _context.abrupt("return", {
-            pageProps: pageProps
-          });
-
-        case 5:
-        case "end":
-          return _context.stop();
-      }
-    }
-  }, null, null, null, Promise);
-}
-
-var App = /*#__PURE__*/function (_react$default$Compon) {
-  _inherits(App, _react$default$Compon);
-
-  var _super = _createSuper(App);
-
-  function App() {
-    _classCallCheck(this, App);
-
-    return _super.apply(this, arguments);
-  }
-
-  _createClass(App, [{
-    key: "componentDidCatch",
-    // Kept here for backwards compatibility.
-    // When someone ended App they could call `super.componentDidCatch`.
-    // @deprecated This method is no longer needed. Errors are caught at the top level
-    value: function componentDidCatch(error, _errorInfo) {
-      throw error;
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      var _this$props = this.props,
-          router = _this$props.router,
-          Component = _this$props.Component,
-          pageProps = _this$props.pageProps,
-          __N_SSG = _this$props.__N_SSG,
-          __N_SSP = _this$props.__N_SSP;
-      return _react["default"].createElement(Component, Object.assign({}, pageProps, // we don't add the legacy URL prop if it's using non-legacy
-      // methods like getStaticProps and getServerSideProps
-      !(__N_SSG || __N_SSP) ? {
-        url: createUrl(router)
-      } : {}));
-    }
-  }]);
-
-  return App;
-}(_react["default"].Component);
-
-exports["default"] = App;
-App.origGetInitialProps = appGetInitialProps;
-App.getInitialProps = appGetInitialProps;
-var warnContainer;
-var warnUrl;
-
-if (true) {
-  warnContainer = (0, _utils.execOnce)(function () {
-    console.warn("Warning: the `Container` in `_app` has been deprecated and should be removed. https://err.sh/zeit/next.js/app-container-deprecated");
-  });
-  warnUrl = (0, _utils.execOnce)(function () {
-    console.error("Warning: the 'url' property is deprecated. https://err.sh/zeit/next.js/url-deprecated");
-  });
-} // @deprecated noop for now until removal
-
-
-function Container(p) {
-  if (true) warnContainer();
-  return p.children;
-}
-
-function createUrl(router) {
-  // This is to make sure we don't references the router object at call time
-  var pathname = router.pathname,
-      asPath = router.asPath,
-      query = router.query;
-  return {
-    get query() {
-      if (true) warnUrl();
-      return query;
-    },
-
-    get pathname() {
-      if (true) warnUrl();
-      return pathname;
-    },
-
-    get asPath() {
-      if (true) warnUrl();
-      return asPath;
-    },
-
-    back: function back() {
-      if (true) warnUrl();
-      router.back();
-    },
-    push: function push(url, as) {
-      if (true) warnUrl();
-      return router.push(url, as);
-    },
-    pushTo: function pushTo(href, as) {
-      if (true) warnUrl();
-      var pushRoute = as ? href : '';
-      var pushUrl = as || href;
-      return router.push(pushRoute, pushUrl);
-    },
-    replace: function replace(url, as) {
-      if (true) warnUrl();
-      return router.replace(url, as);
-    },
-    replaceTo: function replaceTo(href, as) {
-      if (true) warnUrl();
-      var replaceRoute = as ? href : '';
-      var replaceUrl = as || href;
-      return router.replace(replaceRoute, replaceUrl);
-    }
-  };
-}
-
-/***/ }),
-
 /***/ "./node_modules/next/link.js":
 /*!***********************************!*\
   !*** ./node_modules/next/link.js ***!
@@ -16224,6 +16122,54 @@ function callbackify(original) {
 exports.callbackify = callbackify;
 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../process/browser.js */ "./node_modules/process/browser.js")))
+
+/***/ }),
+
+/***/ "./node_modules/performance-now/lib/performance-now.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/performance-now/lib/performance-now.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(process) {// Generated by CoffeeScript 1.12.2
+(function() {
+  var getNanoSeconds, hrtime, loadTime, moduleLoadTime, nodeLoadTime, upTime;
+
+  if ((typeof performance !== "undefined" && performance !== null) && performance.now) {
+    module.exports = function() {
+      return performance.now();
+    };
+  } else if ((typeof process !== "undefined" && process !== null) && process.hrtime) {
+    module.exports = function() {
+      return (getNanoSeconds() - nodeLoadTime) / 1e6;
+    };
+    hrtime = process.hrtime;
+    getNanoSeconds = function() {
+      var hr;
+      hr = hrtime();
+      return hr[0] * 1e9 + hr[1];
+    };
+    moduleLoadTime = getNanoSeconds();
+    upTime = process.uptime() * 1e9;
+    nodeLoadTime = moduleLoadTime - upTime;
+  } else if (Date.now) {
+    module.exports = function() {
+      return Date.now() - loadTime;
+    };
+    loadTime = Date.now();
+  } else {
+    module.exports = function() {
+      return new Date().getTime() - loadTime;
+    };
+    loadTime = new Date().getTime();
+  }
+
+}).call(this);
+
+//# sourceMappingURL=performance-now.js.map
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../process/browser.js */ "./node_modules/process/browser.js")))
 
 /***/ }),
 
@@ -17368,6 +17314,93 @@ var objectKeys = Object.keys || function (obj) {
 exports.decode = exports.parse = __webpack_require__(/*! ./decode */ "./node_modules/querystring-es3/decode.js");
 exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node_modules/querystring-es3/encode.js");
 
+
+/***/ }),
+
+/***/ "./node_modules/raf/index.js":
+/*!***********************************!*\
+  !*** ./node_modules/raf/index.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {var now = __webpack_require__(/*! performance-now */ "./node_modules/performance-now/lib/performance-now.js")
+  , root = typeof window === 'undefined' ? global : window
+  , vendors = ['moz', 'webkit']
+  , suffix = 'AnimationFrame'
+  , raf = root['request' + suffix]
+  , caf = root['cancel' + suffix] || root['cancelRequest' + suffix]
+
+for(var i = 0; !raf && i < vendors.length; i++) {
+  raf = root[vendors[i] + 'Request' + suffix]
+  caf = root[vendors[i] + 'Cancel' + suffix]
+      || root[vendors[i] + 'CancelRequest' + suffix]
+}
+
+// Some versions of FF have rAF but not cAF
+if(!raf || !caf) {
+  var last = 0
+    , id = 0
+    , queue = []
+    , frameDuration = 1000 / 60
+
+  raf = function(callback) {
+    if(queue.length === 0) {
+      var _now = now()
+        , next = Math.max(0, frameDuration - (_now - last))
+      last = next + _now
+      setTimeout(function() {
+        var cp = queue.slice(0)
+        // Clear queue here to prevent
+        // callbacks from appending listeners
+        // to the current frame's queue
+        queue.length = 0
+        for(var i = 0; i < cp.length; i++) {
+          if(!cp[i].cancelled) {
+            try{
+              cp[i].callback(last)
+            } catch(e) {
+              setTimeout(function() { throw e }, 0)
+            }
+          }
+        }
+      }, Math.round(next))
+    }
+    queue.push({
+      handle: ++id,
+      callback: callback,
+      cancelled: false
+    })
+    return id
+  }
+
+  caf = function(handle) {
+    for(var i = 0; i < queue.length; i++) {
+      if(queue[i].handle === handle) {
+        queue[i].cancelled = true
+      }
+    }
+  }
+}
+
+module.exports = function(fn) {
+  // Wrap in a new function to prevent
+  // `cancel` potentially being assigned
+  // to the native rAF function
+  return raf.call(root, fn)
+}
+module.exports.cancel = function() {
+  caf.apply(root, arguments)
+}
+module.exports.polyfill = function(object) {
+  if (!object) {
+    object = root;
+  }
+  object.requestAnimationFrame = raf
+  object.cancelAnimationFrame = caf
+}
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
@@ -19809,6 +19842,324 @@ module.exports = (__webpack_require__(/*! dll-reference dll_e9e577f89808b21d8ba8
 
 /***/ }),
 
+/***/ "./node_modules/react-infinite-scroller/dist/InfiniteScroll.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/react-infinite-scroller/dist/InfiniteScroll.js ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var InfiniteScroll = function (_Component) {
+  _inherits(InfiniteScroll, _Component);
+
+  function InfiniteScroll(props) {
+    _classCallCheck(this, InfiniteScroll);
+
+    var _this = _possibleConstructorReturn(this, (InfiniteScroll.__proto__ || Object.getPrototypeOf(InfiniteScroll)).call(this, props));
+
+    _this.scrollListener = _this.scrollListener.bind(_this);
+    _this.eventListenerOptions = _this.eventListenerOptions.bind(_this);
+    _this.mousewheelListener = _this.mousewheelListener.bind(_this);
+    return _this;
+  }
+
+  _createClass(InfiniteScroll, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      this.pageLoaded = this.props.pageStart;
+      this.options = this.eventListenerOptions();
+      this.attachScrollListener();
+    }
+  }, {
+    key: 'componentDidUpdate',
+    value: function componentDidUpdate() {
+      if (this.props.isReverse && this.loadMore) {
+        var parentElement = this.getParentElement(this.scrollComponent);
+        parentElement.scrollTop = parentElement.scrollHeight - this.beforeScrollHeight + this.beforeScrollTop;
+        this.loadMore = false;
+      }
+      this.attachScrollListener();
+    }
+  }, {
+    key: 'componentWillUnmount',
+    value: function componentWillUnmount() {
+      this.detachScrollListener();
+      this.detachMousewheelListener();
+    }
+  }, {
+    key: 'isPassiveSupported',
+    value: function isPassiveSupported() {
+      var passive = false;
+
+      var testOptions = {
+        get passive() {
+          passive = true;
+        }
+      };
+
+      try {
+        document.addEventListener('test', null, testOptions);
+        document.removeEventListener('test', null, testOptions);
+      } catch (e) {
+        // ignore
+      }
+      return passive;
+    }
+  }, {
+    key: 'eventListenerOptions',
+    value: function eventListenerOptions() {
+      var options = this.props.useCapture;
+
+      if (this.isPassiveSupported()) {
+        options = {
+          useCapture: this.props.useCapture,
+          passive: true
+        };
+      }
+      return options;
+    }
+
+    // Set a defaut loader for all your `InfiniteScroll` components
+
+  }, {
+    key: 'setDefaultLoader',
+    value: function setDefaultLoader(loader) {
+      this.defaultLoader = loader;
+    }
+  }, {
+    key: 'detachMousewheelListener',
+    value: function detachMousewheelListener() {
+      var scrollEl = window;
+      if (this.props.useWindow === false) {
+        scrollEl = this.scrollComponent.parentNode;
+      }
+
+      scrollEl.removeEventListener('mousewheel', this.mousewheelListener, this.options ? this.options : this.props.useCapture);
+    }
+  }, {
+    key: 'detachScrollListener',
+    value: function detachScrollListener() {
+      var scrollEl = window;
+      if (this.props.useWindow === false) {
+        scrollEl = this.getParentElement(this.scrollComponent);
+      }
+
+      scrollEl.removeEventListener('scroll', this.scrollListener, this.options ? this.options : this.props.useCapture);
+      scrollEl.removeEventListener('resize', this.scrollListener, this.options ? this.options : this.props.useCapture);
+    }
+  }, {
+    key: 'getParentElement',
+    value: function getParentElement(el) {
+      var scrollParent = this.props.getScrollParent && this.props.getScrollParent();
+      if (scrollParent != null) {
+        return scrollParent;
+      }
+      return el && el.parentNode;
+    }
+  }, {
+    key: 'filterProps',
+    value: function filterProps(props) {
+      return props;
+    }
+  }, {
+    key: 'attachScrollListener',
+    value: function attachScrollListener() {
+      var parentElement = this.getParentElement(this.scrollComponent);
+
+      if (!this.props.hasMore || !parentElement) {
+        return;
+      }
+
+      var scrollEl = window;
+      if (this.props.useWindow === false) {
+        scrollEl = parentElement;
+      }
+
+      scrollEl.addEventListener('mousewheel', this.mousewheelListener, this.options ? this.options : this.props.useCapture);
+      scrollEl.addEventListener('scroll', this.scrollListener, this.options ? this.options : this.props.useCapture);
+      scrollEl.addEventListener('resize', this.scrollListener, this.options ? this.options : this.props.useCapture);
+
+      if (this.props.initialLoad) {
+        this.scrollListener();
+      }
+    }
+  }, {
+    key: 'mousewheelListener',
+    value: function mousewheelListener(e) {
+      // Prevents Chrome hangups
+      // See: https://stackoverflow.com/questions/47524205/random-high-content-download-time-in-chrome/47684257#47684257
+      if (e.deltaY === 1 && !this.isPassiveSupported()) {
+        e.preventDefault();
+      }
+    }
+  }, {
+    key: 'scrollListener',
+    value: function scrollListener() {
+      var el = this.scrollComponent;
+      var scrollEl = window;
+      var parentNode = this.getParentElement(el);
+
+      var offset = void 0;
+      if (this.props.useWindow) {
+        var doc = document.documentElement || document.body.parentNode || document.body;
+        var scrollTop = scrollEl.pageYOffset !== undefined ? scrollEl.pageYOffset : doc.scrollTop;
+        if (this.props.isReverse) {
+          offset = scrollTop;
+        } else {
+          offset = this.calculateOffset(el, scrollTop);
+        }
+      } else if (this.props.isReverse) {
+        offset = parentNode.scrollTop;
+      } else {
+        offset = el.scrollHeight - parentNode.scrollTop - parentNode.clientHeight;
+      }
+
+      // Here we make sure the element is visible as well as checking the offset
+      if (offset < Number(this.props.threshold) && el && el.offsetParent !== null) {
+        this.detachScrollListener();
+        this.beforeScrollHeight = parentNode.scrollHeight;
+        this.beforeScrollTop = parentNode.scrollTop;
+        // Call loadMore after detachScrollListener to allow for non-async loadMore functions
+        if (typeof this.props.loadMore === 'function') {
+          this.props.loadMore(this.pageLoaded += 1);
+          this.loadMore = true;
+        }
+      }
+    }
+  }, {
+    key: 'calculateOffset',
+    value: function calculateOffset(el, scrollTop) {
+      if (!el) {
+        return 0;
+      }
+
+      return this.calculateTopPosition(el) + (el.offsetHeight - scrollTop - window.innerHeight);
+    }
+  }, {
+    key: 'calculateTopPosition',
+    value: function calculateTopPosition(el) {
+      if (!el) {
+        return 0;
+      }
+      return el.offsetTop + this.calculateTopPosition(el.offsetParent);
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var _this2 = this;
+
+      var renderProps = this.filterProps(this.props);
+
+      var children = renderProps.children,
+          element = renderProps.element,
+          hasMore = renderProps.hasMore,
+          initialLoad = renderProps.initialLoad,
+          isReverse = renderProps.isReverse,
+          loader = renderProps.loader,
+          loadMore = renderProps.loadMore,
+          pageStart = renderProps.pageStart,
+          ref = renderProps.ref,
+          threshold = renderProps.threshold,
+          useCapture = renderProps.useCapture,
+          useWindow = renderProps.useWindow,
+          getScrollParent = renderProps.getScrollParent,
+          props = _objectWithoutProperties(renderProps, ['children', 'element', 'hasMore', 'initialLoad', 'isReverse', 'loader', 'loadMore', 'pageStart', 'ref', 'threshold', 'useCapture', 'useWindow', 'getScrollParent']);
+
+      props.ref = function (node) {
+        _this2.scrollComponent = node;
+        if (ref) {
+          ref(node);
+        }
+      };
+
+      var childrenArray = [children];
+      if (hasMore) {
+        if (loader) {
+          isReverse ? childrenArray.unshift(loader) : childrenArray.push(loader);
+        } else if (this.defaultLoader) {
+          isReverse ? childrenArray.unshift(this.defaultLoader) : childrenArray.push(this.defaultLoader);
+        }
+      }
+      return _react2.default.createElement(element, props, childrenArray);
+    }
+  }]);
+
+  return InfiniteScroll;
+}(_react.Component);
+
+InfiniteScroll.propTypes = {
+  children: _propTypes2.default.node.isRequired,
+  element: _propTypes2.default.node,
+  hasMore: _propTypes2.default.bool,
+  initialLoad: _propTypes2.default.bool,
+  isReverse: _propTypes2.default.bool,
+  loader: _propTypes2.default.node,
+  loadMore: _propTypes2.default.func.isRequired,
+  pageStart: _propTypes2.default.number,
+  ref: _propTypes2.default.func,
+  getScrollParent: _propTypes2.default.func,
+  threshold: _propTypes2.default.number,
+  useCapture: _propTypes2.default.bool,
+  useWindow: _propTypes2.default.bool
+};
+InfiniteScroll.defaultProps = {
+  element: 'div',
+  hasMore: false,
+  initialLoad: true,
+  pageStart: 0,
+  ref: null,
+  threshold: 250,
+  useWindow: true,
+  isReverse: false,
+  useCapture: false,
+  loader: null,
+  getScrollParent: null
+};
+exports.default = InfiniteScroll;
+module.exports = exports['default'];
+
+
+/***/ }),
+
+/***/ "./node_modules/react-infinite-scroller/index.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/react-infinite-scroller/index.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! ./dist/InfiniteScroll */ "./node_modules/react-infinite-scroller/dist/InfiniteScroll.js")
+
+
+/***/ }),
+
 /***/ "./node_modules/react-is/cjs/react-is.development.js":
 /*!***********************************************************!*\
   !*** ./node_modules/react-is/cjs/react-is.development.js ***!
@@ -20019,143 +20370,632 @@ if (false) {} else {
 
 /***/ }),
 
-/***/ "./node_modules/react-share-components/dist/fonts/iconfont.eot":
-/*!*********************************************************************!*\
-  !*** ./node_modules/react-share-components/dist/fonts/iconfont.eot ***!
-  \*********************************************************************/
+/***/ "./node_modules/react-lazyload/lib/index.js":
+/*!**************************************************!*\
+  !*** ./node_modules/react-lazyload/lib/index.js ***!
+  \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/media/iconfont.8fbe5401aaf59676ae94a5ef9a42ad7b.eot";
-
-/***/ }),
-
-/***/ "./node_modules/react-share-components/dist/fonts/iconfont.svg":
-/*!*********************************************************************!*\
-  !*** ./node_modules/react-share-components/dist/fonts/iconfont.svg ***!
-  \*********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/media/iconfont.7f53b70c650c05ac6f792360c0f0f8b2.svg";
-
-/***/ }),
-
-/***/ "./node_modules/react-share-components/dist/fonts/iconfont.ttf":
-/*!*********************************************************************!*\
-  !*** ./node_modules/react-share-components/dist/fonts/iconfont.ttf ***!
-  \*********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/media/iconfont.9d1dd06c43da63785aa7fc4bc949fa70.ttf";
-
-/***/ }),
-
-/***/ "./node_modules/react-share-components/dist/fonts/iconfont.woff":
-/*!**********************************************************************!*\
-  !*** ./node_modules/react-share-components/dist/fonts/iconfont.woff ***!
-  \**********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/media/iconfont.ef7d2744b1c12f3806dad4b1b8f211b7.woff";
-
-/***/ }),
-
-/***/ "./node_modules/react-share-components/dist/react-share-components.css":
-/*!*****************************************************************************!*\
-  !*** ./node_modules/react-share-components/dist/react-share-components.css ***!
-  \*****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var api = __webpack_require__(/*! ../../style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../css-loader/dist/cjs.js??ref--5-oneOf-5-1!../../next/dist/compiled/postcss-loader??__nextjs_postcss!./react-share-components.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/react-share-components/dist/react-share-components.css");
-
-            content = content.__esModule ? content.default : content;
-
-            if (typeof content === 'string') {
-              content = [[module.i, content, '']];
-            }
-
-var options = {};
-
-options.insert = function(element){// These elements should always exist. If they do not,
-// this code should fail.
-var anchorElement=document.querySelector('#__next_css__DO_NOT_USE__');var parentNode=anchorElement.parentNode;// Normally <head>
-// Each style tag should be placed right before our
-// anchor. By inserting before and not after, we do not
-// need to track the last inserted element.
-parentNode.insertBefore(element,anchorElement)// Remember: this is development only code.
-//
-// After styles are injected, we need to remove the
-// <style> tags that set `body { display: none; }`.
-//
-// We use `requestAnimationFrame` as a way to defer
-// this operation since there may be multiple style
-// tags.
-;(self.requestAnimationFrame||setTimeout)(function(){for(var x=document.querySelectorAll('[data-next-hide-fouc]'),i=x.length;i--;){x[i].parentNode.removeChild(x[i]);}});};
-options.singleton = false;
-
-var update = api(content, options);
+"use strict";
 
 
-if (true) {
-  if (!content.locals || module.hot.invalidate) {
-    var isEqualLocals = function isEqualLocals(a, b) {
-  if (!a && b || a && !b) {
-    return false;
-  }
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.forceVisible = exports.forceCheck = exports.lazyload = undefined;
 
-  var p;
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-  for (p in a) {
-    if (a[p] !== b[p]) {
-      return false;
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _event = __webpack_require__(/*! ./utils/event */ "./node_modules/react-lazyload/lib/utils/event.js");
+
+var _scrollParent = __webpack_require__(/*! ./utils/scrollParent */ "./node_modules/react-lazyload/lib/utils/scrollParent.js");
+
+var _scrollParent2 = _interopRequireDefault(_scrollParent);
+
+var _debounce = __webpack_require__(/*! ./utils/debounce */ "./node_modules/react-lazyload/lib/utils/debounce.js");
+
+var _debounce2 = _interopRequireDefault(_debounce);
+
+var _throttle = __webpack_require__(/*! ./utils/throttle */ "./node_modules/react-lazyload/lib/utils/throttle.js");
+
+var _throttle2 = _interopRequireDefault(_throttle);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /**
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * react-lazyload
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                */
+
+
+var defaultBoundingClientRect = { top: 0, right: 0, bottom: 0, left: 0, width: 0, height: 0 };
+var LISTEN_FLAG = 'data-lazyload-listened';
+var listeners = [];
+var pending = [];
+
+// try to handle passive events
+var passiveEventSupported = false;
+try {
+  var opts = Object.defineProperty({}, 'passive', {
+    get: function get() {
+      passiveEventSupported = true;
     }
-  }
-
-  for (p in b) {
-    if (!a[p]) {
-      return false;
-    }
-  }
-
-  return true;
-};
-    var oldLocals = content.locals;
-
-    module.hot.accept(
-      /*! !../../css-loader/dist/cjs.js??ref--5-oneOf-5-1!../../next/dist/compiled/postcss-loader??__nextjs_postcss!./react-share-components.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/react-share-components/dist/react-share-components.css",
-      function () {
-        var newContent = __webpack_require__(/*! !../../css-loader/dist/cjs.js??ref--5-oneOf-5-1!../../next/dist/compiled/postcss-loader??__nextjs_postcss!./react-share-components.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/react-share-components/dist/react-share-components.css");
-
-              newContent = newContent.__esModule ? newContent.default : newContent;
-
-              if (typeof newContent === 'string') {
-                newContent = [[module.i, newContent, '']];
-              }
-
-              if (!isEqualLocals(oldLocals, newContent.locals)) {
-                module.hot.invalidate();
-
-                return;
-              }
-
-              oldLocals = newContent.locals;
-
-              update(newContent);
-      }
-    )
-  }
-
-  module.hot.dispose(function() {
-    update();
   });
+  window.addEventListener('test', null, opts);
+} catch (e) {}
+// if they are supported, setup the optional params
+// IMPORTANT: FALSE doubles as the default CAPTURE value!
+var passiveEvent = passiveEventSupported ? { capture: false, passive: true } : false;
+
+/**
+ * Check if `component` is visible in overflow container `parent`
+ * @param  {node} component React component
+ * @param  {node} parent    component's scroll parent
+ * @return {bool}
+ */
+var checkOverflowVisible = function checkOverflowVisible(component, parent) {
+  var node = _reactDom2.default.findDOMNode(component);
+  // const node = component.ref;
+
+  var parentTop = void 0;
+  var parentLeft = void 0;
+  var parentHeight = void 0;
+  var parentWidth = void 0;
+
+  try {
+    var _parent$getBoundingCl = parent.getBoundingClientRect();
+
+    parentTop = _parent$getBoundingCl.top;
+    parentLeft = _parent$getBoundingCl.left;
+    parentHeight = _parent$getBoundingCl.height;
+    parentWidth = _parent$getBoundingCl.width;
+  } catch (e) {
+    parentTop = defaultBoundingClientRect.top;
+    parentLeft = defaultBoundingClientRect.left;
+    parentHeight = defaultBoundingClientRect.height;
+    parentWidth = defaultBoundingClientRect.width;
+  }
+
+  var windowInnerHeight = window.innerHeight || document.documentElement.clientHeight;
+  var windowInnerWidth = window.innerWidth || document.documentElement.clientWidth;
+
+  // calculate top and height of the intersection of the element's scrollParent and viewport
+  var intersectionTop = Math.max(parentTop, 0); // intersection's top relative to viewport
+  var intersectionLeft = Math.max(parentLeft, 0); // intersection's left relative to viewport
+  var intersectionHeight = Math.min(windowInnerHeight, parentTop + parentHeight) - intersectionTop; // height
+  var intersectionWidth = Math.min(windowInnerWidth, parentLeft + parentWidth) - intersectionLeft; // width
+
+  // check whether the element is visible in the intersection
+  var top = void 0;
+  var left = void 0;
+  var height = void 0;
+  var width = void 0;
+
+  try {
+    var _node$getBoundingClie = node.getBoundingClientRect();
+
+    top = _node$getBoundingClie.top;
+    left = _node$getBoundingClie.left;
+    height = _node$getBoundingClie.height;
+    width = _node$getBoundingClie.width;
+  } catch (e) {
+    top = defaultBoundingClientRect.top;
+    left = defaultBoundingClientRect.left;
+    height = defaultBoundingClientRect.height;
+    width = defaultBoundingClientRect.width;
+  }
+
+  var offsetTop = top - intersectionTop; // element's top relative to intersection
+  var offsetLeft = left - intersectionLeft; // element's left relative to intersection
+
+  var offsets = Array.isArray(component.props.offset) ? component.props.offset : [component.props.offset, component.props.offset]; // Be compatible with previous API
+
+  return offsetTop - offsets[0] <= intersectionHeight && offsetTop + height + offsets[1] >= 0 && offsetLeft - offsets[0] <= intersectionWidth && offsetLeft + width + offsets[1] >= 0;
+};
+
+/**
+ * Check if `component` is visible in document
+ * @param  {node} component React component
+ * @return {bool}
+ */
+var checkNormalVisible = function checkNormalVisible(component) {
+  var node = _reactDom2.default.findDOMNode(component);
+  // const node = component.ref;
+
+  // If this element is hidden by css rules somehow, it's definitely invisible
+  if (!(node.offsetWidth || node.offsetHeight || node.getClientRects().length)) return false;
+
+  var top = void 0;
+  var elementHeight = void 0;
+
+  try {
+    var _node$getBoundingClie2 = node.getBoundingClientRect();
+
+    top = _node$getBoundingClie2.top;
+    elementHeight = _node$getBoundingClie2.height;
+  } catch (e) {
+    top = defaultBoundingClientRect.top;
+    elementHeight = defaultBoundingClientRect.height;
+  }
+
+  var windowInnerHeight = window.innerHeight || document.documentElement.clientHeight;
+
+  var offsets = Array.isArray(component.props.offset) ? component.props.offset : [component.props.offset, component.props.offset]; // Be compatible with previous API
+
+  return top - offsets[0] <= windowInnerHeight && top + elementHeight + offsets[1] >= 0;
+};
+
+/**
+ * Detect if element is visible in viewport, if so, set `visible` state to true.
+ * If `once` prop is provided true, remove component as listener after checkVisible
+ *
+ * @param  {React} component   React component that respond to scroll and resize
+ */
+var checkVisible = function checkVisible(component) {
+  var node = _reactDom2.default.findDOMNode(component);
+  // const node = component.ref;
+  if (!(node instanceof HTMLElement)) {
+    return;
+  }
+
+  var parent = (0, _scrollParent2.default)(node);
+  var isOverflow = component.props.overflow && parent !== node.ownerDocument && parent !== document && parent !== document.documentElement;
+  var visible = isOverflow ? checkOverflowVisible(component, parent) : checkNormalVisible(component);
+  if (visible) {
+    // Avoid extra render if previously is visible
+    if (!component.visible) {
+      if (component.props.once) {
+        pending.push(component);
+      }
+
+      component.visible = true;
+      component.forceUpdate();
+    }
+  } else if (!(component.props.once && component.visible)) {
+    component.visible = false;
+    if (component.props.unmountIfInvisible) {
+      component.forceUpdate();
+    }
+  }
+};
+
+var purgePending = function purgePending() {
+  pending.forEach(function (component) {
+    var index = listeners.indexOf(component);
+    if (index !== -1) {
+      listeners.splice(index, 1);
+    }
+  });
+
+  pending = [];
+};
+
+var lazyLoadHandler = function lazyLoadHandler() {
+  for (var i = 0; i < listeners.length; ++i) {
+    var listener = listeners[i];
+    checkVisible(listener);
+  }
+  // Remove `once` component in listeners
+  purgePending();
+};
+
+/**
+ * Forces the component to display regardless of whether the element is visible in the viewport.
+ */
+var forceVisible = function forceVisible() {
+  for (var i = 0; i < listeners.length; ++i) {
+    var listener = listeners[i];
+    listener.visible = true;
+    listener.forceUpdate();
+  }
+  // Remove `once` component in listeners
+  purgePending();
+};
+
+// Depending on component's props
+var delayType = void 0;
+var finalLazyLoadHandler = null;
+
+var isString = function isString(string) {
+  return typeof string === 'string';
+};
+
+var LazyLoad = function (_Component) {
+  _inherits(LazyLoad, _Component);
+
+  function LazyLoad(props) {
+    _classCallCheck(this, LazyLoad);
+
+    var _this = _possibleConstructorReturn(this, (LazyLoad.__proto__ || Object.getPrototypeOf(LazyLoad)).call(this, props));
+
+    _this.visible = false;
+    // this.setRef = this.setRef.bind(this);
+    return _this;
+  }
+
+  // setRef(element) {
+  //   if (element) {
+  //     this.ref = element;
+  //   }
+  // }
+
+  _createClass(LazyLoad, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      // It's unlikely to change delay type on the fly, this is mainly
+      // designed for tests
+      var scrollport = window;
+      var scrollContainer = this.props.scrollContainer;
+
+      if (scrollContainer) {
+        if (isString(scrollContainer)) {
+          scrollport = scrollport.document.querySelector(scrollContainer);
+        }
+      }
+      var needResetFinalLazyLoadHandler = this.props.debounce !== undefined && delayType === 'throttle' || delayType === 'debounce' && this.props.debounce === undefined;
+
+      if (needResetFinalLazyLoadHandler) {
+        (0, _event.off)(scrollport, 'scroll', finalLazyLoadHandler, passiveEvent);
+        (0, _event.off)(window, 'resize', finalLazyLoadHandler, passiveEvent);
+        finalLazyLoadHandler = null;
+      }
+
+      if (!finalLazyLoadHandler) {
+        if (this.props.debounce !== undefined) {
+          finalLazyLoadHandler = (0, _debounce2.default)(lazyLoadHandler, typeof this.props.debounce === 'number' ? this.props.debounce : 300);
+          delayType = 'debounce';
+        } else if (this.props.throttle !== undefined) {
+          finalLazyLoadHandler = (0, _throttle2.default)(lazyLoadHandler, typeof this.props.throttle === 'number' ? this.props.throttle : 300);
+          delayType = 'throttle';
+        } else {
+          finalLazyLoadHandler = lazyLoadHandler;
+        }
+      }
+
+      if (this.props.overflow) {
+        var parent = (0, _scrollParent2.default)(_reactDom2.default.findDOMNode(this));
+        // const parent = scrollParent(this.ref);
+        if (parent && typeof parent.getAttribute === 'function') {
+          var listenerCount = 1 + +parent.getAttribute(LISTEN_FLAG);
+          if (listenerCount === 1) {
+            parent.addEventListener('scroll', finalLazyLoadHandler, passiveEvent);
+          }
+          parent.setAttribute(LISTEN_FLAG, listenerCount);
+        }
+      } else if (listeners.length === 0 || needResetFinalLazyLoadHandler) {
+        var _props = this.props,
+            scroll = _props.scroll,
+            resize = _props.resize;
+
+
+        if (scroll) {
+          (0, _event.on)(scrollport, 'scroll', finalLazyLoadHandler, passiveEvent);
+        }
+
+        if (resize) {
+          (0, _event.on)(window, 'resize', finalLazyLoadHandler, passiveEvent);
+        }
+      }
+
+      listeners.push(this);
+      checkVisible(this);
+    }
+  }, {
+    key: 'shouldComponentUpdate',
+    value: function shouldComponentUpdate() {
+      return this.visible;
+    }
+  }, {
+    key: 'componentWillUnmount',
+    value: function componentWillUnmount() {
+      if (this.props.overflow) {
+        var parent = (0, _scrollParent2.default)(_reactDom2.default.findDOMNode(this));
+        // const parent = scrollParent(this.ref);
+        if (parent && typeof parent.getAttribute === 'function') {
+          var listenerCount = +parent.getAttribute(LISTEN_FLAG) - 1;
+          if (listenerCount === 0) {
+            parent.removeEventListener('scroll', finalLazyLoadHandler, passiveEvent);
+            parent.removeAttribute(LISTEN_FLAG);
+          } else {
+            parent.setAttribute(LISTEN_FLAG, listenerCount);
+          }
+        }
+      }
+
+      var index = listeners.indexOf(this);
+      if (index !== -1) {
+        listeners.splice(index, 1);
+      }
+
+      if (listeners.length === 0 && typeof window !== 'undefined') {
+        (0, _event.off)(window, 'resize', finalLazyLoadHandler, passiveEvent);
+        (0, _event.off)(window, 'scroll', finalLazyLoadHandler, passiveEvent);
+      }
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return this.visible ? this.props.children : this.props.placeholder ? this.props.placeholder : _react2.default.createElement('div', { style: { height: this.props.height }, className: 'lazyload-placeholder' });
+      // <span ref={this.setRef} className="lazyload-custom-placeholder">
+      //   {this.props.placeholder}
+      // </span> :
+      // <div ref={this.setRef} style={{ height: this.props.height }} className="lazyload-placeholder" />;
+    }
+  }]);
+
+  return LazyLoad;
+}(_react.Component);
+
+LazyLoad.propTypes = {
+  once: _propTypes2.default.bool,
+  height: _propTypes2.default.oneOfType([_propTypes2.default.number, _propTypes2.default.string]),
+  offset: _propTypes2.default.oneOfType([_propTypes2.default.number, _propTypes2.default.arrayOf(_propTypes2.default.number)]),
+  overflow: _propTypes2.default.bool,
+  resize: _propTypes2.default.bool,
+  scroll: _propTypes2.default.bool,
+  children: _propTypes2.default.node,
+  throttle: _propTypes2.default.oneOfType([_propTypes2.default.number, _propTypes2.default.bool]),
+  debounce: _propTypes2.default.oneOfType([_propTypes2.default.number, _propTypes2.default.bool]),
+  placeholder: _propTypes2.default.node,
+  scrollContainer: _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.object]),
+  unmountIfInvisible: _propTypes2.default.bool
+};
+
+LazyLoad.defaultProps = {
+  once: false,
+  offset: 0,
+  overflow: false,
+  resize: false,
+  scroll: true,
+  unmountIfInvisible: false
+};
+
+var getDisplayName = function getDisplayName(WrappedComponent) {
+  return WrappedComponent.displayName || WrappedComponent.name || 'Component';
+};
+
+var decorator = function decorator() {
+  var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  return function lazyload(WrappedComponent) {
+    return function (_Component2) {
+      _inherits(LazyLoadDecorated, _Component2);
+
+      function LazyLoadDecorated() {
+        _classCallCheck(this, LazyLoadDecorated);
+
+        var _this2 = _possibleConstructorReturn(this, (LazyLoadDecorated.__proto__ || Object.getPrototypeOf(LazyLoadDecorated)).call(this));
+
+        _this2.displayName = 'LazyLoad' + getDisplayName(WrappedComponent);
+        return _this2;
+      }
+
+      _createClass(LazyLoadDecorated, [{
+        key: 'render',
+        value: function render() {
+          return _react2.default.createElement(
+            LazyLoad,
+            options,
+            _react2.default.createElement(WrappedComponent, this.props)
+          );
+        }
+      }]);
+
+      return LazyLoadDecorated;
+    }(_react.Component);
+  };
+};
+
+exports.lazyload = decorator;
+exports.default = LazyLoad;
+exports.forceCheck = lazyLoadHandler;
+exports.forceVisible = forceVisible;
+
+/***/ }),
+
+/***/ "./node_modules/react-lazyload/lib/utils/debounce.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/react-lazyload/lib/utils/debounce.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = debounce;
+function debounce(func, wait, immediate) {
+  var timeout = void 0;
+  var args = void 0;
+  var context = void 0;
+  var timestamp = void 0;
+  var result = void 0;
+
+  var later = function later() {
+    var last = +new Date() - timestamp;
+
+    if (last < wait && last >= 0) {
+      timeout = setTimeout(later, wait - last);
+    } else {
+      timeout = null;
+      if (!immediate) {
+        result = func.apply(context, args);
+        if (!timeout) {
+          context = null;
+          args = null;
+        }
+      }
+    }
+  };
+
+  return function debounced() {
+    context = this;
+    args = arguments;
+    timestamp = +new Date();
+
+    var callNow = immediate && !timeout;
+    if (!timeout) {
+      timeout = setTimeout(later, wait);
+    }
+
+    if (callNow) {
+      result = func.apply(context, args);
+      context = null;
+      args = null;
+    }
+
+    return result;
+  };
 }
 
-module.exports = content.locals || {};
+/***/ }),
+
+/***/ "./node_modules/react-lazyload/lib/utils/event.js":
+/*!********************************************************!*\
+  !*** ./node_modules/react-lazyload/lib/utils/event.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.on = on;
+exports.off = off;
+function on(el, eventName, callback, opts) {
+  opts = opts || false;
+  if (el.addEventListener) {
+    el.addEventListener(eventName, callback, opts);
+  } else if (el.attachEvent) {
+    el.attachEvent("on" + eventName, function (e) {
+      callback.call(el, e || window.event);
+    });
+  }
+}
+
+function off(el, eventName, callback, opts) {
+  opts = opts || false;
+  if (el.removeEventListener) {
+    el.removeEventListener(eventName, callback, opts);
+  } else if (el.detachEvent) {
+    el.detachEvent("on" + eventName, callback);
+  }
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-lazyload/lib/utils/scrollParent.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/react-lazyload/lib/utils/scrollParent.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+/**
+ * @fileOverview Find scroll parent
+ */
+
+exports.default = function (node) {
+  if (!(node instanceof HTMLElement)) {
+    return document.documentElement;
+  }
+
+  var excludeStaticParent = node.style.position === 'absolute';
+  var overflowRegex = /(scroll|auto)/;
+  var parent = node;
+
+  while (parent) {
+    if (!parent.parentNode) {
+      return node.ownerDocument || document.documentElement;
+    }
+
+    var style = window.getComputedStyle(parent);
+    var position = style.position;
+    var overflow = style.overflow;
+    var overflowX = style['overflow-x'];
+    var overflowY = style['overflow-y'];
+
+    if (position === 'static' && excludeStaticParent) {
+      parent = parent.parentNode;
+      continue;
+    }
+
+    if (overflowRegex.test(overflow) && overflowRegex.test(overflowX) && overflowRegex.test(overflowY)) {
+      return parent;
+    }
+
+    parent = parent.parentNode;
+  }
+
+  return node.ownerDocument || node.documentElement || document.documentElement;
+};
+
+/***/ }),
+
+/***/ "./node_modules/react-lazyload/lib/utils/throttle.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/react-lazyload/lib/utils/throttle.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = throttle;
+/*eslint-disable */
+function throttle(fn, threshhold, scope) {
+  threshhold || (threshhold = 250);
+  var last, deferTimer;
+  return function () {
+    var context = scope || this;
+
+    var now = +new Date(),
+        args = arguments;
+    if (last && now < last + threshhold) {
+      // hold on to it
+      clearTimeout(deferTimer);
+      deferTimer = setTimeout(function () {
+        last = now;
+        fn.apply(context, args);
+      }, threshhold);
+    } else {
+      last = now;
+      fn.apply(context, args);
+    }
+  };
+}
 
 /***/ }),
 
@@ -23676,50 +24516,6 @@ module.exports = g;
 
 /***/ }),
 
-/***/ "./src/assets/fonts/font-niconne/Niconne-Regular.eot":
-/*!***********************************************************!*\
-  !*** ./src/assets/fonts/font-niconne/Niconne-Regular.eot ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/media/Niconne-Regular.e238d30587a8c3e7579916c027b0bff5.eot";
-
-/***/ }),
-
-/***/ "./src/assets/fonts/font-niconne/Niconne-Regular.svg":
-/*!***********************************************************!*\
-  !*** ./src/assets/fonts/font-niconne/Niconne-Regular.svg ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/media/Niconne-Regular.4605767661fe0884dec6f7caca9d0226.svg";
-
-/***/ }),
-
-/***/ "./src/assets/fonts/font-niconne/Niconne-Regular.ttf":
-/*!***********************************************************!*\
-  !*** ./src/assets/fonts/font-niconne/Niconne-Regular.ttf ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/media/Niconne-Regular.59347280e0e123c16d01e54ba5ce5f52.ttf";
-
-/***/ }),
-
-/***/ "./src/assets/fonts/font-niconne/Niconne-Regular.woff":
-/*!************************************************************!*\
-  !*** ./src/assets/fonts/font-niconne/Niconne-Regular.woff ***!
-  \************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/media/Niconne-Regular.6823e0451139c4a5ffd360c77601e04c.woff";
-
-/***/ }),
-
 /***/ "./src/assets/fonts/svg/menu/blog.svg":
 /*!********************************************!*\
   !*** ./src/assets/fonts/svg/menu/blog.svg ***!
@@ -23987,6 +24783,43 @@ function SvgWorks(props) {
 
 /***/ }),
 
+/***/ "./src/assets/fonts/svg/merge/paper-plane.svg":
+/*!****************************************************!*\
+  !*** ./src/assets/fonts/svg/merge/paper-plane.svg ***!
+  \****************************************************/
+/*! exports provided: default, ReactComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ReactComponent", function() { return SvgPaperPlane; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+
+
+var _ref = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("defs", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("style", null));
+
+var _ref2 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
+  d: "M0 512L1054.219 0 333.846 635.577 0 512zm474.395 176.542L1089.362 0 896.087 847.458 474.395 688.542zm0 88.282V1024L667.67 829.789l-193.275-52.965z",
+  fill: "currentColor"
+});
+
+function SvgPaperPlane(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", _extends({
+    className: "paper-plane_svg__icon",
+    viewBox: "0 0 1089 1024",
+    width: 51.047,
+    height: 48
+  }, props), _ref, _ref2);
+}
+
+/* harmony default export */ __webpack_exports__["default"] = ("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkyMDM0NDM4Mjk5IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwODkgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjI2NjgiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNTEuMDQ2ODc1IiBoZWlnaHQ9IjQ4Ij48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwvc3R5bGU+PC9kZWZzPjxwYXRoIGQ9Ik0wIDUxMkwxMDU0LjIxODg5NCAwIDMzMy44NDU3ODcgNjM1LjU3NzE5MSAwIDUxMnogbTQ3NC4zOTUyMzQgMTc2LjU0MTk1N0wxMDg5LjM2MTcwMiAwbC0xOTMuMjc0NTUzIDg0Ny40NTgwNDMtNDIxLjY5MTkxNS0xNTguOTE2MDg2eiBtMCA4OC4yODE4NzNWMTAyNGwxOTMuMjc0NTUzLTE5NC4yMTE0MDQtMTkzLjI3NDU1My01Mi45NjQ3NjZ6IiBmaWxsPSJjdXJyZW50Q29sb3IiIHAtaWQ9IjI2NjkiPjwvcGF0aD48L3N2Zz4NCg==");
+
+
+/***/ }),
+
 /***/ "./src/assets/fonts/svg/merge/setting.svg":
 /*!************************************************!*\
   !*** ./src/assets/fonts/svg/merge/setting.svg ***!
@@ -24174,17 +25007,6 @@ function SvgQrcode(props) {
 
 /* harmony default export */ __webpack_exports__["default"] = ("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTg5MDM3NTY4ODIxIiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjIyMjYiIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTE3OC4zIDU0MC45di02MC4zSDExOHY2MC4zaDYwLjN6IG0yMCAyODQuMWgxMjEuM1Y3MDIuNEgxOTguM1Y4MjV6IG0zNDMuMS01NDUuMmgtNjAuN3Y2MC4xaDYwLjd2LTYwLjF6IG0tMjIxLjctODEuMUgxOTguM3YxMjIuNmgxMjEuM1YxOTguN3ogbTM2Mi40IDQyMy40aC02MC4ydjYwLjFoMTgxdi02MC4xaC02MHYtNjAuOWgtNjAuN3Y2MC45ek01NDEuNCAxMTcuOGgtNjAuN1YyMzloNjAuN1YxMTcuOHogbS0wLjMgNDYzLjloNjAuN3YtNTkuOGg2MC40di02MS40aC02MC43djYwLjRoLTYwLjR2NjAuOHogbTIwMS44IDIwMS41VjcyM2gtNjAuN3Y2MC4xaDYwLjd6IG02MC40LTI4Mi40aC02MC43djYwLjFoNjAuN3YtNjAuMXpNNDIwLjEgOTguMkg5Ny43VjQyMGgzMjIuNFY5OC4yek0zODAuMiAzODBIMTM4LjNWMTM4LjhoMjQxLjlWMzgweiBtNDYzLjEgMTYwLjhIOTA0di01OC45aC02MC43djU4Ljl6IG0wIDMwMi41aC00MHYtNTkuOGgtNjAuN3Y1OS44aC02MC41djYxLjRIOTA0di01OS4yaDAuMVY3MjIuNGgtNjAuN3YxMjAuOXogbTAtMTYxLjVIOTA0di02MC4xaC02MC43djYwLjF6IG0tMTkuOS00ODMuMUg3MDJ2MTIyLjZoMTIxLjNWMTk4Ljd6TTYwMS43IDk4LjJWNDIwaDMyMi40Vjk4LjJINjAxLjd6TTg4My42IDM4MEg2NDEuN1YxMzguOGgyNDEuOVYzODB6TTU0MS40IDcyMi4xaDYwLjR2LTU4LjloLTYwLjR2LTgxLjRoLTYwLjd2MzIxLjRoNjAuNHYwLjhoNjAuN3YtNjAuMWgtNjAuNFY3MjIuMXpNMjM4LjkgNTQxLjZoMjAxLjd2LTYxSDIzOC45djYxeiBtMzAyLjUtMTYxLjNoLTYxdjYwLjFoNjF2LTYwLjF6TTYwMS41IDg0M2g2MC43di02MC4xaC02MC43Vjg0M3pNOTcuNiA5MjQuMUg0MjBWNjAyLjNIOTcuNnYzMjEuOHogbTQwLjctMjgxLjJoMjQxLjl2MjQxLjJIMTM4LjNWNjQyLjl6IiBmaWxsPSJjdXJyZW50Q29sb3IiIHAtaWQ9IjIyMjciPjwvcGF0aD48L3N2Zz4NCg==");
 
-
-/***/ }),
-
-/***/ "./src/assets/images/exclude/sprite.f68d229fbb465db5c9f86d4bdf34d246.png":
-/*!*******************************************************************************!*\
-  !*** ./src/assets/images/exclude/sprite.f68d229fbb465db5c9f86d4bdf34d246.png ***!
-  \*******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/media/sprite.f68d229fbb465db5c9f86d4bdf34d246.a83dbce7f03910c0f28596c25c74aec8.png";
 
 /***/ }),
 
@@ -24483,102 +25305,6 @@ module.exports = content.locals || {};
 
 /***/ }),
 
-/***/ "./src/assets/styles/sass/global.scss":
-/*!********************************************!*\
-  !*** ./src/assets/styles/sass/global.scss ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!../../../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!../../../../node_modules/resolve-url-loader??ref--5-oneOf-6-3!../../../../node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./global.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/assets/styles/sass/global.scss");
-
-            content = content.__esModule ? content.default : content;
-
-            if (typeof content === 'string') {
-              content = [[module.i, content, '']];
-            }
-
-var options = {};
-
-options.insert = function(element){// These elements should always exist. If they do not,
-// this code should fail.
-var anchorElement=document.querySelector('#__next_css__DO_NOT_USE__');var parentNode=anchorElement.parentNode;// Normally <head>
-// Each style tag should be placed right before our
-// anchor. By inserting before and not after, we do not
-// need to track the last inserted element.
-parentNode.insertBefore(element,anchorElement)// Remember: this is development only code.
-//
-// After styles are injected, we need to remove the
-// <style> tags that set `body { display: none; }`.
-//
-// We use `requestAnimationFrame` as a way to defer
-// this operation since there may be multiple style
-// tags.
-;(self.requestAnimationFrame||setTimeout)(function(){for(var x=document.querySelectorAll('[data-next-hide-fouc]'),i=x.length;i--;){x[i].parentNode.removeChild(x[i]);}});};
-options.singleton = false;
-
-var update = api(content, options);
-
-
-if (true) {
-  if (!content.locals || module.hot.invalidate) {
-    var isEqualLocals = function isEqualLocals(a, b) {
-  if (!a && b || a && !b) {
-    return false;
-  }
-
-  var p;
-
-  for (p in a) {
-    if (a[p] !== b[p]) {
-      return false;
-    }
-  }
-
-  for (p in b) {
-    if (!a[p]) {
-      return false;
-    }
-  }
-
-  return true;
-};
-    var oldLocals = content.locals;
-
-    module.hot.accept(
-      /*! !../../../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!../../../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!../../../../node_modules/resolve-url-loader??ref--5-oneOf-6-3!../../../../node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./global.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/assets/styles/sass/global.scss",
-      function () {
-        var newContent = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!../../../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!../../../../node_modules/resolve-url-loader??ref--5-oneOf-6-3!../../../../node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./global.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/assets/styles/sass/global.scss");
-
-              newContent = newContent.__esModule ? newContent.default : newContent;
-
-              if (typeof newContent === 'string') {
-                newContent = [[module.i, newContent, '']];
-              }
-
-              if (!isEqualLocals(oldLocals, newContent.locals)) {
-                module.hot.invalidate();
-
-                return;
-              }
-
-              oldLocals = newContent.locals;
-
-              update(newContent);
-      }
-    )
-  }
-
-  module.hot.dispose(function() {
-    update();
-  });
-}
-
-module.exports = content.locals || {};
-
-/***/ }),
-
 /***/ "./src/assets/styles/sass/page/home.module.scss":
 /*!******************************************************!*\
   !*** ./src/assets/styles/sass/page/home.module.scss ***!
@@ -24646,6 +25372,102 @@ if (true) {
       /*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-3-1!../../../../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!../../../../../node_modules/resolve-url-loader??ref--5-oneOf-3-3!../../../../../node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-3-4!./home.module.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/assets/styles/sass/page/home.module.scss",
       function () {
         var newContent = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-3-1!../../../../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!../../../../../node_modules/resolve-url-loader??ref--5-oneOf-3-3!../../../../../node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-3-4!./home.module.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/assets/styles/sass/page/home.module.scss");
+
+              newContent = newContent.__esModule ? newContent.default : newContent;
+
+              if (typeof newContent === 'string') {
+                newContent = [[module.i, newContent, '']];
+              }
+
+              if (!isEqualLocals(oldLocals, newContent.locals)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = newContent.locals;
+
+              update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/assets/styles/sass/page/works.module.scss":
+/*!*******************************************************!*\
+  !*** ./src/assets/styles/sass/page/works.module.scss ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-3-1!../../../../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!../../../../../node_modules/resolve-url-loader??ref--5-oneOf-3-3!../../../../../node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-3-4!./works.module.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/assets/styles/sass/page/works.module.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = function(element){// These elements should always exist. If they do not,
+// this code should fail.
+var anchorElement=document.querySelector('#__next_css__DO_NOT_USE__');var parentNode=anchorElement.parentNode;// Normally <head>
+// Each style tag should be placed right before our
+// anchor. By inserting before and not after, we do not
+// need to track the last inserted element.
+parentNode.insertBefore(element,anchorElement)// Remember: this is development only code.
+//
+// After styles are injected, we need to remove the
+// <style> tags that set `body { display: none; }`.
+//
+// We use `requestAnimationFrame` as a way to defer
+// this operation since there may be multiple style
+// tags.
+;(self.requestAnimationFrame||setTimeout)(function(){for(var x=document.querySelectorAll('[data-next-hide-fouc]'),i=x.length;i--;){x[i].parentNode.removeChild(x[i]);}});};
+options.singleton = false;
+
+var update = api(content, options);
+
+
+if (true) {
+  if (!content.locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var oldLocals = content.locals;
+
+    module.hot.accept(
+      /*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-3-1!../../../../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!../../../../../node_modules/resolve-url-loader??ref--5-oneOf-3-3!../../../../../node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-3-4!./works.module.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/assets/styles/sass/page/works.module.scss",
+      function () {
+        var newContent = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-3-1!../../../../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!../../../../../node_modules/resolve-url-loader??ref--5-oneOf-3-3!../../../../../node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-3-4!./works.module.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/assets/styles/sass/page/works.module.scss");
 
               newContent = newContent.__esModule ? newContent.default : newContent;
 
@@ -26656,46 +27478,432 @@ var Layout = function Layout(_ref) {
 
 /***/ }),
 
-/***/ "./src/pages/_app.tsx":
-/*!****************************!*\
-  !*** ./src/pages/_app.tsx ***!
-  \****************************/
+/***/ "./src/components/react-sticky/Container.js":
+/*!**************************************************!*\
+  !*** ./src/components/react-sticky/Container.js ***!
+  \**************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
-/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Container; });
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var _babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var _babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var raf__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! raf */ "./node_modules/raf/index.js");
+/* harmony import */ var raf__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(raf__WEBPACK_IMPORTED_MODULE_10__);
+
+
+
+
+
+
+
+
+var _jsxFileName = "C:\\Users\\19215\\Desktop\\my_website\\src\\components\\react-sticky\\Container.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement;
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_6__["default"])(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_6__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_5__["default"])(this, result); }; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+
+
+
+
+var Container = /*#__PURE__*/function (_PureComponent) {
+  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Container, _PureComponent);
+
+  var _super = _createSuper(Container);
+
+  function Container() {
+    var _this;
+
+    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, Container);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _super.call.apply(_super, [this].concat(args));
+
+    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "events", ["resize", "scroll", "touchstart", "touchmove", "touchend", "pageshow", "load"]);
+
+    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "subscribers", []);
+
+    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "rafHandle", null);
+
+    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "subscribe", function (handler) {
+      _this.subscribers = _this.subscribers.concat(handler);
+    });
+
+    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "unsubscribe", function (handler) {
+      _this.subscribers = _this.subscribers.filter(function (current) {
+        return current !== handler;
+      });
+    });
+
+    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "notifySubscribers", function (evt) {
+      if (!_this.framePending) {
+        var currentTarget = evt.currentTarget;
+        _this.rafHandle = raf__WEBPACK_IMPORTED_MODULE_10___default()(function () {
+          _this.framePending = false;
+
+          var _this$node$getBoundin = _this.node.getBoundingClientRect(),
+              top = _this$node$getBoundin.top,
+              bottom = _this$node$getBoundin.bottom;
+
+          _this.subscribers.forEach(function (handler) {
+            return handler({
+              distanceFromTop: top,
+              distanceFromBottom: bottom,
+              eventSource: currentTarget === window ? document.body : _this.node
+            });
+          });
+        });
+        _this.framePending = true;
+      }
+    });
+
+    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "getParent", function () {
+      return _this.node;
+    });
+
+    return _this;
+  }
+
+  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(Container, [{
+    key: "getChildContext",
+    value: function getChildContext() {
+      return {
+        subscribe: this.subscribe,
+        unsubscribe: this.unsubscribe,
+        getParent: this.getParent
+      };
+    }
+  }, {
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      var _this2 = this;
+
+      this.events.forEach(function (event) {
+        return window.addEventListener(event, _this2.notifySubscribers);
+      });
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      var _this3 = this;
+
+      if (this.rafHandle) {
+        raf__WEBPACK_IMPORTED_MODULE_10___default.a.cancel(this.rafHandle);
+        this.rafHandle = null;
+      }
+
+      this.events.forEach(function (event) {
+        return window.removeEventListener(event, _this3.notifySubscribers);
+      });
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this4 = this;
+
+      return __jsx("div", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, this.props, {
+        ref: function ref(node) {
+          return _this4.node = node;
+        },
+        onScroll: this.notifySubscribers,
+        onTouchStart: this.notifySubscribers,
+        onTouchMove: this.notifySubscribers,
+        onTouchEnd: this.notifySubscribers,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 83,
+          columnNumber: 7
+        }
+      }));
+    }
+  }]);
+
+  return Container;
+}(react__WEBPACK_IMPORTED_MODULE_8__["PureComponent"]);
+
+Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Container, "childContextTypes", {
+  subscribe: prop_types__WEBPACK_IMPORTED_MODULE_9___default.a.func,
+  unsubscribe: prop_types__WEBPACK_IMPORTED_MODULE_9___default.a.func,
+  getParent: prop_types__WEBPACK_IMPORTED_MODULE_9___default.a.func
+});
+
+
+
+/***/ }),
+
+/***/ "./src/components/react-sticky/Sticky.js":
+/*!***********************************************!*\
+  !*** ./src/components/react-sticky/Sticky.js ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Sticky; });
+/* harmony import */ var _babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var _babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_9__);
+
+
+
+
+
+
+
+var _jsxFileName = "C:\\Users\\19215\\Desktop\\my_website\\src\\components\\react-sticky\\Sticky.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, result); }; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+
+
+
+
+var Sticky = /*#__PURE__*/function (_Component) {
+  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_3__["default"])(Sticky, _Component);
+
+  var _super = _createSuper(Sticky);
+
+  function Sticky(props, context) {
+    var _this;
+
+    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Sticky);
+
+    _this = _super.call(this, props, context);
+
+    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this), "state", {
+      isSticky: false,
+      wasSticky: false,
+      style: {}
+    });
+
+    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this), "handleContainerEvent", function (_ref) {
+      var distanceFromTop = _ref.distanceFromTop,
+          distanceFromBottom = _ref.distanceFromBottom,
+          eventSource = _ref.eventSource;
+
+      var parent = _this.context.getParent();
+
+      var preventingStickyStateChanges = false;
+
+      if (_this.props.relative) {
+        preventingStickyStateChanges = eventSource !== parent;
+        distanceFromTop = -(eventSource.scrollTop + eventSource.offsetTop) + _this.placeholder.offsetTop;
+      }
+
+      var placeholderClientRect = _this.placeholder.getBoundingClientRect();
+
+      var contentClientRect = _this.content.getBoundingClientRect();
+
+      var calculatedHeight = contentClientRect.height;
+      var bottomDifference = distanceFromBottom - _this.props.bottomOffset - calculatedHeight;
+      var wasSticky = !!_this.state.isSticky;
+      var isSticky = preventingStickyStateChanges ? wasSticky : distanceFromTop <= -_this.props.topOffset && distanceFromBottom > -_this.props.bottomOffset;
+      distanceFromBottom = (_this.props.relative ? parent.scrollHeight - parent.scrollTop : distanceFromBottom) - calculatedHeight;
+      var style = !isSticky ? {} : {
+        position: 'fixed',
+        top: bottomDifference > 0 ? _this.props.relative ? parent.offsetTop - parent.offsetParent.scrollTop : 0 : bottomDifference,
+        left: placeholderClientRect.left,
+        width: placeholderClientRect.width
+      };
+
+      if (!_this.props.disableHardwareAcceleration) {
+        style.transform = 'translateZ(0)';
+      }
+
+      _this.setState({
+        isSticky: isSticky,
+        wasSticky: wasSticky,
+        distanceFromTop: distanceFromTop,
+        distanceFromBottom: distanceFromBottom,
+        calculatedHeight: calculatedHeight,
+        style: style
+      });
+    });
+
+    if (!_this.context.subscribe) throw new TypeError('Expected Sticky to be mounted within StickyContainer');
+
+    _this.context.subscribe(_this.handleContainerEvent);
+
+    return _this;
+  }
+
+  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Sticky, [{
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      this.context.unsubscribe(this.handleContainerEvent);
+    }
+  }, {
+    key: "componentDidUpdate",
+    value: function componentDidUpdate() {
+      this.placeholder.style.paddingBottom = this.props.disableCompensation ? 0 : "".concat(this.state.isSticky ? this.state.calculatedHeight : 0, "px");
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this2 = this;
+
+      var element = react__WEBPACK_IMPORTED_MODULE_7___default.a.cloneElement(this.props.children({
+        isSticky: this.state.isSticky,
+        wasSticky: this.state.wasSticky,
+        distanceFromTop: this.state.distanceFromTop,
+        distanceFromBottom: this.state.distanceFromBottom,
+        calculatedHeight: this.state.calculatedHeight,
+        style: this.state.style
+      }), {
+        ref: function ref(content) {
+          _this2.content = react_dom__WEBPACK_IMPORTED_MODULE_8___default.a.findDOMNode(content);
+        }
+      });
+      return __jsx("div", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 132,
+          columnNumber: 7
+        }
+      }, __jsx("div", {
+        ref: function ref(placeholder) {
+          return _this2.placeholder = placeholder;
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 133,
+          columnNumber: 9
+        }
+      }), element);
+    }
+  }]);
+
+  return Sticky;
+}(react__WEBPACK_IMPORTED_MODULE_7__["Component"]);
+
+Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Sticky, "propTypes", {
+  topOffset: prop_types__WEBPACK_IMPORTED_MODULE_9___default.a.number,
+  bottomOffset: prop_types__WEBPACK_IMPORTED_MODULE_9___default.a.number,
+  relative: prop_types__WEBPACK_IMPORTED_MODULE_9___default.a.bool,
+  children: prop_types__WEBPACK_IMPORTED_MODULE_9___default.a.func.isRequired
+});
+
+Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Sticky, "defaultProps", {
+  relative: false,
+  topOffset: 0,
+  bottomOffset: 0,
+  disableCompensation: false,
+  disableHardwareAcceleration: false
+});
+
+Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Sticky, "contextTypes", {
+  subscribe: prop_types__WEBPACK_IMPORTED_MODULE_9___default.a.func,
+  unsubscribe: prop_types__WEBPACK_IMPORTED_MODULE_9___default.a.func,
+  getParent: prop_types__WEBPACK_IMPORTED_MODULE_9___default.a.func
+});
+
+
+
+/***/ }),
+
+/***/ "./src/components/react-sticky/index.js":
+/*!**********************************************!*\
+  !*** ./src/components/react-sticky/index.js ***!
+  \**********************************************/
+/*! exports provided: Sticky, StickyContainer, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Sticky__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Sticky */ "./src/components/react-sticky/Sticky.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Sticky", function() { return _Sticky__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
+/* harmony import */ var _Container__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Container */ "./src/components/react-sticky/Container.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "StickyContainer", function() { return _Container__WEBPACK_IMPORTED_MODULE_1__["default"]; });
+
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (_Sticky__WEBPACK_IMPORTED_MODULE_0__["default"]); //ref:https://github.com/captivationsoftware/react-sticky
+//该库不再维护
+
+/***/ }),
+
+/***/ "./src/pages/works.tsx":
+/*!*****************************!*\
+  !*** ./src/pages/works.tsx ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/toConsumableArray */ "./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js");
 /* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
-/* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var util__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! util */ "./node_modules/node-libs-browser/node_modules/util/util.js");
-/* harmony import */ var util__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(util__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/app */ "./node_modules/next/app.js");
-/* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_app__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _styles_sass_global_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @styles/sass/global.scss */ "./src/assets/styles/sass/global.scss");
-/* harmony import */ var _styles_sass_global_scss__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_styles_sass_global_scss__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var react_share_components_dist_react_share_components_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-share-components/dist/react-share-components.css */ "./node_modules/react-share-components/dist/react-share-components.css");
-/* harmony import */ var react_share_components_dist_react_share_components_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_share_components_dist_react_share_components_css__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _components_context__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @components/context */ "./src/components/context/index.tsx");
-/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @components/layout */ "./src/components/layout/index.tsx");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-lazyload */ "./node_modules/react-lazyload/lib/index.js");
+/* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_lazyload__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _components_react_sticky__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @components/react-sticky */ "./src/components/react-sticky/index.js");
+/* harmony import */ var react_infinite_scroller__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-infinite-scroller */ "./node_modules/react-infinite-scroller/index.js");
+/* harmony import */ var react_infinite_scroller__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_infinite_scroller__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _styles_sass_page_works_module_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @styles/sass/page/works.module.scss */ "./src/assets/styles/sass/page/works.module.scss");
+/* harmony import */ var _styles_sass_page_works_module_scss__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_styles_sass_page_works_module_scss__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _scripts_utils__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @scripts/utils */ "./src/scripts/utils/index.ts");
+/* harmony import */ var _scripts_constant__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @scripts/constant */ "./src/scripts/constant/index.ts");
+/* harmony import */ var _store_mock__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @store/mock */ "./src/store/mock/index.ts");
+/* harmony import */ var _components_context__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/context */ "./src/components/context/index.tsx");
+/* harmony import */ var _components_common__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @components/common */ "./src/components/common/index.tsx");
+/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @components/layout */ "./src/components/layout/index.tsx");
+/* harmony import */ var _fonts_svg_merge_paper_plane_svg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @fonts/svg/merge/paper-plane.svg */ "./src/assets/fonts/svg/merge/paper-plane.svg");
 
 
 
 
 
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\19215\\Desktop\\my_website\\src\\pages\\_app.tsx";
-
+    _jsxFileName = "C:\\Users\\19215\\Desktop\\my_website\\src\\pages\\works.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement;
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_3__["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 
 
@@ -26704,102 +27912,623 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 
 
-var initialState = {
-  bodyStyle: {}
+
+
+
+
+
+
+var works_wrapper = _styles_sass_page_works_module_scss__WEBPACK_IMPORTED_MODULE_9___default.a.works_wrapper,
+    works_list = _styles_sass_page_works_module_scss__WEBPACK_IMPORTED_MODULE_9___default.a.works_list;
+var worksKeys = Object.keys(_store_mock__WEBPACK_IMPORTED_MODULE_12__["worksInfo"]);
+var DEFAULT_ACTIVE_KEY = worksKeys[0];
+var tabHeadInfo = worksKeys.map(function (key) {
+  var _worksInfo$key = _store_mock__WEBPACK_IMPORTED_MODULE_12__["worksInfo"][key],
+      data = _worksInfo$key.data,
+      rest = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_3__["default"])(_worksInfo$key, ["data"]);
+
+  return _objectSpread({
+    key: key,
+    num: data.length
+  }, rest);
+});
+
+var TabsWorksHead = function TabsWorksHead(_ref) {
+  var onSwitchTab = _ref.onSwitchTab,
+      style = _ref.style;
+
+  var _useContext = Object(react__WEBPACK_IMPORTED_MODULE_4__["useContext"])(_components_context__WEBPACK_IMPORTED_MODULE_13__["CtxStore"]),
+      store = _useContext.store;
+
+  var bodyStyle = store.bodyStyle;
+  var elTabs = Object(react__WEBPACK_IMPORTED_MODULE_4__["useRef"])(null);
+
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_4__["useState"])(DEFAULT_ACTIVE_KEY),
+      activeKey = _useState[0],
+      setActiveKey = _useState[1];
+
+  var _useState2 = Object(react__WEBPACK_IMPORTED_MODULE_4__["useState"])({
+    width: 0,
+    offsetX: 0
+  }),
+      activeInfo = _useState2[0],
+      setActiveInfo = _useState2[1];
+
+  var width = activeInfo.width,
+      offsetX = activeInfo.offsetX;
+
+  var onSelected = function onSelected(key) {
+    return function (e) {
+      e.preventDefault();
+      setActiveKey(key);
+      var _e$currentTarget = e.currentTarget,
+          offsetWidth = _e$currentTarget.offsetWidth,
+          offsetLeft = _e$currentTarget.offsetLeft;
+      setActiveInfo(function (v) {
+        return _objectSpread({}, v, {
+          width: offsetWidth,
+          offsetX: offsetLeft
+        });
+      });
+      onSwitchTab && onSwitchTab(key);
+    };
+  };
+
+  var initialTabsActive = function initialTabsActive() {
+    var current = elTabs.current;
+    var index = Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_10__["findDataIndex"])({
+      data: tabHeadInfo,
+      key: 'key',
+      target: activeKey
+    });
+    if (Object.is(index, -1)) return;
+    var node = current === null || current === void 0 ? void 0 : current.querySelectorAll('a')[index];
+    node === null || node === void 0 ? void 0 : node.click();
+  };
+
+  Object(react__WEBPACK_IMPORTED_MODULE_4__["useEffect"])(initialTabsActive, []);
+  return __jsx(_components_react_sticky__WEBPACK_IMPORTED_MODULE_7__["Sticky"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88,
+      columnNumber: 5
+    }
+  }, function (_ref2) {
+    var style = _ref2.style,
+        isSticky = _ref2.isSticky;
+    return __jsx("div", {
+      style: _objectSpread({}, style, {}, isSticky && _objectSpread({
+        boxShadow: 'rgb(0, 0, 0,.24) 0px 0px 4px'
+      }, bodyStyle)),
+      className: "tac tabs-wrapper z-1",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 91,
+        columnNumber: 11
+      }
+    }, __jsx("div", {
+      ref: elTabs,
+      className: "inline-block pos-rel font-size-sm",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 101,
+        columnNumber: 13
+      }
+    }, tabHeadInfo.map(function (_ref3) {
+      var title = _ref3.title,
+          num = _ref3.num,
+          key = _ref3.key,
+          isHot = _ref3.isHot;
+      return __jsx("a", {
+        key: key,
+        href: "#",
+        onClick: onSelected(key),
+        className: classnames__WEBPACK_IMPORTED_MODULE_5___default()('m-l-r-xl p-b-xxs', {
+          'color-primary active': Object.is(activeKey, key)
+        }),
+        __self: _this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 103,
+          columnNumber: 17
+        }
+      }, title, " (", ' ', __jsx("span", {
+        className: "font-family-georgia font-size-xxl",
+        __self: _this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 112,
+          columnNumber: 19
+        }
+      }, num, isHot && __jsx("span", {
+        className: "hot pos-rel",
+        __self: _this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 115,
+          columnNumber: 23
+        }
+      }, __jsx("em", {
+        style: {
+          top: 4
+        },
+        __self: _this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 116,
+          columnNumber: 25
+        }
+      }))), ' ', ")");
+    }), __jsx("div", {
+      style: {
+        width: width,
+        transform: "translateX(".concat(offsetX, "px)"),
+        transition: '.5s'
+      },
+      className: "tabs-active",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 127,
+        columnNumber: 15
+      }
+    })));
+  });
 };
 
-function reducer(state, action) {
-  var type = action.type;
-  if (!Object(util__WEBPACK_IMPORTED_MODULE_5__["isString"])(type)) return {};
+var WorkItem = function WorkItem(_ref4) {
+  var _ref4$item = _ref4.item,
+      item = _ref4$item === void 0 ? {} : _ref4$item,
+      onVisitContent = _ref4.onVisitContent,
+      onMouseIn = _ref4.onMouseIn,
+      onMouseOut = _ref4.onMouseOut;
+  var category = item.category,
+      desc = item.desc,
+      qrcodeImg = item.qrcodeImg,
+      title = item.title,
+      searchKeyword = item.searchKeyword,
+      visible = item.visible,
+      links = item.links;
 
-  switch (action.type) {
-    case 'global':
-      return _objectSpread({}, state, {}, action.payload);
+  var visitLinksProps = _objectSpread({
+    href: links || '#',
+    title: title
+  }, links ? {
+    target: '_blank'
+  } : {
+    onClick: onVisitContent
+  });
 
-    default:
-      console.warn("\u65B9\u6CD5".concat(action.type, "\u65E0\u6548"));
-  }
-}
-
-var CustomApp = function CustomApp(_ref) {
-  var Component = _ref.Component,
-      pageProps = _ref.pageProps,
-      rest = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_2__["default"])(_ref, ["Component", "pageProps"]);
-
-  var _useReducer = Object(react__WEBPACK_IMPORTED_MODULE_4__["useReducer"])(reducer, initialState),
-      state = _useReducer[0],
-      dispatch = _useReducer[1];
-
-  return __jsx(_components_context__WEBPACK_IMPORTED_MODULE_9__["CtxStore"].Provider, {
-    value: {
-      store: state,
-      dispatch: dispatch
+  return __jsx("figure", {
+    className: "item",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 175,
+      columnNumber: 5
+    }
+  }, __jsx("a", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
+    className: "block"
+  }, visitLinksProps, {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 176,
+      columnNumber: 7
+    }
+  }), __jsx(react_lazyload__WEBPACK_IMPORTED_MODULE_6___default.a, {
+    once: true,
+    throttle: 200,
+    height: 400,
+    placeholder: __jsx("img", {
+      // className="w-h-100" //勿设置
+      src: "/static/placeholder-pic.png",
+      alt: "",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 182,
+        columnNumber: 13
+      }
+    }),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 177,
+      columnNumber: 9
+    }
+  }, __jsx("img", {
+    className: "photo" // src={require('@images/' + item.imgSrc)}
+    ,
+    src: "/static/".concat(item.imgSrc),
+    alt: title,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 189,
+      columnNumber: 11
+    }
+  })), __jsx("div", {
+    className: "mouse-move-layer t-0",
+    onMouseEnter: function onMouseEnter(e) {
+      return onMouseIn && onMouseIn(e, true);
+    },
+    onMouseLeave: function onMouseLeave(e) {
+      return onMouseOut && onMouseOut(e, true);
     },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 5
+      lineNumber: 196,
+      columnNumber: 9
     }
-  }, __jsx(_components_layout__WEBPACK_IMPORTED_MODULE_10__["default"], {
+  }), __jsx("div", {
+    className: "mouse-move-layer b-0",
+    onMouseEnter: onMouseIn,
+    onMouseLeave: onMouseOut,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 201,
+      columnNumber: 9
+    }
+  })), __jsx("figcaption", {
+    className: "content",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 207,
       columnNumber: 7
     }
-  }, __jsx(Component, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, pageProps, {
+  }, __jsx("h3", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 208,
       columnNumber: 9
+    }
+  }, title), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 209,
+      columnNumber: 9
+    }
+  }, desc), __jsx("div", {
+    "layout-align": "space-between center",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 210,
+      columnNumber: 9
+    }
+  }, __jsx("span", {
+    className: "category",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 211,
+      columnNumber: 11
+    }
+  }, category), __jsx("a", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
+    className: "color-primary bdb-line-primary"
+  }, visitLinksProps, {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 212,
+      columnNumber: 11
+    }
+  }), __jsx("span", {
+    className: "vam",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 213,
+      columnNumber: 13
+    }
+  }, "\u8BBF\u95EE\u94FE\u63A5"), __jsx(_components_common__WEBPACK_IMPORTED_MODULE_14__["SvgIcon"], {
+    className: "m-l-xs",
+    component: _fonts_svg_merge_paper_plane_svg__WEBPACK_IMPORTED_MODULE_16__["ReactComponent"],
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 214,
+      columnNumber: 13
+    }
+  })))), (qrcodeImg || searchKeyword) && __jsx("div", {
+    style: {
+      display: visible ? 'block' : 'none'
+    },
+    className: "mask-root pos-abs t-0 w-h-100",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 219,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    onClick: onVisitContent,
+    className: "mask-layer w-h-100",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 225,
+      columnNumber: 11
+    }
+  }), qrcodeImg ? __jsx("img", {
+    className: "pos-abs tblr-0 m-auto" // src={require(`@images/${qrcodeImg}`)}
+    ,
+    src: "/static/".concat(qrcodeImg),
+    alt: "",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 227,
+      columnNumber: 13
+    }
+  }) : __jsx("div", {
+    className: "app-dec pos-abs color-white font-size-md",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 234,
+      columnNumber: 13
+    }
+  }, "\u8FDB\u5165\u5FAE\u4FE1APP-", '>', "\u70B9\u51FB\u53D1\u73B0-", '>', "\u9009\u62E9\u5C0F\u7A0B\u5E8F\u641C-", '>', "\u7D22 \"", __jsx("span", {
+    className: "color-primary",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 236,
+      columnNumber: 15
+    }
+  }, " ", searchKeyword, " "), "\" \u8BBF\u95EE")));
+};
+
+var TabsWorksContent = function TabsWorksContent(_ref5) {
+  var _ref5$activeKey = _ref5.activeKey,
+      activeKey = _ref5$activeKey === void 0 ? '' : _ref5$activeKey;
+
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_4__["useState"])({
+    data: [],
+    hasNextPage: true,
+    loading: true
+  }),
+      info = _useState3[0],
+      setInfo = _useState3[1];
+
+  var data = info.data,
+      hasNextPage = info.hasNextPage,
+      loading = info.loading;
+
+  var onVisitContent = function onVisitContent(item) {
+    return function (e) {
+      setInfo(function (v) {
+        return _objectSpread({}, v, {
+          data: data.map(function (v) {
+            return _objectSpread({}, v, {}, Object.is(v.imgSrc, item.imgSrc) && {
+              visible: !v.visible
+            });
+          })
+        });
+      });
+      e.preventDefault();
+    };
+  };
+
+  var onMouseIn = function onMouseIn(e, isTop) {
+    var currentDom = e.currentTarget;
+    var parentDom = currentDom.parentNode;
+    var domImg = parentDom === null || parentDom === void 0 ? void 0 : parentDom.querySelector('.photo');
+    if (!domImg) return; // const { clientY } = e
+    // const { top, height } = currentDom.getBoundingClientRect()
+    // const halfHeight = height / 2
+    // const isTop = halfHeight > clientY - top //移入位置
+
+    var marginTopVal = parseFloat(Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_10__["getStyle"])(domImg).marginTop);
+    var hiddenHeight = (domImg.getBoundingClientRect().height || 0) - parseInt(Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_10__["getStyle"])(parentDom).maxHeight); //计算隐藏的高度
+
+    var moveTime = 150; //值越大、移动越快，反之
+
+    var moveSpeed = hiddenHeight / moveTime;
+    var restMovDistance = (isTop ? -marginTopVal : hiddenHeight + marginTopVal) * moveSpeed; //移动的距离
+
+    var time = (restMovDistance / hiddenHeight).toFixed(2); //剩余距离需要移动的时间
+
+    domImg.style.cssText = "margin-top:".concat(isTop ? 0 : -hiddenHeight, "px;transition:margin-top ").concat(time, "s linear;");
+  };
+
+  var onMouseOut = function onMouseOut(e) {
+    var _currentDom$parentNod;
+
+    var currentDom = e.currentTarget;
+    var domImg = (_currentDom$parentNod = currentDom.parentNode) === null || _currentDom$parentNod === void 0 ? void 0 : _currentDom$parentNod.querySelector('.photo');
+    if (!domImg) return;
+    var marginTopVal = Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_10__["getStyle"])(domImg).marginTop;
+    domImg.style.cssText = "margin-top:".concat(marginTopVal, ";");
+  };
+
+  var fetchData = function fetchData() {
+    var pageIndex = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 1;
+    var result = _store_mock__WEBPACK_IMPORTED_MODULE_12__["worksInfo"][activeKey];
+    if (!result) return;
+    Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_10__["paginationAfterData"])({
+      query: {
+        pageIndex: pageIndex
+      },
+      data: result.data
+    }).then(function (res) {
+      var list = res.data;
+      var isFirstPage = Object.is(pageIndex, 1);
+      setInfo(function (v) {
+        return _objectSpread({}, v, {}, res, {
+          data: isFirstPage ? list : [].concat(Object(_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(data), Object(_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(list))
+        });
+      });
+    })["catch"](function () {
+      setInfo(function (v) {
+        return _objectSpread({}, v, {
+          hasNextPage: false
+        });
+      });
+    })["finally"](function () {
+      setInfo(function (v) {
+        return _objectSpread({}, v, {
+          loading: false
+        });
+      });
+    });
+  };
+
+  Object(react__WEBPACK_IMPORTED_MODULE_4__["useEffect"])(function () {
+    setInfo(function (v) {
+      return _objectSpread({}, v, {
+        hasNextPage: true,
+        loading: true
+      });
+    });
+    fetchData();
+  }, [activeKey]);
+
+  var loadFunc = function loadFunc(page) {
+    if (!hasNextPage) return;
+    fetchData(page);
+  };
+
+  return __jsx("div", {
+    className: works_list,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 348,
+      columnNumber: 5
+    }
+  }, loading ? __jsx(_components_common__WEBPACK_IMPORTED_MODULE_14__["Loading"], {
+    className: "tac p-b-xxl",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 350,
+      columnNumber: 9
+    }
+  }) : __jsx(react_infinite_scroller__WEBPACK_IMPORTED_MODULE_8___default.a, {
+    pageStart: 0,
+    loadMore: loadFunc,
+    hasMore: hasNextPage,
+    loader: __jsx(_components_common__WEBPACK_IMPORTED_MODULE_14__["Loading"], {
+      key: "0",
+      className: "tac p-b-xxl",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 356,
+        columnNumber: 19
+      }
+    }),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 352,
+      columnNumber: 9
+    }
+  }, data.map(function (item) {
+    var imgSrc = item.imgSrc;
+    return __jsx(WorkItem, {
+      key: imgSrc,
+      onVisitContent: onVisitContent(item),
+      onMouseIn: onMouseIn,
+      onMouseOut: onMouseOut,
+      item: item,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 361,
+        columnNumber: 15
+      }
+    });
+  }), !hasNextPage && Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_10__["isValidArray"])(data) && data.length >= _scripts_constant__WEBPACK_IMPORTED_MODULE_11__["DEFAULT_PAGE_SIZE"] && __jsx("div", {
+    className: "tac p-b-xxl",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 373,
+      columnNumber: 15
+    }
+  }, "\u6CA1\u6709\u66F4\u591A\u4E86\u2299\uFE4F\u2299")));
+};
+
+var Works = function Works() {
+  var _useState4 = Object(react__WEBPACK_IMPORTED_MODULE_4__["useState"])(''),
+      activeKey = _useState4[0],
+      setActiveKey = _useState4[1];
+
+  return __jsx("section", {
+    className: works_wrapper,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 387,
+      columnNumber: 5
+    }
+  }, __jsx(_components_common__WEBPACK_IMPORTED_MODULE_14__["Banner"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 388,
+      columnNumber: 7
+    }
+  }), __jsx(_components_layout__WEBPACK_IMPORTED_MODULE_15__["LayoutMain"], {
+    pageTitleProps: {
+      zhName: __jsx(react__WEBPACK_IMPORTED_MODULE_4___default.a.Fragment, null, __jsx("span", {
+        className: "font-family-georgia",
+        __self: _this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 393,
+          columnNumber: 15
+        }
+      }, "6"), "\u4E2A\u4F5C\u54C1"),
+      enName: 'more than 40 works'
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 389,
+      columnNumber: 7
+    }
+  }, __jsx(_components_react_sticky__WEBPACK_IMPORTED_MODULE_7__["StickyContainer"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 399,
+      columnNumber: 9
+    }
+  }, __jsx(TabsWorksHead, {
+    onSwitchTab: function onSwitchTab(key) {
+      return setActiveKey(key);
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 400,
+      columnNumber: 11
+    }
+  }), activeKey && __jsx(TabsWorksContent, {
+    activeKey: activeKey,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 401,
+      columnNumber: 25
     }
   }))));
 };
 
-CustomApp.getInitialProps = function _callee(appContext) {
-  var Component, ctx, appProps, pageProps;
-  return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.async(function _callee$(_context) {
-    while (1) {
-      switch (_context.prev = _context.next) {
-        case 0:
-          Component = appContext.Component, ctx = appContext.ctx;
-          _context.next = 3;
-          return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.awrap(next_app__WEBPACK_IMPORTED_MODULE_6___default.a.getInitialProps(appContext));
-
-        case 3:
-          appProps = _context.sent;
-
-          if (!Component.getInitialProps) {
-            _context.next = 10;
-            break;
-          }
-
-          _context.next = 7;
-          return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.awrap(Component.getInitialProps(ctx));
-
-        case 7:
-          _context.t0 = _context.sent;
-          _context.next = 11;
-          break;
-
-        case 10:
-          _context.t0 = {};
-
-        case 11:
-          pageProps = _context.t0;
-          return _context.abrupt("return", _objectSpread({}, appProps, {}, pageProps));
-
-        case 13:
-        case "end":
-          return _context.stop();
-      }
-    }
-  }, null, null, null, Promise);
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (CustomApp);
+/* harmony default export */ __webpack_exports__["default"] = (Works);
 
 /***/ }),
 
@@ -27147,15 +28876,452 @@ var createImage = function createImage() {
 
 /***/ }),
 
-/***/ 0:
-/*!******************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.tsx&hotRouterUpdates=true ./node_modules/next/dist/client/router.js ***!
-  \******************************************************************************************************************************************************************/
+/***/ "./src/store/mock/index.ts":
+/*!*********************************!*\
+  !*** ./src/store/mock/index.ts ***!
+  \*********************************/
+/*! exports provided: toolInfo, skillInfo, worksInfo, jobsInfo */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _skillInfo_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./skillInfo.json */ "./src/store/mock/skillInfo.json");
+var _skillInfo_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./skillInfo.json */ "./src/store/mock/skillInfo.json", 1);
+/* harmony reexport (default from named exports) */ __webpack_require__.d(__webpack_exports__, "skillInfo", function() { return _skillInfo_json__WEBPACK_IMPORTED_MODULE_0__; });
+/* harmony import */ var _jobsInfo_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./jobsInfo.json */ "./src/store/mock/jobsInfo.json");
+var _jobsInfo_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./jobsInfo.json */ "./src/store/mock/jobsInfo.json", 1);
+/* harmony reexport (default from named exports) */ __webpack_require__.d(__webpack_exports__, "jobsInfo", function() { return _jobsInfo_json__WEBPACK_IMPORTED_MODULE_1__; });
+/* harmony import */ var _worksInfo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./worksInfo */ "./src/store/mock/worksInfo.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "worksInfo", function() { return _worksInfo__WEBPACK_IMPORTED_MODULE_2__["default"]; });
+
+/* harmony import */ var _toolInfo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./toolInfo */ "./src/store/mock/toolInfo/index.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "toolInfo", function() { return _toolInfo__WEBPACK_IMPORTED_MODULE_3__["toolInfo"]; });
+
+
+
+
+
+
+
+/***/ }),
+
+/***/ "./src/store/mock/jobsInfo.json":
+/*!**************************************!*\
+  !*** ./src/store/mock/jobsInfo.json ***!
+  \**************************************/
+/*! exports provided: 0, 1, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("[{\"enterprise\":\"重庆偶麦科技有限公司\",\"links\":\"http://www.ooumay.com/\",\"duties\":\"前端开发工程师\",\"time\":\"2019-11\",\"logoName\":\"omkj\",\"details\":\"1. 基于React+TypeScript+Antd+Dva构建项目，开发督查、任务管理信息系统，适配各终端应用。<br>2. 负责督查核心检查流程各环节页面、任务管理主流程相关功能的开发。<br>3. 推动在项目中进行模块化开发，降低业务代码复杂度，提高开发效率。解决实际业务场景问题和日常Bug。<br>4. 分析业务需求，同团队相互沟通，合作开发，同时给产品交互体验提出合适的建议。<br>5. 完成项目从零搭建到顺利上线并使用，及时处理客户提出的功能需求和问题，顺利和中石油(分公司)、汇丰石化签下合同。\",\"project\":\"重构\"},{\"enterprise\":\"重庆一成飞客有限公司\",\"links\":\"http://www.canqu.com.cn/\",\"duties\":\"c#后端兼前端开发工程师\",\"time\":\"2020-06\",\"logoName\":\"ycfk\",\"details\":\"1. 负责老司机出行新版官网开发，采用Vue+Nuxt+ElementUi SSR直出模式，有利于解决单页SPA SEO缺陷的问题。<br>2. 公司OA系统前端整站开发，通过钉钉APP端扫码登入企业办公系统，员工操作不同权限展示，上传文档、图片至阿里云oss存储，增强安全性，提升网站响应速度，添加前台编辑器功能发布消息同步到钉钉。<br>3. 同设计师，后端合作，高质量的完成页面的实现工作，利用前沿技术提高编码效率，缩短项目的开发周期。<br>4. 搭建技术框架，使用Git进行版本控制和迭代，前后分离架构，组件化来提高复用和可维护性。\",\"project\":\"物流管理系统\"}]");
+
+/***/ }),
+
+/***/ "./src/store/mock/skillInfo.json":
+/*!***************************************!*\
+  !*** ./src/store/mock/skillInfo.json ***!
+  \***************************************/
+/*! exports provided: 0, 1, 2, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("[{\"title\":\"Application and Data\",\"type\":\"fe\",\"data\":[{\"name\":\"React\",\"imgName\":\"React\",\"url\":\"//reactjs.org\"},{\"name\":\"TypeScript\",\"imgName\":\"TypeScript\",\"url\":\"//typescriptlang.org\"},{\"name\":\"React Native\",\"imgName\":\"ReactNative\",\"url\":\"//facebook.github.io/react-native\"},{\"name\":\"Redux\",\"imgName\":\"Redux\",\"url\":\"//redux.js.org\"},{\"name\":\"NextJs\",\"imgName\":\"Next\",\"url\":\"//nextjs.org\"},{\"name\":\"Vue&Vuex\",\"imgName\":\"Vue\",\"url\":\"//cn.vuejs.org\"},{\"name\":\"Nuxt\",\"imgName\":\"Nuxt\",\"url\":\"//nuxtjs.org\"},{\"name\":\"JavaScript\",\"imgName\":\"JavaScript\",\"url\":\"//developer.mozilla.org/zh-CN/docs/Web/JavaScript\"},{\"name\":\"Es6\",\"imgName\":\"EcmaScript\",\"url\":\"//es6.ruanyifeng.com\"},{\"name\":\"NodeJs\",\"imgName\":\"NodeJs\",\"url\":\"//nodejs.org\"},{\"name\":\"Express\",\"imgName\":\"Express\",\"url\":\"//expressjs.com\"},{\"name\":\"jQuery\",\"imgName\":\"Jquery\",\"url\":\"//jquery.com\"},{\"name\":\"RequireJs\",\"imgName\":\"RequireJs\",\"url\":\"//requirejs.org\"},{\"name\":\"Sass\",\"imgName\":\"Sass\",\"url\":\"//sass-lang.com\"},{\"name\":\"ComPass\",\"imgName\":\"ComPass\",\"url\":\"//compass-style.org\"},{\"name\":\"Less\",\"imgName\":\"Less\",\"url\":\"//lesscss.org\"},{\"name\":\"Json\",\"imgName\":\"Json\",\"url\":\"//www.json.org/\"},{\"name\":\"Html5\",\"imgName\":\"Html5\",\"url\":\"//developer.mozilla.org/zh-CN/docs/Web/HTML\"},{\"name\":\"Css3\",\"imgName\":\"Css3\",\"url\":\"//developer.mozilla.org/zh-CN/docs/Web/CSS\"},{\"name\":\"AntDesign\",\"imgName\":\"AntDesign\",\"url\":\"//ant.design\"},{\"name\":\"Element\",\"imgName\":\"Element\",\"url\":\"//element.eleme.cn\"},{\"name\":\"BootStrap\",\"imgName\":\"BootStrap\",\"url\":\"//getbootstrap.com\",\"show\":true},{\"name\":\"Php\",\"imgName\":\"Php\",\"url\":\"//php.net\"},{\"name\":\"MySQL\",\"imgName\":\"Mysql\",\"url\":\"//mysql.com\"},{\"name\":\"ThinkPhp\",\"imgName\":\"ThinkPhp\",\"url\":\"//thinkphp.cn\"}]},{\"title\":\"DevOps\",\"type\":\"tool\",\"data\":[{\"name\":\"WebPack\",\"imgName\":\"WebPack\",\"url\":\"//webpack.js.org\"},{\"name\":\"Gulp\",\"imgName\":\"Gulp\",\"url\":\"//gulpjs.com\"},{\"name\":\"Git\",\"imgName\":\"Git\",\"url\":\"//git-scm.com\"},{\"name\":\"Babel\",\"imgName\":\"Babel\",\"url\":\"//babeljs.io\"},{\"name\":\"Npm\",\"imgName\":\"Npm\",\"url\":\"//www.npmjs.com\"},{\"name\":\"Yarn\",\"imgName\":\"Yarn\",\"url\":\"//yarnpkg.com\"},{\"name\":\"Docker\",\"imgName\":\"Docker\",\"url\":\"//www.docker.com\"},{\"name\":\"Composer\",\"imgName\":\"Composer\",\"url\":\"//getcomposer.org\"}]},{\"title\":\"Utilities\",\"type\":\"tool\",\"data\":[{\"name\":\"Postman\",\"imgName\":\"Postman\",\"url\":\"//www.getpostman.com\"},{\"name\":\"Charles\",\"imgName\":\"Charles\",\"url\":\"//www.charlesproxy.com\"},{\"name\":\"Stack Overflow\",\"imgName\":\"StackOverflow\",\"url\":\"//stackoverflow.com\"},{\"name\":\"GitHub Pages\",\"imgName\":\"GithubPages\",\"url\":\"//pages.github.com\"},{\"name\":\"Visual Studio Code\",\"imgName\":\"Vscode\",\"url\":\"//code.visualstudio.com\"},{\"name\":\"PhpStorm\",\"imgName\":\"PhpStorm\",\"url\":\"//www.jetbrains.com/phpstorm\"},{\"name\":\"Navicat\",\"imgName\":\"Navicat\",\"url\":\"//www.navicat.com\"},{\"name\":\"Mamp\",\"imgName\":\"Mamp\",\"url\":\"//www.mamp.info\"},{\"name\":\"Markdown\",\"imgName\":\"Markdown\",\"url\":\"//wowubuntu.com/markdown\"},{\"name\":\"PhotoShop\",\"imgName\":\"PhotoShop\",\"url\":\"//www.adobe.com\"},{\"name\":\"Illustrator\",\"imgName\":\"Illustrator\",\"url\":\"//www.adobe.com\"},{\"name\":\"CorelDraw\",\"imgName\":\"CorelDraw\",\"url\":\"//www.coreldraw.com\"}]}]");
+
+/***/ }),
+
+/***/ "./src/store/mock/toolInfo/chromeExtension.ts":
+/*!****************************************************!*\
+  !*** ./src/store/mock/toolInfo/chromeExtension.ts ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ([{
+  name: 'OneTab',
+  src: 'https://extension.extfans.com/extension/chphlpgkkbolifaimnlloiipkdnihall/icon/icon.png?imageView2/2/w/64/h/64/q/100',
+  url: 'https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall'
+}, {
+  name: '记事本',
+  src: 'https://extension.extfans.com/extension/nofepkcoibolggileilfiimccamagcfa/icon/icon.png?imageView2/2/w/128/h/128/q/100',
+  url: 'https://chrome.google.com/webstore/detail/%E5%9C%A8%E7%BA%BF%E8%AE%B0%E4%BA%8B%E6%9C%AC/nofepkcoibolggileilfiimccamagcfa'
+}, {
+  name: 'Online Download Manager',
+  src: 'https://extension.extfans.com/extension/opjjpmhoiojifppkkcdabiobhakljdgm/icon/icon.png?imageView2/2/w/64/h/64/q/100'
+}, {
+  name: 'Wappalyzer',
+  src: 'https://extension.extfans.com/extension/gppongmhjkpfnbhagpmjfkannfbllamg/icon/icon.png?imageView2/2/w/64/h/64/q/100',
+  url: 'https://chrome.google.com/webstore/detail/online-download-manager/opjjpmhoiojifppkkcdabiobhakljdgm'
+}, {
+  name: 'Tampermonkey：用户脚本管理器（油猴）',
+  src: 'https://extension.extfans.com/extension/gjldcdngmdknpinoemndlidpcabkggco/icon/icon.png?imageView2/2/w/64/h/64/q/100',
+  url: 'https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo'
+}, {
+  name: '扩展管理器（Extension Manager）',
+  src: 'https://extension.extfans.com/extension/dhdgffkkebhmkfjojejmpbldmpobfkfo/icon/icon.png?t=0?imageView2/2/w/64/h/64/q/100',
+  url: 'https://chrome.google.com/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco'
+}, {
+  name: '二管家',
+  src: 'https://extension.extfans.com/extension/aajodjghehmlpahhboidcpfjcncmcklf/icon/icon.png?imageView2/2/w/64/h/64/q/100',
+  url: 'https://chrome.google.com/webstore/detail/nooboss/aajodjghehmlpahhboidcpfjcncmcklf'
+}, {
+  name: 'uBlock Origin - 广告拦截器',
+  src: 'https://extension.extfans.com/extension/cjpalhdlnbpafiamejdnhcphjbkeiagm/icon/icon.png?imageView2/2/w/64/h/64/q/100',
+  url: 'https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm'
+}, {
+  name: 'Surfingkeys',
+  src: 'https://extension.extfans.com/extension/gfbliohnnapiefjpjlpjnehglfpaknnc/icon/icon.png?imageView2/2/w/64/h/64/q/100',
+  url: 'https://chrome.google.com/webstore/detail/surfingkeys/gfbliohnnapiefjpjlpjnehglfpaknnc'
+}, {
+  name: 'Infinity 新标签页(Pro)',
+  src: 'https://extension.extfans.com/extension/nnnkddnnlpamobajfibfdgfnbcnkgngh/icon/icon.png?imageView2/2/w/64/h/64/q/100',
+  url: 'https://chrome.google.com/webstore/detail/infinity-new-tab-pro/nnnkddnnlpamobajfibfdgfnbcnkgngh'
+}, {
+  name: 'Material Theme UI for DevTools',
+  src: 'https://extension.extfans.com/extension/ejjjgkmkicngofngkjdcahlhnmmoicim/icon/icon.png?imageView2/2/w/64/h/64/q/100',
+  url: 'https://chrome.google.com/webstore/detail/material-devtools-theme-c/jmefikbdhgocdjeejjnnepgnfkkbpgjo'
+}, {
+  name: 'GitHub Dark Theme',
+  src: 'https://extension.extfans.com/extension/odkdlljoangmamjilkamahebpkgpeacp/icon/icon.png?imageView2/2/w/64/h/64/q/100',
+  url: 'https://chrome.google.com/webstore/detail/github-dark-theme/odkdlljoangmamjilkamahebpkgpeacp'
+}, {
+  name: 'octotree',
+  src: 'https://extension.extfans.com/extension/fjcahddnekkgihjnjnimgiggdmlgcnbc/icon/icon.png?imageView2/2/w/64/h/64/q/100',
+  url: 'https://www.octotree.io/'
+}, {
+  name: 'GitZip for github',
+  src: 'https://extension.extfans.com/extension/ffabmkklhbepgcgfonabamgnfafbdlkn/icon/icon.png?imageView2/2/w/64/h/64/q/100',
+  url: 'https://chrome.google.com/webstore/detail/gitzip-for-github/ffabmkklhbepgcgfonabamgnfafbdlkn'
+}, {
+  name: 'enhanced-github',
+  src: 'https://raw.githubusercontent.com/softvar/enhanced-github/master/icons/enhanced-github128.png',
+  url: 'https://chrome.google.com/webstore/detail/enhanced-github/anlikcnbgdeidpacdbdljnabclhahhmd'
+}]);
+
+/***/ }),
+
+/***/ "./src/store/mock/toolInfo/index.ts":
+/*!******************************************!*\
+  !*** ./src/store/mock/toolInfo/index.ts ***!
+  \******************************************/
+/*! exports provided: toolInfo */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "toolInfo", function() { return toolInfo; });
+/* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var _chromeExtension__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./chromeExtension */ "./src/store/mock/toolInfo/chromeExtension.ts");
+/* harmony import */ var _iterm2__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./iterm2 */ "./src/store/mock/toolInfo/iterm2.ts");
+/* harmony import */ var _mac__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./mac */ "./src/store/mock/toolInfo/mac.ts");
+/* harmony import */ var _jsLib__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./jsLib */ "./src/store/mock/toolInfo/jsLib.ts");
+
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+
+
+
+
+
+var generateUid = function generateUid() {
+  return Math.random().toString(32).slice(2, 8);
+};
+
+var toolInfo = [{
+  title: 'Chrome扩展（需备梯子）',
+  list: _chromeExtension__WEBPACK_IMPORTED_MODULE_1__["default"]
+}, {
+  title: 'iterm2（终端利器）',
+  list: _iterm2__WEBPACK_IMPORTED_MODULE_2__["default"]
+}, {
+  title: 'Mac软件',
+  list: _mac__WEBPACK_IMPORTED_MODULE_3__["default"]
+}, {
+  title: 'js库',
+  list: _jsLib__WEBPACK_IMPORTED_MODULE_4__["default"]
+}].map(function (item) {
+  return _objectSpread({
+    id: generateUid()
+  }, item);
+});
+
+/***/ }),
+
+/***/ "./src/store/mock/toolInfo/iterm2.ts":
+/*!*******************************************!*\
+  !*** ./src/store/mock/toolInfo/iterm2.ts ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _scripts_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @scripts/utils */ "./src/scripts/utils/index.ts");
+
+/* harmony default export */ __webpack_exports__["default"] = ([{
+  name: 'tmux',
+  src: Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_0__["createImage"])({
+    text: 'tmux'
+  }),
+  url: 'https://github.com/tmux/tmux'
+}, {
+  name: 'oh-my-zsh',
+  src: 'https://ohmyz.sh/img/OMZLogo_BnW.png',
+  url: 'https://ohmyz.sh/'
+}, {
+  name: 'autojump',
+  src: Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_0__["createImage"])({
+    text: 'autojump'
+  }),
+  url: 'https://github.com/wting/autojump'
+}, {
+  name: 'rmtrash',
+  src: Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_0__["createImage"])({
+    text: 'rmtrash'
+  }),
+  url: 'https://github.com/PhrozenByte/rmtrash'
+}, {
+  name: 'mycli',
+  src: Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_0__["createImage"])({
+    text: 'mycli'
+  }),
+  url: 'https://github.com/dbcli/mycli'
+}, {
+  name: 'colorls',
+  src: Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_0__["createImage"])({
+    text: 'colorls'
+  }),
+  url: 'https://github.com/athityakumar/colorls'
+}, {
+  name: 'zsh-autosuggestions',
+  src: Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_0__["createImage"])({
+    text: 'zsh-autosuggestions'
+  }),
+  url: 'https://github.com/zsh-users/zsh-autosuggestions'
+}, {
+  name: 'powerlevel10k',
+  src: 'https://raw.githubusercontent.com/romkatv/powerlevel10k-media/master/prompt-styles-high-contrast.png',
+  url: 'https://github.com/romkatv/powerlevel10k'
+}, {
+  name: 'Homebrew',
+  src: 'https://brew.sh/assets/img/homebrew-256x256.png',
+  url: 'https://brew.sh/'
+}, {
+  name: 'mas',
+  src: 'https://raw.githubusercontent.com/mas-cli/mas/master/mas-cli.png',
+  url: 'https://github.com/mas-cli/mas'
+}]);
+
+/***/ }),
+
+/***/ "./src/store/mock/toolInfo/jsLib.ts":
+/*!******************************************!*\
+  !*** ./src/store/mock/toolInfo/jsLib.ts ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _scripts_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @scripts/utils */ "./src/scripts/utils/index.ts");
+
+/* harmony default export */ __webpack_exports__["default"] = ([{
+  name: 'unfetch',
+  src: Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_0__["createImage"])({
+    text: 'unfetch'
+  }),
+  url: 'https://github.com/developit/unfetch'
+}, {
+  name: 'request',
+  src: Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_0__["createImage"])({
+    text: 'request'
+  }),
+  url: 'https://github.com/request/request'
+}, {
+  name: 'compressorjs',
+  src: Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_0__["createImage"])({
+    text: 'compressorjs'
+  }),
+  url: 'https://github.com/fengyuanchen/compressorjs'
+}, {
+  name: 'react-lazyload',
+  src: Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_0__["createImage"])({
+    text: 'react-lazyload'
+  }),
+  url: 'https://github.com/twobin/react-lazyload'
+}, {
+  name: 'react-infinite-scroller',
+  src: Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_0__["createImage"])({
+    text: 'react-infinite-scroller'
+  }),
+  url: 'https://github.com/danbovey/react-infinite-scroller'
+}, {
+  name: 'react-placeholder',
+  src: Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_0__["createImage"])({
+    text: 'react-placeholder'
+  }),
+  url: 'https://github.com/buildo/react-placeholder'
+}, {
+  name: 'react-beautiful-dnd',
+  src: Object(_scripts_utils__WEBPACK_IMPORTED_MODULE_0__["createImage"])({
+    text: 'react-beautiful-dnd'
+  }),
+  url: 'https://github.com/atlassian/react-beautiful-dnd'
+}]);
+
+/***/ }),
+
+/***/ "./src/store/mock/toolInfo/mac.ts":
+/*!****************************************!*\
+  !*** ./src/store/mock/toolInfo/mac.ts ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ([{
+  name: 'MateTranslate',
+  src: 'https://extension.extfans.com/extension/ihmgiclibbndffejedjimfjmfoabpcke/icon/icon.png?imageView2/2/w/64/h/64/q/100',
+  url: 'https://gikken.co/mate-translate/'
+}, {
+  name: 'Alfred',
+  src: 'https://www.alfredapp.com/media/logo4.png',
+  url: 'https://www.alfredapp.com/'
+}, {
+  name: 'lemon',
+  src: 'https://lemon.qq.com/images/lemon/logo.png',
+  url: 'https://lemon.qq.com/'
+}, {
+  name: 'popclip',
+  src: 'https://pilotmoon.com/hp/img/PopClipFlat32.png',
+  url: 'https://pilotmoon.com/popclip/'
+}, {
+  name: 'sip',
+  src: 'https://sipapp.io/assets/img/favicon/96x96.png',
+  url: 'https://sipapp.io/'
+}, {
+  name: 'NightTone',
+  src: 'https://alexdenk.eu/img/products/icon-nighttone.png',
+  url: 'https://alexdenk.eu/mywork/nighttone.html'
+}, {
+  name: 'mos',
+  src: 'https://mos.caldis.me/resources/image/logo-small.png',
+  url: 'https://mos.caldis.me/'
+}, {
+  name: 'ishot',
+  src: 'https://13315641.s21i.faiusr.com/4/1/ABUIABAEGAAg342Z7gUoxIGSrgYwgAQ4gAQ.png',
+  url: 'https://www.better365.cn/ishot.html'
+}, {
+  name: 'Hidden Bar',
+  src: 'https://raw.githubusercontent.com/dwarvesf/hidden/master/hidden/Assets.xcassets/AppIcon.appiconset/64x64.png',
+  url: 'https://github.com/dwarvesf/hidden'
+}, {
+  name: 'CleanMyMac',
+  src: 'https://cdn2.macpaw.com/images/83934498d56fcab2caac53db98acdb62.webp',
+  url: 'https://macpaw.com/cleanmymac'
+}]);
+
+/***/ }),
+
+/***/ "./src/store/mock/worksInfo.ts":
+/*!*************************************!*\
+  !*** ./src/store/mock/worksInfo.ts ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var imgPath = 'works/';
+var pcYxtdimgSrc = "".concat(imgPath, "yxtd/"),
+    pcHzimgSrc = "".concat(imgPath, "latest/"),
+    // pcRzltimgSrc = `${imgPath}rzlt/`,
+wapimgSrc = "".concat(imgPath, "wap/"),
+    appimgSrc = "".concat(imgPath, "applets/"),
+    webAppimgSrc = "".concat(imgPath, "webapp/"); // qrcodeimgSrc = `${imgPath}qrcode/`
+
+var latest = [{
+  imgSrc: pcHzimgSrc + '1.png',
+  title: '数据大屏',
+  links: 'https://github.com/zangxiyang/CQUT-party-bigdata',
+  desc: '该项目为人工智能学院打造党员管理的高效化，以加强党员教育为目的，并且结合各级党政机关部门的实际情况，依托互联网、可视化、数据交互、协助等多方面建设的“智慧党建平台”系统。可实现党员学习监管、网上学习、党建信息汇集等功能，为党建事业提供坚强的组织保证。主要功能包括：党总支大屏，支部大屏，组织架构，党务工作，三会一课，党日活动，学习培训，支部发展，政治生日，党员发展等功能 。',
+  category: '学校服务'
+}];
+var applets = [{
+  imgSrc: appimgSrc + '1.png',
+  title: '社团app',
+  links: 'https://github.com/xiaolifeipiao/club',
+  searchKeyword: '社团app',
+  desc: '社团app是一个帮助社团管理高校的社团平台',
+  txtdetails: '社团app',
+  category: '社团app'
+}];
+var pc = [{
+  imgSrc: pcYxtdimgSrc + '1.png',
+  title: '智慧党建平台',
+  links: 'https://github.com/zangxiyang/CQUT-smartparty-front',
+  txtdetails: '智慧党建平台',
+  category: '学习服务'
+}];
+var wap = [{
+  imgSrc: wapimgSrc + '1.png',
+  title: '社团管理app',
+  links: 'https://github.com/xiaolifeipiao/club',
+  txtdetails: '社团管理app',
+  category: '学校服务'
+}];
+var webApp = [{
+  imgSrc: webAppimgSrc + '2.png',
+  title: '',
+  links: 'https://github.com/xiaolifeipiao/carclub_front',
+  txtdetails: '懂车帝车型大会',
+  category: '移动网页',
+  desc: '通过vue3+ts+vite+vant+axios-mapper(模型+防止二次请求),项目技术选型上，我选用了最新的技术，在开发过程遇到一些问题导致开发进度受到影响，在以后的项目开发中，对于不是用来测试技术的项目，选择自己熟悉的版本，重要，重要，非常重要。在项目中虽然遇到一些瓶颈，但是我并没得放弃，而是慢慢把它细化，分而治之。在最终解决不了时，采用其他侧面的解决方案。本次项目的格式化提交做的不好，只是采用eslint+prettier进行简单的本地格式化检查和提交规范，并未加入husky、commitlint和lintstaged约束提交。后期我会加上。在mock数据的选择上，因为及时查阅vite的第三方插件mock可以使用开发和生成一起使用的mock数据。最终选择json-server+mock。导致接口部分没得完善。 在测试方面，因时间问题并没的加入测试，后期补上。在该项目的开发中，了解了mock数据的选型，以及 vite的热更新真的快 ，加强在这方面 的学习，以及对vue3全家桶和ts有了一个全新的认识，vue3的父子组件的执行和异步组件加载，以及子组件的props的只能读不能修改，vue3a父子组件的通信方式和vue2的区别，以及在vue3+ts实现vuex的分模块开发的封装等等，我需要下来在加强vue3的一些特性的学习和原理实现。最后感谢懂车帝平台给我门分享和交流前端和后端的学习，以及和我们交流一些技术和学习路线，收获颇多'
+}, {
+  imgSrc: webAppimgSrc + '1.png',
+  title: '',
+  links: 'https://github.com/xiaolifeipiao/boss',
+  txtdetails: '仿boss开发',
+  category: '移动网页',
+  desc: '通过vue2仿写boss实现'
+}];
+/* harmony default export */ __webpack_exports__["default"] = ({
+  latest: {
+    data: latest,
+    title: '最新'
+  },
+  applets: {
+    data: applets,
+    title: '小程序'
+  },
+  wap: {
+    data: wap,
+    title: '移动端网页'
+  },
+  webApp: {
+    data: webApp,
+    title: 'WebApp'
+  },
+  pc: {
+    data: pc,
+    title: 'PC端网站',
+    isHot: true
+  }
+});
+
+/***/ }),
+
+/***/ 2:
+/*!*****************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fworks&absolutePagePath=C%3A%5CUsers%5C19215%5CDesktop%5Cmy_website%5Csrc%5Cpages%5Cworks.tsx&hotRouterUpdates=true ***!
+  \*****************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.tsx&hotRouterUpdates=true! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.tsx&hotRouterUpdates=true!./");
-module.exports = __webpack_require__(/*! C:\Users\19215\Desktop\my_website\node_modules\next\dist\client\router.js */"./node_modules/next/dist/client/router.js");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fworks&absolutePagePath=C%3A%5CUsers%5C19215%5CDesktop%5Cmy_website%5Csrc%5Cpages%5Cworks.tsx&hotRouterUpdates=true! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fworks&absolutePagePath=C%3A%5CUsers%5C19215%5CDesktop%5Cmy_website%5Csrc%5Cpages%5Cworks.tsx&hotRouterUpdates=true!./");
 
 
 /***/ }),
@@ -27171,5 +29337,5 @@ module.exports = dll_e9e577f89808b21d8ba8;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=_app.js.map
+},[[2,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=works.js.map
