@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\n\nconst Mycanvas = () => {\n  return __jsx(\"canvas\", {\n    id: \"canvas\"\n  });\n};\n\nexport default Mycanvas;","map":null,"metadata":{},"sourceType":"module"}
