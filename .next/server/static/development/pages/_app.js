@@ -2848,7 +2848,7 @@ module.exports = {
 module.exports = {
 	"side_wrapper": "menus_side_wrapper__10MMQ",
 	"logo": "menus_logo__2TPtA",
-	"ani-uh579b6": "menus_ani-uh579b6__2VTuy",
+	"ani-utnxwe1": "menus_ani-utnxwe1__Khixz",
 	"theme_wrapper": "menus_theme_wrapper__29olf",
 	"head_menu": "menus_head_menu__1vF-7"
 };
@@ -2878,11 +2878,11 @@ module.exports = {
 module.exports = {
 	"home_wrapper": "home_home_wrapper__hEChx",
 	"header_wrapper": "home_header_wrapper__Fr2mV",
-	"ani-uh579bx": "home_ani-uh579bx__3hVmd",
-	"ani-uh579c9": "home_ani-uh579c9__1X2j1",
-	"ani-uh579ct": "home_ani-uh579ct__1hWNj",
+	"ani-utnxwez": "home_ani-utnxwez__2f--g",
+	"ani-utnxwf3": "home_ani-utnxwf3__2oA0I",
+	"ani-utnxwfx": "home_ani-utnxwfx__mybui",
 	"work_list": "home_work_list__2K0pK",
-	"ani-uh579d1": "home_ani-uh579d1__1pcwI"
+	"ani-utnxwge": "home_ani-utnxwge__2FUW-"
 };
 
 
@@ -3744,7 +3744,14 @@ const Footer = () => {
       lineNumber: 93,
       columnNumber: 22
     }
-  }, "2019-", currentYear), " @xiaolifeipiao\u4E2A\u4EBA\u7248\u6743\u6240\u6709")), __jsx(SideOperate, {
+  }, "2019-", currentYear), " @xiaolifeipiao\u4E2A\u4EBA\u7248\u6743\u6240\u6709 ", __jsx("span", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 93,
+      columnNumber: 75
+    }
+  }, "\u5907\u6848\u53F7: \u8700ICP\u59072021008961\u53F7-1"))), __jsx(SideOperate, {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
